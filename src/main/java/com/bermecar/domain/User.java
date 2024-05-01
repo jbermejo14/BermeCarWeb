@@ -1,4 +1,4 @@
-package com.svalero.bermecars.domain;
+package com.bermecar.domain;
 
 public class User {
 }

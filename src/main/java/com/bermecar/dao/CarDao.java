@@ -1,6 +1,6 @@
-package com.svalero.bermecars.dao;
+package com.bermecar.dao;
 
-import com.svalero.bermecars.domain.Car;
+import com.bermecar.domain.Car;
 import org.jdbi.v3.sqlobject.customizer.Bind;
 import org.jdbi.v3.sqlobject.statement.SqlQuery;
 import org.jdbi.v3.sqlobject.statement.SqlUpdate;
@@ -9,28 +9,27 @@ import org.jdbi.v3.sqlobject.statement.UseRowMapper;
 import java.sql.*;
 import java.util.List;
 
-
 public interface CarDao {
 
-    @SqlQuery("SELECT * FROM activities")
+    @SqlQuery("SELECT * FROM CARS")
     @UseRowMapper(CarMapper.class)
-    List<Car> getAllActivities();
+    List<Car> getAllCars();
 
-    @SqlQuery("SELECT * FROM activities WHERE name LIKE CONCAT('%',:searchTerm,'%') " +
+    @SqlQuery("SELECT * FROM cars WHERE name LIKE CONCAT('%',:searchTerm,'%') " +
             "OR description LIKE CONCAT('%',:searchTerm,'%') OR organizer LIKE CONCAT('%',:searchTerm,'%')")
     @UseRowMapper(CarMapper.class)
-    List<Car> getActivities(@Bind("searchTerm") String searchTerm);
+    List<Car> getCars(@Bind("searchTerm") String searchTerm);
 
-    @SqlQuery("SELECT * FROM activities WHERE id = ?")
+    @SqlQuery("SELECT * FROM cars WHERE id = ?")
     @UseRowMapper(CarMapper.class)
-    Activity getActivity(int id);
+    Car getCar(int id);
 
-    @SqlUpdate("INSERT INTO activities (name, description, datetime, price, picture) VALUES (?, ?, ?, ?, ?)")
-    int addActivity(String name, String description, Date date, float price, String picture);
+    @SqlUpdate("INSERT INTO cars (name, description, datetime, price, picture) VALUES (?, ?, ?, ?, ?)")
+    int addCar(String name, String description, Date date, float price, String picture);
 
-    @SqlUpdate("UPDATE activities SET name = ?, description = ?, datetime = ?, price = ?, picture = ? WHERE id = ?")
-    int updateActivity(String name, String description, Date date, float price, String picture, int id);
+    @SqlUpdate("UPDATE cars SET name = ?, description = ?, datetime = ?, price = ?, picture = ? WHERE id = ?")
+    int updateCar(String name, String description, Date date, float price, String picture, int id);
 
-    @SqlUpdate("DELETE FROM activities WHERE id = ?")
-    int removeActivity(int id);
+    @SqlUpdate("DELETE FROM cars WHERE id = ?")
+    int removeCar(int id);
 }

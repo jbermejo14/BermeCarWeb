@@ -11,9 +11,9 @@ package org.apache.jsp;
 import javax.servlet.*;
 import javax.servlet.http.*;
 import javax.servlet.jsp.*;
-import com.svalero.bermecars.dao.Database;
-import com.svalero.bermecars.dao.CocheDao;
-import com.svalero.bermecars.domain.Coche;
+import com.svalero.bermecar.dao.Database;
+import com.svalero.bermecar.dao.CocheDao;
+import com.svalero.bermecar.domain.Coche;
 import java.util.List;
 
 public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase

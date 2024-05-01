@@ -1,6 +1,6 @@
-package com.svalero.bermecars.dao;
+package com.bermecar.dao;
 
-import com.svalero.bermecars.domain.Car;
+import com.bermecar.domain.Car;
 import org.jdbi.v3.core.mapper.RowMapper;
 import org.jdbi.v3.core.statement.StatementContext;
 
@@ -11,14 +11,13 @@ public class CarMapper implements RowMapper<Car> {
 
     @Override
     public Car map(ResultSet rs, StatementContext ctx) throws SQLException {
-        Car coche = new Car();
-        coche.getMatricula(rs.getString("matricula"));
-        coche.getMarca(rs.getString("marca"));
-        coche.getModelo(rs.getString("modelo"));
-        coche.getPais(rs.getString("pais"));
-        coche.getAño(rs.getString("año"));
-        coche.getNIF(rs.getString("NIF"));
-        coche.getFoto(rs.getString("foto"));
-        return coche;
+        return new Car(rs.getString("license_plate"),
+                rs.getString("brand"),
+                rs.getString("model"),
+                rs.getString("country"),
+                rs.getInt("year"),
+                rs.getFloat("price"),
+                rs.getString("photo"));
+    }
 }
 
