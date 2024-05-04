@@ -8,7 +8,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @Data
 public class Car {
-
+    private int id;
     private String license_plate;
     private String brand;
     private String model;
@@ -16,4 +16,5 @@ public class Car {
     private int year;
     private float price;
     private String photo;
+    private User user;
 }
