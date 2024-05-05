@@ -26,29 +26,35 @@
     }
 %>
 
-<body>
+<%
+    if (role.equals("user")) {
+%>
 <header data-bs-theme="dark">
     <div class="navbar navbar-dark bg-dark shadow-sm">
         <div class="container">
-
-
             <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
               <li><a href="/bermecars" class="nav-link px-2 text-secondary">Home</a></li>
-              <li><a href="#" class="nav-link px-2 text-white">Features</a></li>
-              <li><a href="#" class="nav-link px-2 text-white">Pricing</a></li>
-              <li><a href="#" class="nav-link px-2 text-white">About</a></li>
-            </ul>
-            <%
-                if (role.equals("anonymous")) {
-            %>
-            <button type="button" class="btn btn-outline-light me-2"><a href="login.jsp" title="Iniciar sesión" class="text-decoration-none">Login</a></button>
-            <%
-                } else {
-            %>
-            <button type="button" class="btn btn-outline-light me-2"><a href="logout" title="Iniciar sesión" class="text-decoration-none">Logout</a></button>
-            <%
-                }
-            %>
+              <li><a href="#" class="nav-link px-2 text-white">Comprar</a></li>
+              <li><a href="#" class="nav-link px-2 text-white">Alquilar</a></li>
         </div>
+        <button type="button" class="btn btn-outline-light me-2"><a href="logout" title="Iniciar sesión" class="text-decoration-none">Logout</a></button>
     </div>
 </header>
+<%
+    } if (role.equals("admin")){
+%>
+<header data-bs-theme="dark">
+    <div class="navbar navbar-dark bg-dark shadow-sm">
+        <div class="container">
+            <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+              <li><a href="/bermecars" class="nav-link px-2 text-secondary">Home</a></li>
+              <li><a href="#" class="nav-link px-2 text-white">Comprar</a></li>
+              <li><a href="#" class="nav-link px-2 text-white">Alquilar</a></li>
+              <li><a href="#" class="nav-link px-2 text-white">Editar</a></li>
+        </div>
+        <button type="button" class="btn btn-outline-light me-2"><a href="logout" title="Iniciar sesión" class="text-decoration-none">Logout</a></button>
+    </div>
+</header>
+<%
+    }
+%>
