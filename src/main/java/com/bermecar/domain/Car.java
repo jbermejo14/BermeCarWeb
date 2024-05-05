@@ -16,5 +16,5 @@ public class Car {
     private int year;
     private float price;
     private String photo;
-    private User user;
+    private int user;
 }

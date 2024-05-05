@@ -18,27 +18,25 @@
 <body>
 
 <main>
-    <section class="py-5 text-center container">
-        <h1>Ver Actividad</h1>
-    </section>
-        <%
-          // TODO Validar si viene el campo id
-          int id = Integer.parseInt(request.getParameter("id"));
+    <%
+      // TODO Validar si viene el campo id
+      int id = Integer.parseInt(request.getParameter("id"));
 
-          Database.connect();
-          Car car = Database.jdbi.withExtension(CarDao.class, dao -> dao.getCar(id));
-        %>
+      Database.connect();
+      Car car = Database.jdbi.withExtension(CarDao.class, dao -> dao.getCar(id));
+    %>
     <div class="container">
         <div class="card text-center">
             <div class="card-header">
                 CAR
             </div>
             <div class="card-body">
+                <img src="../bermecar-pictures/<%= car.getPhoto() %>"/>
                 <h5 class="card-title"><%= car.getBrand() %></h5>
                 <p class="card-text"><%= car.getModel() %></p>
                 <p class="card-text"><%= car.getYear() %></p>
                 <p class="card-text"><%= car.getPrice() %></p>
-                <a href="#" class="btn btn-primary">Apuntarme</a>
+                <a href="#" class="btn btn-primary">Comprar</a>
             </div>
 
         </div>

@@ -12,8 +12,6 @@ public class CarMapper implements RowMapper<Car> {
 
     @Override
     public Car map(ResultSet rs, StatementContext ctx) throws SQLException {
-        User user = Database.jdbi.withExtension(UserDao.class, dao -> dao.getUser(rs.getInt("Id")));
-
 
         return new Car(rs.getInt("id"),
                 rs.getString("license_plate"),
@@ -23,7 +21,7 @@ public class CarMapper implements RowMapper<Car> {
                 rs.getInt("year"),
                 rs.getFloat("price"),
                 rs.getString("photo"),
-                user);
+                rs.getInt("User_ID"));
     }
 }
 
