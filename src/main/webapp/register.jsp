@@ -19,7 +19,7 @@ $(document).ready(function() {
     $("form").on("submit", function(event) {
         event.preventDefault();
         const formValue = $(this).serialize();
-        $.ajax("login", {
+        $.ajax("register", {
             type: "POST",
             data: formValue,
             statusCode: {
@@ -35,25 +35,25 @@ $(document).ready(function() {
     });
 });
 </script>
-<body class="d-flex align-items-center py-4 bg-body-tertiary">
-    <main class="form-signin w-50 m-auto p-5">
 
-        <form class="p-5">
-            <h1 class="h3 mb-4 fw-normal">Necesitas una cuenta para acceder</h1>
-            <h2 class="h3 mb-3 fw-normal">Iniciar sesión</h2>
-            <div class="form-floating">
-                <input type="text" name="username" class="form-control" id="floatingInput" placeholder="Usuario">
-                <label for="floatingInput">Usuario</label>
-            </div>
-            <div class="form-floating py-2">
-                <input type="password" name="password" class="form-control" id="floatingPassword" placeholder="Contraseña">
-                <label for="floatingPassword">Contraseña</label>
-            </div>
+<main class="form-signin w-50 m-auto p-5">
+    <form class="p-5">
+        <h1 class="h3 mb-3 fw-normal">Registrarse</h1>
+        <div class="form-floating">
+            <input type="text" name="telephone" class="form-control" id="floatingTelephone" placeholder="Telephone">
+            <label for="floatingInput">Telefono</label>
+        </div>
+        <div class="form-floating py-2">
+            <input type="text" name="username" class="form-control" id="floatingInput" placeholder="Usuario">
+            <label for="floatingInput">Usuario</label>
+        </div>
+        <div class="form-floating">
+            <input type="password" name="password" class="form-control" id="floatingPassword" placeholder="Contraseña">
+            <label for="floatingPassword">Contraseña</label>
+        </div>
+        <button class="btn btn-primary w-100 py-2 my-2" type="submit">Registrarse</button>
+        <p class="h5 py-2 fw-normal"><a href="login.jsp" class="nav-link">¿Tienes ya cuenta? Inicia Sesión!</a></p>
+    </form>
+    <div id="result"></div>
 
-            <button class="btn btn-primary w-100 py-2" type="submit">Iniciar sesión</button>
-            <p class="h5 py-2 fw-normal"><a href="register.jsp" class="nav-link">¿No tienes cuenta? Registrate!</a></p>
-        </form>
-        <div id="result"></div>
-
-    </main>
-</body>
+</main>

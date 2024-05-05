@@ -34,8 +34,8 @@
         <div class="container">
             <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
               <li><a href="/bermecars" class="nav-link px-2 text-secondary">Home</a></li>
-              <li><a href="#" class="nav-link px-2 text-white">Comprar</a></li>
-              <li><a href="#" class="nav-link px-2 text-white">Alquilar</a></li>
+              <li><a href="#" class="nav-link px-2 text-white">Ofertas</a></li>
+              <li><a href="#" class="nav-link px-2 text-white">Perfil</a></li>
         </div>
         <button type="button" class="btn btn-outline-light me-2"><a href="logout" title="Iniciar sesión" class="text-decoration-none">Logout</a></button>
     </div>
@@ -52,6 +52,7 @@
               <li><a href="#" class="nav-link px-2 text-white">Alquilar</a></li>
               <li><a href="#" class="nav-link px-2 text-white">Editar</a></li>
         </div>
+
         <button type="button" class="btn btn-outline-light me-2"><a href="logout" title="Iniciar sesión" class="text-decoration-none">Logout</a></button>
     </div>
 </header>

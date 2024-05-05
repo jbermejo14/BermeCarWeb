@@ -19,7 +19,7 @@ public interface UserDao {
     @UseRowMapper(UserMapper.class)
     User getUser(String username, String password);
 
-    @SqlUpdate("INSERT INTO users (name, username, password, role) VALUES (?, ?, SHA1(?), ?)")
+    @SqlUpdate("INSERT INTO users (username, password, telephone, role) VALUES (?, ?, ?, ?)")
     int addUser(String name, String username, String password, String role);
 
     @SqlUpdate("UPDATE users SET name = ?, username = ?, role = ? WHERE id = ?")
