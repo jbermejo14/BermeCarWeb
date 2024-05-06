@@ -20,8 +20,7 @@ public class CarMapper implements RowMapper<Car> {
                 rs.getString("country"),
                 rs.getInt("year"),
                 rs.getFloat("price"),
-                rs.getString("photo"),
-                rs.getInt("User_ID"));
+                rs.getString("photo"));
     }
 }
 

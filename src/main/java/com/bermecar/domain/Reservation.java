@@ -1,19 +1,17 @@
 package com.bermecar.domain;
-
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.sql.Date;
+
+@Data
 @NoArgsConstructor
 @AllArgsConstructor
-@Data
-public class Car {
+public class Reservation {
     private int id;
-    private String license_plate;
-    private String brand;
-    private String model;
-    private String country;
-    private int year;
+    private Date date;
     private float price;
-    private String photo;
+    private Car car;
+    private User user;
 }

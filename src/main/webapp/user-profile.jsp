@@ -16,8 +16,8 @@
 
 </head>
 <%
-    int id = 0;
-    id = Integer.parseInt(currentSession.getAttribute("id");
+    HttpSession session = request.getSession();
+    int userId = Integer.parseInt(session.getAttribute("id").toString());
     Database.connect();
     User user = Database.jdbi.withExtension(UserDao.class, dao -> dao.getUser(id));
 %>
