@@ -50,7 +50,7 @@
               <li><a href="/bermecars" class="nav-link px-2 text-secondary">Home</a></li>
               <li><a href="#" class="nav-link px-2 text-white">Comprar</a></li>
               <li><a href="reservation.jsp" class="nav-link px-2 text-white">Reservas</a></li>
-              <li><a href="#" class="nav-link px-2 text-white">Editar</a></li>
+              <li><a href="edit-car.jsp" class="nav-link px-2 text-white">Editar</a></li>
         </div>
 
         <button type="button" class="btn btn-outline-light me-2"><a href="logout" title="Iniciar sesión" class="text-decoration-none">Logout</a></button>

@@ -18,9 +18,12 @@
 
 </head>
 <%
-    userId = currentSession.getAttribute("id");
-    Database.connect();
-    User user = Database.jdbi.withExtension(UserDao.class, dao -> dao.getUser(id));
+    if (request.getSession().getAttribute("id") == null) {
+        response.sendRedirect("index.jsp");
+    }
+  Database.connect();
+  final int theUserid = userId;
+  User user = Database.jdbi.withExtension(UserDao.class, dao -> dao.getUser(theUserid));
 %>
 <main>
     <section class="py-5 text-center container">
@@ -35,7 +38,6 @@
                 <h5 class="card-title"><%= user.getUsername() %></h5>
                 <p class="card-text"><%= user.getTelephone() %></p>
             </div>
-
         </div>
     </div>
 </main>
