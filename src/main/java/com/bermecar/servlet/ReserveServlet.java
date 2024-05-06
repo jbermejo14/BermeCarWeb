@@ -29,7 +29,7 @@ public class ReserveServlet extends HttpServlet {
 
             Car car = Database.jdbi.withExtension(CarDao.class, dao -> dao.getCar(id));
             Database.jdbi.withExtension(ReservationDao.class, dao -> dao.addReservation(new Date(System.currentTimeMillis()),
-                    car.getPrice(), id, userId));
+                    id, userId));
 
             response.sendRedirect("reservation.jsp");
         } catch (ClassNotFoundException cnfe) {

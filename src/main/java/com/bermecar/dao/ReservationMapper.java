@@ -18,7 +18,6 @@ public class ReservationMapper implements RowMapper<Reservation> {
 
         return new Reservation(rs.getInt("id"),
                 rs.getDate("datetime"),
-                rs.getFloat("price"),
                 car,
                 user);
     }

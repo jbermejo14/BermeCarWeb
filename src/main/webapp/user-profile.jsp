@@ -18,12 +18,9 @@
 
 </head>
 <%
-    int id;
-    User user = null;
-    session = request.getSession();
-    id = Integer.parseInt(request.getParameter("id"));
+    userId = currentSession.getAttribute("id");
     Database.connect();
-    user = Database.jdbi.withExtension(UserDao.class, dao -> dao.getUser(id));
+    User user = Database.jdbi.withExtension(UserDao.class, dao -> dao.getUser(id));
 %>
 <main>
     <section class="py-5 text-center container">

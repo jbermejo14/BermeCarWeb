@@ -10,15 +10,15 @@ import java.util.List;
 
 public interface ReservationDao {
 
-    @SqlQuery("SELECT * FROM Reservation WHERE user_id = ?")
+    @SqlQuery("SELECT * FROM Reservations WHERE Id_users = ?")
     @UseRowMapper(ReservationMapper.class)
-    List<Reservation> getReservationByUser(int userId);
+    List<Reservation> getReservationByUser(int id_user);
 
-    @SqlQuery("SELECT * FROM Reservation WHERE id = ?")
+    @SqlQuery("SELECT * FROM Reservations WHERE id = ?")
     @UseRowMapper(ReservationMapper.class)
     Reservation getReservations(int id);
 
-    @SqlUpdate("INSERT INTO Reservation (fecha, price, id_car, id_user) VALUES (?, ?, ?, ?)")
-    int addReservation(Date fecha, float price, int Id_car, int Id_user);
+    @SqlUpdate("INSERT INTO Reservations (Datetime, Id_cars, Id_users) VALUES (?, ?, ?)")
+    int addReservation(Date datetime, int id_cars, int id_users);
 }
 

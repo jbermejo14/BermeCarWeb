@@ -21,7 +21,6 @@
     <%
       // TODO Validar si viene el campo id
       int id = Integer.parseInt(request.getParameter("id"));
-
       Database.connect();
       Car car = Database.jdbi.withExtension(CarDao.class, dao -> dao.getCar(id));
     %>

@@ -10,8 +10,7 @@ import java.sql.Date;
 @AllArgsConstructor
 public class Reservation {
     private int id;
-    private Date date;
-    private float price;
+    private Date datetime;
     private Car car;
     private User user;
 }
