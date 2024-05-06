@@ -1,6 +1,8 @@
 <%@ page import="com.bermecar.dao.Database" %>
 <%@ page import="com.bermecar.dao.CarDao" %>
 <%@ page import="com.bermecar.domain.Car" %>
+<%@ page import="com.bermecar.domain.User" %>
+<%@ page import="com.bermecar.dao.UserDao" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
 <%@include file="includes/header.jsp"%>
@@ -16,10 +18,12 @@
 
 </head>
 <%
-    HttpSession session = request.getSession();
-    int userId = Integer.parseInt(session.getAttribute("id").toString());
+    int id;
+    User user = null;
+    session = request.getSession();
+    id = Integer.parseInt(request.getParameter("id"));
     Database.connect();
-    User user = Database.jdbi.withExtension(UserDao.class, dao -> dao.getUser(id));
+    user = Database.jdbi.withExtension(UserDao.class, dao -> dao.getUser(id));
 %>
 <main>
     <section class="py-5 text-center container">
@@ -32,7 +36,7 @@
             </div>
             <div class="card-body">
                 <h5 class="card-title"><%= user.getUsername() %></h5>
-                <p class="card-text"><%= car.getTelephone() %></p>
+                <p class="card-text"><%= user.getTelephone() %></p>
             </div>
 
         </div>

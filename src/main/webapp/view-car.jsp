@@ -36,7 +36,7 @@
                 <p class="card-text"><%= car.getModel() %></p>
                 <p class="card-text"><%= car.getYear() %></p>
                 <p class="card-text"><%= car.getPrice() %></p>
-                <a href="reserve-car?id=<%= car.getId() %>" class="btn btn-primary">Reservar</a>
+                <a href="reservecar?id=<%= car.getId() %>" class="btn btn-primary">Reservar</a>
             </div>
 
         </div>
