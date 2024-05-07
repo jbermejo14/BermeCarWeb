@@ -38,9 +38,6 @@ public class EditCarServlet extends HttpServlet {
         }
 
         try {
-            if (hasValidationErrors(request, response))
-                return;
-
             int id = 0;
             if (request.getParameter("id") != null) {
                 id = Integer.parseInt(request.getParameter("id"));
@@ -52,31 +49,18 @@ public class EditCarServlet extends HttpServlet {
             String country = request.getParameter("country");
             int year = Integer.parseInt(request.getParameter("year"));
             float price = CurrencyUtils.parse(request.getParameter("price"));
-            Part picturePart = request.getPart("photo");
 
-            // Guardar la imagen en disco
-            String imagePath = getServletContext().getAttribute("image-path").toString();
-            if (!new File(imagePath).exists())
-                new File(imagePath).mkdir();
-            String filename = null;
-            if (picturePart.getSize() == 0) {
-                filename = "no-image.jpg";
-            } else {
-                filename = UUID.randomUUID() + ".jpg";
-                InputStream fileStream = picturePart.getInputStream();
-                Files.copy(fileStream, Path.of(imagePath + File.separator + filename));
-            }
-
+            String finalFilename2 = "test.jpg";
             Database.connect();
-            final String finalFilename = filename;
+
             if (id == 0) {
                 int affectedRows = Database.jdbi.withExtension(CarDao.class,
-                        dao -> dao.addCar(license_plate, brand, model, country, year, price, finalFilename));
+                        dao -> dao.addCar(license_plate, brand, model, country, year, price, finalFilename2));
                 sendMessage("Actividad registrada correctamente", response);
             } else {
                 final int finalId = id;
                 int affectedRows = Database.jdbi.withExtension(CarDao.class,
-                        dao -> dao.updateCar(license_plate, brand, model, country, year, price, finalFilename, finalId));
+                        dao -> dao.updateCar(license_plate, brand, model, country, year, price, finalFilename2, finalId));
                 sendMessage("Actividad modificada correctamente", response);
             }
         } catch (ParseException pe) {
@@ -89,22 +73,5 @@ public class EditCarServlet extends HttpServlet {
             sqle.printStackTrace();
             sendError("Error conectando con la base de datos", response);
         }
-    }
-
-    private boolean hasValidationErrors(HttpServletRequest request, HttpServletResponse response) throws IOException {
-        boolean hasErrors = false;
-
-        if (request.getParameter("name") == null) {
-            sendError("El nombre es un campo obligatorio", response);
-            hasErrors = true;
-        }
-        try {
-            float priceValue = CurrencyUtils.parse(request.getParameter("price"));
-        } catch (ParseException pe) {
-            sendError("Formato de precio no válido", response);
-            hasErrors = true;
-        }
-
-        return hasErrors;
     }
 }

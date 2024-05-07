@@ -13,7 +13,83 @@
 
 
 </head>
+<style>
+body {
+    font-family: "Lato", sans-serif;
+}
 
+
+
+.main-head{
+    height: 150px;
+    background: #FFF;
+
+}
+
+.sidenav {
+    height: 100%;
+    background-color: #000;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+
+.main {
+    padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+}
+
+@media screen and (max-width: 450px) {
+    .login-form{
+        margin-top: 10%;
+    }
+
+    .register-form{
+        margin-top: 10%;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .main{
+        margin-left: 40%;
+    }
+
+    .sidenav{
+        width: 40%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+    }
+
+    .login-form{
+        margin-top: 20%;
+    }
+
+    .register-form{
+        margin-top: 20%;
+    }
+}
+
+
+.login-main-text{
+    margin-top: 20%;
+    padding: 60px;
+    color: #fff;
+}
+
+.login-main-text h2{
+    font-weight: 300;
+}
+
+.btn-black{
+    background-color: #000 !important;
+    color: #fff;
+}
+</style>
 <script type="text/javascript">
 $(document).ready(function() {
     $("form").on("submit", function(event) {
@@ -35,25 +111,32 @@ $(document).ready(function() {
     });
 });
 </script>
-<body class="d-flex align-items-center py-4 bg-body-tertiary">
-    <main class="form-signin w-50 m-auto p-5">
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 
-        <form class="p-5">
-            <h1 class="h3 mb-4 fw-normal">Necesitas una cuenta para acceder</h1>
-            <h2 class="h3 mb-3 fw-normal">Iniciar sesión</h2>
-            <div class="form-floating">
-                <input type="text" name="username" class="form-control" id="floatingInput" placeholder="Usuario">
-                <label for="floatingInput">Usuario</label>
+<div class="sidenav">
+         <div class="login-main-text">
+            <h2>Bermecars<br></h2>
+            <p>Necesitas una cuenta para acceder</p>
+         </div>
+      </div>
+      <div class="main">
+         <div class="col-md-12 col-sm-12">
+            <div class="login-form">
+                <form class="p-5">
+                    <div class="form-group">
+                        <input type="text" name="username" class="form-control" id="floatingInput" placeholder="Usuario">
+                        <label for="floatingInput">Usuario</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="password" name="password" class="form-control" id="floatingPassword" placeholder="Contraseña">
+                        <label for="floatingPassword">Contraseña</label>
+                    </div>
+
+                    <button class="btn btn-black w-100" type="submit">Iniciar sesión</button>
+                    <p class="h5 fw-normal"><a href="register.jsp" class="nav-link">¿No tienes cuenta? Registrate!</a></p>
+                </form>
             </div>
-            <div class="form-floating py-2">
-                <input type="password" name="password" class="form-control" id="floatingPassword" placeholder="Contraseña">
-                <label for="floatingPassword">Contraseña</label>
-            </div>
-
-            <button class="btn btn-primary w-100 py-2" type="submit">Iniciar sesión</button>
-            <p class="h5 py-2 fw-normal"><a href="register.jsp" class="nav-link">¿No tienes cuenta? Registrate!</a></p>
-        </form>
-        <div id="result"></div>
-
-    </main>
-</body>
+         </div>
+      </div>

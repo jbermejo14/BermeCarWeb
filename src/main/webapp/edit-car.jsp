@@ -64,43 +64,37 @@
         <% } %>
         <form class="row g-3 needs-validation" method="post" enctype="multipart/form-data" id="edit-form">
             <div class="mb-3">
-                <label for="name" class="form-label">Marca</label>
-                <input type="text" name="name" class="form-control" id="name" placeholder="Ir a caminar"
+                <label for="brand" class="form-label">Marca</label>
+                <input type="text" name="brand" class="form-control" id="brand"
                     <% if (id != 0) { %> value="<%= car.getBrand() %>"<% } %>>
             </div>
 
             <div class="mb-3">
-                <label for="description" class="form-label">Modelo</label>
-                <textarea rows="4" name="description" cols="50" class="form-control" id="description" placeholder="Descripción de la actividad">
-<% if (id != 0) { %> <%= car.getModel() %><% } %>
-                </textarea>
+                <label for="model" class="form-label">Modelo</label>
+                <input type="text" name="model" class="form-control" id="model"
+                    <% if (id != 0) { %> value="<%= car.getModel() %>"<% } %>>
             </div>
 
-            <div class="col-md-4">
-                <label for="license?plate" class="form-label">Matricula</label>
-                <input type="date" name="license" class="form-control" id="license" placeholder=""
-                   <% if (id != 0) { %> <%= car.getLicense_plate() %><% } %>
+            <div class="mb-3">
+                <label for="license_plate" class="form-label">Matricula</label>
+                <input type="text" name="license_plate" class="form-control" id="license_plate"
+                    <% if (id != 0) { %> value="<%= car.getLicense_plate() %>"<% } %>>
             </div>
 
-            <div class="col-md-4">
-                <label for="Pais" class="form-label">Pais</label>
-                <input type="date" name="date" class="form-control" id="date" placeholder=""
-                   <% if (id != 0) { %> <%= car.getCountry() %><% } %>
+            <div class="mb-3">
+                <label for="country" class="form-label">Pais</label>
+                <input type="text" name="country" class="form-control" id="country"
+                    <% if (id != 0) { %> value="<%= car.getCountry() %>"<% } %>>
             </div>
-            <div class="col-md-4">
+            <div class="mb-3">
                 <label for="year" class="form-label">Año</label>
-                <input type="date" name="date" class="form-control" id="date" placeholder=""
-                   <% if (id != 0) { %> <%= car.getYear() %><% } %>
+                <input type="number" name="year" class="form-control" id="year"
+                    <% if (id != 0) { %> value="<%= car.getYear() %>"<% } %>>
             </div>
-            <div class="col-md-4">
-                <label for="price" class="form-label">Precio</label>
-                <input type="text" name="price" class="form-control" id="price" placeholder=""
+            <div class="mb-3">
+                <label for="price" class="form-label">Marca</label>
+                <input type="number" name="price" class="form-control" id="price"
                     <% if (id != 0) { %> value="<%= car.getPrice() %>"<% } %>>
-            </div>
-
-            <div class="col-md-4">
-                <label for="photo" class="form-label">Foto</label>
-                <input type="file" name="picture" class="form-control" id="picture">
             </div>
             <div class="col-12">
                 <input type="submit" value="Enviar" id="edit-button"/>
