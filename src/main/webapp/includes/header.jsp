@@ -16,7 +16,6 @@
 
 <%
     HttpSession currentSession = request.getSession();
-    String role = "anonymous";
     int userId = 0;
     if (currentSession.getAttribute("role") != null) {
         role = currentSession.getAttribute("role").toString();

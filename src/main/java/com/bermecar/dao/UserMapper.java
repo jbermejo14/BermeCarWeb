@@ -18,4 +18,3 @@ public class UserMapper implements RowMapper<User> {
                 rs.getString("role"));
     }
 }
-

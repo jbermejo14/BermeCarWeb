@@ -1,4 +1,3 @@
-
 <%@ page import="com.bermecar.dao.Database" %>
 <%@ page import="com.bermecar.dao.ReservationDao" %>
 <%@ page import="com.bermecar.domain.Reservation" %>
@@ -24,8 +23,9 @@
             <%
                 for (Reservation reservation : reservations) {
             %>
-            <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
+            <a href="view-car.jsp?id=<%= reservation.getCar().getId() %>" type="button" class="btn btn-sm btn-outline-primary">Ver</a></div>
                 <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1"><%=reservation.getCar().getBrand()%></h5>
                     <h5 class="mb-1"><%=reservation.getDatetime()%></h5>
                 </div>
                 <p class="mb-1"><%=reservation.getId()%></p>

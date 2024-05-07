@@ -20,10 +20,10 @@ public interface UserDao {
     User getUser(String username, String password);
 
     @SqlUpdate("INSERT INTO users (username, password, telephone, role) VALUES (?, ?, ?, ?)")
-    int addUser(String name, String username, String password, String role);
+    int addUser(String username, String password, int telephone, String role);
 
-    @SqlUpdate("UPDATE users SET name = ?, username = ?, role = ? WHERE id = ?")
-    int updateUser(String name, String username, String role, int id);
+    @SqlUpdate("UPDATE users SET username = ?, password = ?, telephone = ? WHERE id = ?")
+    int updateUser(String username, String password, int telephone, int id);
 
     @SqlUpdate("DELETE FROM users WHERE id = ?")
     int removeUser(int id);

@@ -28,7 +28,7 @@ public class RegisterServlet extends HttpServlet {
 
         String username = request.getParameter("username");
         String password = request.getParameter("password");
-        String telephone = request.getParameter("telephone");
+        int telephone = Integer.parseInt(request.getParameter("telephone"));
         String role = "user";
 
         try {

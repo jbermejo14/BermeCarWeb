@@ -20,22 +20,20 @@ public class ReserveServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        int id = Integer.parseInt(request.getParameter("id"));
+        int carid = Integer.parseInt(request.getParameter("id"));
         HttpSession session = request.getSession();
         int userId = Integer.parseInt(session.getAttribute("id").toString());
 
         try {
             Database.connect();
 
-            Car car = Database.jdbi.withExtension(CarDao.class, dao -> dao.getCar(id));
+            Car car = Database.jdbi.withExtension(CarDao.class, dao -> dao.getCar(carid));
             Database.jdbi.withExtension(ReservationDao.class, dao -> dao.addReservation(new Date(System.currentTimeMillis()),
-                    id, userId));
+                    carid, userId));
 
             response.sendRedirect("reservation.jsp");
-        } catch (ClassNotFoundException cnfe) {
+        } catch (ClassNotFoundException | SQLException cnfe) {
             cnfe.printStackTrace();
-        } catch (SQLException sqle) {
-            sqle.printStackTrace();
         }
     }
 }

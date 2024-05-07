@@ -13,7 +13,13 @@ public class ReservationMapper implements RowMapper<Reservation> {
 
     @Override
     public Reservation map(ResultSet rs, StatementContext ctx) throws SQLException {
-        Car car = Database.jdbi.withExtension(CarDao.class, dao -> dao.getCar(rs.getInt("id")));
+        Car car = Database.jdbi.withExtension(CarDao.class, dao -> {
+            try {
+                return dao.getCar(rs.getInt("id"));
+            } catch (SQLException e) {
+                return new Car(); // return a default Car object
+            }
+        });
         User user = Database.jdbi.withExtension(UserDao.class, dao -> dao.getUser(rs.getInt("id")));
 
         return new Reservation(rs.getInt("id"),

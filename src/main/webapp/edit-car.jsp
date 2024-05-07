@@ -57,51 +57,38 @@
 
 <main>
     <section class="py-5 container">
-        <% if (id == 0) { %>
-            <h1>Registrar nueva Actividad</h1>
-        <% } else { %>
-            <h1>Modificar Actividad</h1>
-        <% } %>
+        <h1>Registrar nuevo Coche</h1>
         <form class="row g-3 needs-validation" method="post" enctype="multipart/form-data" id="edit-form">
             <div class="mb-3">
                 <label for="brand" class="form-label">Marca</label>
-                <input type="text" name="brand" class="form-control" id="brand"
-                    <% if (id != 0) { %> value="<%= car.getBrand() %>"<% } %>>
+                <input type="text" name="brand" class="form-control" id="brand"value="<%= car.getBrand() %>">
             </div>
-
             <div class="mb-3">
                 <label for="model" class="form-label">Modelo</label>
-                <input type="text" name="model" class="form-control" id="model"
-                    <% if (id != 0) { %> value="<%= car.getModel() %>"<% } %>>
+                <input type="text" name="model" class="form-control" id="model"value="<%= car.getModel() %>">
             </div>
-
             <div class="mb-3">
                 <label for="license_plate" class="form-label">Matricula</label>
                 <input type="text" name="license_plate" class="form-control" id="license_plate"
-                    <% if (id != 0) { %> value="<%= car.getLicense_plate() %>"<% } %>>
+                    value="<%= car.getLicense_plate() %>">
             </div>
 
             <div class="mb-3">
                 <label for="country" class="form-label">Pais</label>
-                <input type="text" name="country" class="form-control" id="country"
-                    <% if (id != 0) { %> value="<%= car.getCountry() %>"<% } %>>
+                <input type="text" name="country" class="form-control" id="country" value="<%= car.getCountry() %>">
             </div>
             <div class="mb-3">
                 <label for="year" class="form-label">Año</label>
-                <input type="number" name="year" class="form-control" id="year"
-                    <% if (id != 0) { %> value="<%= car.getYear() %>"<% } %>>
+                <input type="number" name="year" class="form-control" id="year" value="<%= car.getYear() %>">
             </div>
             <div class="mb-3">
-                <label for="price" class="form-label">Marca</label>
-                <input type="number" name="price" class="form-control" id="price"
-                    <% if (id != 0) { %> value="<%= car.getPrice() %>"<% } %>>
+                <label for="price" class="form-label">Precio</label>
+                <input type="number" name="price" class="form-control" id="price" value="<%= car.getPrice() %>">
             </div>
             <div class="col-12">
                 <input type="submit" value="Enviar" id="edit-button"/>
             </div>
-            <input type="hidden" name="id" value="<%= id %>"/>
         </form>
-        <br/>
         <div id="result"></div>
     </section>
 </main>

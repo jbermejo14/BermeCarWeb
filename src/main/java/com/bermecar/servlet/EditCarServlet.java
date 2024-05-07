@@ -1,22 +1,14 @@
 package com.bermecar.servlet;
 import com.bermecar.dao.CarDao;
 import com.bermecar.dao.Database;
-import com.bermecar.util.CurrencyUtils;
-import org.apache.commons.lang3.math.NumberUtils;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.MultipartConfig;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.*;
-import java.io.File;
 import java.io.IOException;
-import java.io.InputStream;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.sql.Date;
 import java.sql.SQLException;
 import java.text.ParseException;
-import java.util.UUID;
 
 import static com.bermecar.util.ErrorUtils.sendError;
 import static com.bermecar.util.ErrorUtils.sendMessage;
@@ -48,7 +40,7 @@ public class EditCarServlet extends HttpServlet {
             String model = request.getParameter("model");
             String country = request.getParameter("country");
             int year = Integer.parseInt(request.getParameter("year"));
-            float price = CurrencyUtils.parse(request.getParameter("price"));
+            float price = Float.parseFloat(request.getParameter("price"));
 
             String finalFilename2 = "test.jpg";
             Database.connect();
@@ -63,9 +55,6 @@ public class EditCarServlet extends HttpServlet {
                         dao -> dao.updateCar(license_plate, brand, model, country, year, price, finalFilename2, finalId));
                 sendMessage("Actividad modificada correctamente", response);
             }
-        } catch (ParseException pe) {
-            pe.printStackTrace();
-            sendError("El formato de fecha o precio no es correcto", response);
         } catch (ClassNotFoundException cnfe) {
             cnfe.printStackTrace();
             sendError("Internal Server Error", response);
