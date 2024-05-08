@@ -2,7 +2,7 @@ target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
-apache-tomcat-9.0.87
+apache-maven-3.9.6
 
 ### IntelliJ IDEA ###
 .idea/modules.xml

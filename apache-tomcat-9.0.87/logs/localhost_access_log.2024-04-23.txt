@@ -1,0 +1,9 @@
+0:0:0:0:0:0:0:1 - - [23/Apr/2024:17:11:29 +0200] "GET /manager/text HTTP/1.1" 401 2562
+0:0:0:0:0:0:0:1 - - [23/Apr/2024:17:11:30 +0200] "GET /coches HTTP/1.1" 302 -
+127.0.0.1 - tomcat [23/Apr/2024:17:11:31 +0200] "PUT /manager/text/deploy?path=%2Fcoches HTTP/1.1" 200 64
+0:0:0:0:0:0:0:1 - - [23/Apr/2024:17:11:31 +0200] "GET /coches/ HTTP/1.1" 500 2448
+127.0.0.1 - tomcat [23/Apr/2024:17:11:32 +0200] "PUT /manager/text/deploy?path=%2Fcoches HTTP/1.1" 200 64
+127.0.0.1 - tomcat [23/Apr/2024:17:11:33 +0200] "PUT /manager/text/deploy?path=%2Fcoches HTTP/1.1" 200 64
+127.0.0.1 - tomcat [23/Apr/2024:17:11:34 +0200] "PUT /manager/text/deploy?path=%2Fcoches HTTP/1.1" 200 64
+0:0:0:0:0:0:0:1 - - [23/Apr/2024:17:11:39 +0200] "GET /coches/ HTTP/1.1" 500 2448
+0:0:0:0:0:0:0:1 - - [23/Apr/2024:17:11:40 +0200] "GET /coches/ HTTP/1.1" 500 2872

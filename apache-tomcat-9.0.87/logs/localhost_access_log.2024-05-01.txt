@@ -1,0 +1,16 @@
+127.0.0.1 - tomcat [01/May/2024:09:50:24 +0200] "PUT /manager/text/deploy?path=%2Fcoches&update=true HTTP/1.1" 200 64
+0:0:0:0:0:0:0:1 - - [01/May/2024:09:50:36 +0200] "GET /coches HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [01/May/2024:09:50:37 +0200] "GET /coches/ HTTP/1.1" 500 2657
+127.0.0.1 - tomcat [01/May/2024:09:51:21 +0200] "PUT /manager/text/deploy?path=%2Fcoches&update=true HTTP/1.1" 200 64
+0:0:0:0:0:0:0:1 - - [01/May/2024:09:51:52 +0200] "GET /coches/ HTTP/1.1" 500 2657
+0:0:0:0:0:0:0:1 - - [01/May/2024:09:51:52 +0200] "GET /coches/ HTTP/1.1" 500 2657
+127.0.0.1 - tomcat [01/May/2024:10:02:41 +0200] "PUT /manager/text/deploy?path=%2Fcoches&update=true HTTP/1.1" 200 64
+127.0.0.1 - tomcat [01/May/2024:10:06:54 +0200] "PUT /manager/text/deploy?path=%2Fcoches&update=true HTTP/1.1" 200 64
+0:0:0:0:0:0:0:1 - - [01/May/2024:10:06:58 +0200] "GET /coches/ HTTP/1.1" 500 11583
+0:0:0:0:0:0:0:1 - - [01/May/2024:10:07:13 +0200] "GET /coches/ HTTP/1.1" 500 11583
+0:0:0:0:0:0:0:1 - - [01/May/2024:10:07:14 +0200] "GET /coches/ HTTP/1.1" 500 11583
+0:0:0:0:0:0:0:1 - - [01/May/2024:10:13:36 +0200] "GET /coches/ HTTP/1.1" 500 11583
+0:0:0:0:0:0:0:1 - - [01/May/2024:10:13:37 +0200] "GET /coches/ HTTP/1.1" 500 11583
+127.0.0.1 - tomcat [01/May/2024:10:13:45 +0200] "PUT /manager/text/deploy?path=%2Fcoches&update=true HTTP/1.1" 200 64
+0:0:0:0:0:0:0:1 - - [01/May/2024:10:13:47 +0200] "GET /coches/ HTTP/1.1" 200 7729
+0:0:0:0:0:0:0:1 - - [01/May/2024:10:13:47 +0200] "GET /assets/dist/js/bootstrap.bundle.min.js HTTP/1.1" 404 729

@@ -1,0 +1,12 @@
+01-May-2024 09:50:23.375 INFO [http-nio-8082-exec-1] org.apache.catalina.core.ApplicationContext.log Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+01-May-2024 09:50:23.376 INFO [http-nio-8082-exec-1] org.apache.catalina.core.ApplicationContext.log Manager: init: Global resources are available
+01-May-2024 09:50:23.384 INFO [http-nio-8082-exec-1] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/coches'
+01-May-2024 09:50:23.384 INFO [http-nio-8082-exec-1] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war.tmp
+01-May-2024 09:51:20.203 INFO [http-nio-8082-exec-6] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/coches'
+01-May-2024 09:51:20.204 INFO [http-nio-8082-exec-6] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war.tmp
+01-May-2024 10:02:41.114 INFO [http-nio-8082-exec-15] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/coches'
+01-May-2024 10:02:41.114 INFO [http-nio-8082-exec-15] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war.tmp
+01-May-2024 10:06:53.625 INFO [http-nio-8082-exec-25] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/coches'
+01-May-2024 10:06:53.626 INFO [http-nio-8082-exec-25] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war.tmp
+01-May-2024 10:13:44.209 INFO [http-nio-8082-exec-32] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/coches'
+01-May-2024 10:13:44.209 INFO [http-nio-8082-exec-32] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war.tmp

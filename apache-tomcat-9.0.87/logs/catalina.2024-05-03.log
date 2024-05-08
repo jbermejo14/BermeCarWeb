@@ -1,0 +1,800 @@
+03-May-2024 17:16:58.605 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.87
+03-May-2024 17:16:58.618 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 11 2024 10:12:34 UTC
+03-May-2024 17:16:58.619 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.87.0
+03-May-2024 17:16:58.619 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+03-May-2024 17:16:58.620 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+03-May-2024 17:16:58.620 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+03-May-2024 17:16:58.620 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-21
+03-May-2024 17:16:58.620 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21+35-LTS-2513
+03-May-2024 17:16:58.621 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+03-May-2024 17:16:58.621 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\jimmy\Desktop\apache-tomcat-9.0.87
+03-May-2024 17:16:58.621 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\jimmy\Desktop\apache-tomcat-9.0.87
+03-May-2024 17:16:58.650 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+03-May-2024 17:16:58.650 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+03-May-2024 17:16:58.650 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+03-May-2024 17:16:58.651 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+03-May-2024 17:16:58.651 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+03-May-2024 17:16:58.651 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\conf\logging.properties
+03-May-2024 17:16:58.651 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+03-May-2024 17:16:58.652 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+03-May-2024 17:16:58.652 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+03-May-2024 17:16:58.652 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+03-May-2024 17:16:58.653 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\jimmy\Desktop\apache-tomcat-9.0.87
+03-May-2024 17:16:58.655 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\jimmy\Desktop\apache-tomcat-9.0.87
+03-May-2024 17:16:58.656 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\temp
+03-May-2024 17:16:58.671 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.3.0] using APR version [1.7.4].
+03-May-2024 17:16:58.671 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+03-May-2024 17:16:58.671 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+03-May-2024 17:16:58.721 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+03-May-2024 17:16:59.260 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8082"]
+03-May-2024 17:16:59.303 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1046] milliseconds
+03-May-2024 17:16:59.408 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+03-May-2024 17:16:59.408 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.87]
+03-May-2024 17:16:59.448 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war]
+03-May-2024 17:17:01.584 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-May-2024 17:17:01.648 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war] has finished in [2,199] ms
+03-May-2024 17:17:01.654 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\parque.war]
+03-May-2024 17:17:02.241 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-May-2024 17:17:02.245 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\parque.war] has finished in [591] ms
+03-May-2024 17:17:02.246 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\docs]
+03-May-2024 17:17:02.278 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\docs] has finished in [32] ms
+03-May-2024 17:17:02.279 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\examples]
+03-May-2024 17:17:02.704 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\examples] has finished in [425] ms
+03-May-2024 17:17:02.705 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\host-manager]
+03-May-2024 17:17:02.748 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\host-manager] has finished in [43] ms
+03-May-2024 17:17:02.748 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\manager]
+03-May-2024 17:17:02.786 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\manager] has finished in [38] ms
+03-May-2024 17:17:02.786 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\ROOT]
+03-May-2024 17:17:02.809 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\ROOT] has finished in [23] ms
+03-May-2024 17:17:02.812 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8082"]
+03-May-2024 17:17:02.842 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [3536] milliseconds
+03-May-2024 17:17:43.592 INFO [http-nio-8082-exec-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/coches]
+03-May-2024 17:17:43.715 INFO [http-nio-8082-exec-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war]
+03-May-2024 17:17:47.860 INFO [http-nio-8082-exec-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-May-2024 17:17:47.864 INFO [http-nio-8082-exec-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war] has finished in [4,149] ms
+03-May-2024 17:42:37.095 INFO [http-nio-8082-exec-12] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/coches]
+03-May-2024 17:42:37.264 WARNING [http-nio-8082-exec-12] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [coches] registered the JDBC driver [oracle.jdbc.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+03-May-2024 17:42:37.265 WARNING [http-nio-8082-exec-12] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [coches] appears to have started a thread named [oracle.jdbc.diagnostics.Diagnostic.CLOCK] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.util.TimerThread.mainLoop(Timer.java:563)
+ java.base/java.util.TimerThread.run(Timer.java:516)
+03-May-2024 17:42:37.287 INFO [http-nio-8082-exec-12] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war]
+03-May-2024 17:42:37.909 INFO [http-nio-8082-exec-12] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-May-2024 17:42:37.914 INFO [http-nio-8082-exec-12] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war] has finished in [626] ms
+03-May-2024 17:42:56.092 INFO [http-nio-8082-exec-18] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/coches]
+03-May-2024 17:42:56.211 WARNING [http-nio-8082-exec-18] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [coches] registered the JDBC driver [oracle.jdbc.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+03-May-2024 17:42:56.211 WARNING [http-nio-8082-exec-18] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [coches] appears to have started a thread named [oracle.jdbc.diagnostics.Diagnostic.CLOCK] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.util.TimerThread.mainLoop(Timer.java:563)
+ java.base/java.util.TimerThread.run(Timer.java:516)
+03-May-2024 17:42:56.242 INFO [http-nio-8082-exec-18] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war]
+03-May-2024 17:42:56.960 INFO [http-nio-8082-exec-18] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-May-2024 17:42:56.964 INFO [http-nio-8082-exec-18] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war] has finished in [722] ms
+03-May-2024 17:43:08.682 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.87
+03-May-2024 17:43:08.687 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 11 2024 10:12:34 UTC
+03-May-2024 17:43:08.688 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.87.0
+03-May-2024 17:43:08.688 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+03-May-2024 17:43:08.688 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+03-May-2024 17:43:08.688 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+03-May-2024 17:43:08.688 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-21
+03-May-2024 17:43:08.688 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21+35-LTS-2513
+03-May-2024 17:43:08.688 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+03-May-2024 17:43:08.689 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\jimmy\Desktop\apache-tomcat-9.0.87
+03-May-2024 17:43:08.689 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\jimmy\Desktop\apache-tomcat-9.0.87
+03-May-2024 17:43:08.699 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+03-May-2024 17:43:08.699 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+03-May-2024 17:43:08.699 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+03-May-2024 17:43:08.700 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+03-May-2024 17:43:08.700 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+03-May-2024 17:43:08.701 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\conf\logging.properties
+03-May-2024 17:43:08.703 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+03-May-2024 17:43:08.703 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+03-May-2024 17:43:08.704 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+03-May-2024 17:43:08.704 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+03-May-2024 17:43:08.705 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\jimmy\Desktop\apache-tomcat-9.0.87
+03-May-2024 17:43:08.706 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\jimmy\Desktop\apache-tomcat-9.0.87
+03-May-2024 17:43:08.706 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\temp
+03-May-2024 17:43:08.710 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.3.0] using APR version [1.7.4].
+03-May-2024 17:43:08.710 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+03-May-2024 17:43:08.711 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+03-May-2024 17:43:08.721 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+03-May-2024 17:43:09.000 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8082"]
+03-May-2024 17:43:09.012 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector["http-nio-8082"]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1011)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:554)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:1046)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:686)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:709)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:302)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:472)
+	Caused by: java.net.BindException: Address already in use: bind
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:565)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:344)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:301)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:268)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:223)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1334)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1347)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:654)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:75)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1009)
+		... 11 more
+03-May-2024 17:43:09.013 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [477] milliseconds
+03-May-2024 17:43:09.062 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+03-May-2024 17:43:09.063 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.87]
+03-May-2024 17:43:09.088 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war]
+03-May-2024 17:43:09.941 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-May-2024 17:43:09.982 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war] has finished in [894] ms
+03-May-2024 17:43:09.985 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\parque.war]
+03-May-2024 17:43:10.489 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-May-2024 17:43:10.494 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\parque.war] has finished in [509] ms
+03-May-2024 17:43:10.496 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\docs]
+03-May-2024 17:43:10.533 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\docs] has finished in [37] ms
+03-May-2024 17:43:10.535 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\examples]
+03-May-2024 17:43:10.898 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\examples] has finished in [364] ms
+03-May-2024 17:43:10.898 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\host-manager]
+03-May-2024 17:43:10.935 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\host-manager] has finished in [37] ms
+03-May-2024 17:43:10.935 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\manager]
+03-May-2024 17:43:10.971 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\manager] has finished in [36] ms
+03-May-2024 17:43:10.972 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\ROOT]
+03-May-2024 17:43:10.996 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\ROOT] has finished in [23] ms
+03-May-2024 17:43:10.999 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1983] milliseconds
+03-May-2024 17:43:11.007 SEVERE [main] org.apache.catalina.core.StandardServer.await Failed to create server shutdown socket on address [localhost] and port [8005] (base port [8005] and offset [0])
+	java.net.BindException: Address already in use: bind
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:565)
+		at java.base/sun.nio.ch.Net.bind(Net.java:554)
+		at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:636)
+		at java.base/java.net.ServerSocket.bind(ServerSocket.java:391)
+		at java.base/java.net.ServerSocket.<init>(ServerSocket.java:278)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:581)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:825)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:773)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+03-May-2024 17:43:11.008 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8082"]
+03-May-2024 17:43:11.008 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+03-May-2024 17:43:11.031 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8082"]
+03-May-2024 17:43:11.033 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8082"]
+03-May-2024 17:43:26.675 INFO [http-nio-8082-exec-20] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/coches]
+03-May-2024 17:43:26.787 WARNING [http-nio-8082-exec-20] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [coches] registered the JDBC driver [oracle.jdbc.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+03-May-2024 17:43:26.788 WARNING [http-nio-8082-exec-20] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [coches] appears to have started a thread named [oracle.jdbc.diagnostics.Diagnostic.CLOCK] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.util.TimerThread.mainLoop(Timer.java:563)
+ java.base/java.util.TimerThread.run(Timer.java:516)
+03-May-2024 17:43:26.809 INFO [http-nio-8082-exec-20] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war]
+03-May-2024 17:43:27.383 INFO [http-nio-8082-exec-20] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-May-2024 17:43:27.386 INFO [http-nio-8082-exec-20] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war] has finished in [577] ms
+03-May-2024 17:44:19.255 INFO [http-nio-8082-exec-26] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/coches]
+03-May-2024 17:44:19.390 WARNING [http-nio-8082-exec-26] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [coches] registered the JDBC driver [oracle.jdbc.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+03-May-2024 17:44:19.391 WARNING [http-nio-8082-exec-26] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [coches] appears to have started a thread named [oracle.jdbc.diagnostics.Diagnostic.CLOCK] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.util.TimerThread.mainLoop(Timer.java:563)
+ java.base/java.util.TimerThread.run(Timer.java:516)
+03-May-2024 17:44:19.428 INFO [http-nio-8082-exec-26] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war]
+03-May-2024 17:44:20.043 INFO [http-nio-8082-exec-26] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-May-2024 17:44:20.047 INFO [http-nio-8082-exec-26] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war] has finished in [620] ms
+03-May-2024 17:45:00.095 INFO [http-nio-8082-exec-33] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/coches]
+03-May-2024 17:45:00.200 WARNING [http-nio-8082-exec-33] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [coches] registered the JDBC driver [oracle.jdbc.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+03-May-2024 17:45:00.201 WARNING [http-nio-8082-exec-33] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [coches] appears to have started a thread named [oracle.jdbc.diagnostics.Diagnostic.CLOCK] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.util.TimerThread.mainLoop(Timer.java:563)
+ java.base/java.util.TimerThread.run(Timer.java:516)
+03-May-2024 17:45:00.224 INFO [http-nio-8082-exec-33] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war]
+03-May-2024 17:45:00.796 INFO [http-nio-8082-exec-33] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-May-2024 17:45:00.799 INFO [http-nio-8082-exec-33] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war] has finished in [575] ms
+03-May-2024 17:45:13.364 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.87
+03-May-2024 17:45:13.374 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 11 2024 10:12:34 UTC
+03-May-2024 17:45:13.375 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.87.0
+03-May-2024 17:45:13.376 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+03-May-2024 17:45:13.377 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+03-May-2024 17:45:13.377 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+03-May-2024 17:45:13.377 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-21
+03-May-2024 17:45:13.377 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21+35-LTS-2513
+03-May-2024 17:45:13.378 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+03-May-2024 17:45:13.381 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\jimmy\Desktop\apache-tomcat-9.0.87
+03-May-2024 17:45:13.388 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\jimmy\Desktop\apache-tomcat-9.0.87
+03-May-2024 17:45:13.403 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+03-May-2024 17:45:13.404 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+03-May-2024 17:45:13.405 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+03-May-2024 17:45:13.405 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+03-May-2024 17:45:13.405 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+03-May-2024 17:45:13.405 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\conf\logging.properties
+03-May-2024 17:45:13.406 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+03-May-2024 17:45:13.406 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+03-May-2024 17:45:13.406 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+03-May-2024 17:45:13.406 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+03-May-2024 17:45:13.407 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\jimmy\Desktop\apache-tomcat-9.0.87
+03-May-2024 17:45:13.407 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\jimmy\Desktop\apache-tomcat-9.0.87
+03-May-2024 17:45:13.407 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\temp
+03-May-2024 17:45:13.414 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.3.0] using APR version [1.7.4].
+03-May-2024 17:45:13.418 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+03-May-2024 17:45:13.419 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+03-May-2024 17:45:13.427 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+03-May-2024 17:45:13.765 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8082"]
+03-May-2024 17:45:13.790 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector["http-nio-8082"]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1011)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:554)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:1046)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:686)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:709)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:302)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:472)
+	Caused by: java.net.BindException: Address already in use: bind
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:565)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:344)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:301)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:268)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:223)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1334)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1347)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:654)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:75)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1009)
+		... 11 more
+03-May-2024 17:45:13.792 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [630] milliseconds
+03-May-2024 17:45:13.867 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+03-May-2024 17:45:13.868 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.87]
+03-May-2024 17:45:13.911 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war]
+03-May-2024 17:45:15.113 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-May-2024 17:45:15.187 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war] has finished in [1,273] ms
+03-May-2024 17:45:15.197 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\parque.war]
+03-May-2024 17:45:15.827 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-May-2024 17:45:15.833 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\parque.war] has finished in [636] ms
+03-May-2024 17:45:15.835 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\docs]
+03-May-2024 17:45:15.886 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\docs] has finished in [50] ms
+03-May-2024 17:45:15.887 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\examples]
+03-May-2024 17:45:16.263 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\examples] has finished in [376] ms
+03-May-2024 17:45:16.263 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\host-manager]
+03-May-2024 17:45:16.301 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\host-manager] has finished in [38] ms
+03-May-2024 17:45:16.301 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\manager]
+03-May-2024 17:45:16.338 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\manager] has finished in [37] ms
+03-May-2024 17:45:16.338 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\ROOT]
+03-May-2024 17:45:16.361 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\ROOT] has finished in [23] ms
+03-May-2024 17:45:16.364 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2570] milliseconds
+03-May-2024 17:45:16.370 SEVERE [main] org.apache.catalina.core.StandardServer.await Failed to create server shutdown socket on address [localhost] and port [8005] (base port [8005] and offset [0])
+	java.net.BindException: Address already in use: bind
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:565)
+		at java.base/sun.nio.ch.Net.bind(Net.java:554)
+		at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:636)
+		at java.base/java.net.ServerSocket.bind(ServerSocket.java:391)
+		at java.base/java.net.ServerSocket.<init>(ServerSocket.java:278)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:581)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:825)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:773)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+03-May-2024 17:45:16.371 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8082"]
+03-May-2024 17:45:16.371 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+03-May-2024 17:45:16.391 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8082"]
+03-May-2024 17:45:16.393 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8082"]
+03-May-2024 17:45:33.491 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.87
+03-May-2024 17:45:33.494 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 11 2024 10:12:34 UTC
+03-May-2024 17:45:33.494 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.87.0
+03-May-2024 17:45:33.495 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+03-May-2024 17:45:33.495 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+03-May-2024 17:45:33.495 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+03-May-2024 17:45:33.495 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-21
+03-May-2024 17:45:33.495 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21+35-LTS-2513
+03-May-2024 17:45:33.495 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+03-May-2024 17:45:33.496 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\jimmy\Desktop\apache-tomcat-9.0.87
+03-May-2024 17:45:33.496 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\jimmy\Desktop\apache-tomcat-9.0.87
+03-May-2024 17:45:33.502 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+03-May-2024 17:45:33.503 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+03-May-2024 17:45:33.503 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+03-May-2024 17:45:33.503 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+03-May-2024 17:45:33.503 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+03-May-2024 17:45:33.503 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\conf\logging.properties
+03-May-2024 17:45:33.504 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+03-May-2024 17:45:33.504 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+03-May-2024 17:45:33.504 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+03-May-2024 17:45:33.504 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+03-May-2024 17:45:33.505 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\jimmy\Desktop\apache-tomcat-9.0.87
+03-May-2024 17:45:33.505 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\jimmy\Desktop\apache-tomcat-9.0.87
+03-May-2024 17:45:33.505 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\temp
+03-May-2024 17:45:33.508 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.3.0] using APR version [1.7.4].
+03-May-2024 17:45:33.508 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+03-May-2024 17:45:33.509 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+03-May-2024 17:45:33.515 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+03-May-2024 17:45:33.819 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8082"]
+03-May-2024 17:45:33.842 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [486] milliseconds
+03-May-2024 17:45:33.894 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+03-May-2024 17:45:33.895 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.87]
+03-May-2024 17:45:33.923 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war]
+03-May-2024 17:45:34.804 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-May-2024 17:45:34.854 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war] has finished in [930] ms
+03-May-2024 17:45:34.858 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\parque.war]
+03-May-2024 17:45:35.401 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-May-2024 17:45:35.408 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\parque.war] has finished in [550] ms
+03-May-2024 17:45:35.409 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\docs]
+03-May-2024 17:45:35.449 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\docs] has finished in [39] ms
+03-May-2024 17:45:35.449 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\examples]
+03-May-2024 17:45:35.960 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\examples] has finished in [511] ms
+03-May-2024 17:45:35.961 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\host-manager]
+03-May-2024 17:45:36.008 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\host-manager] has finished in [47] ms
+03-May-2024 17:45:36.009 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\manager]
+03-May-2024 17:45:36.061 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\manager] has finished in [51] ms
+03-May-2024 17:45:36.061 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\ROOT]
+03-May-2024 17:45:36.094 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\ROOT] has finished in [32] ms
+03-May-2024 17:45:36.097 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8082"]
+03-May-2024 17:45:36.119 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2275] milliseconds
+03-May-2024 17:45:41.096 INFO [http-nio-8082-exec-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/coches]
+03-May-2024 17:45:41.298 WARNING [http-nio-8082-exec-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [coches] registered the JDBC driver [oracle.jdbc.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+03-May-2024 17:45:41.299 WARNING [http-nio-8082-exec-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [coches] appears to have started a thread named [oracle.jdbc.diagnostics.Diagnostic.CLOCK] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.util.TimerThread.mainLoop(Timer.java:563)
+ java.base/java.util.TimerThread.run(Timer.java:516)
+03-May-2024 17:45:41.323 INFO [http-nio-8082-exec-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war]
+03-May-2024 17:45:41.963 INFO [http-nio-8082-exec-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-May-2024 17:45:41.966 INFO [http-nio-8082-exec-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war] has finished in [643] ms
+03-May-2024 17:46:55.678 INFO [http-nio-8082-exec-11] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/coches]
+03-May-2024 17:46:55.867 WARNING [http-nio-8082-exec-11] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [coches] registered the JDBC driver [oracle.jdbc.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+03-May-2024 17:46:55.867 WARNING [http-nio-8082-exec-11] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [coches] appears to have started a thread named [oracle.jdbc.diagnostics.Diagnostic.CLOCK] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.util.TimerThread.mainLoop(Timer.java:563)
+ java.base/java.util.TimerThread.run(Timer.java:516)
+03-May-2024 17:46:55.907 INFO [http-nio-8082-exec-11] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war]
+03-May-2024 17:46:56.558 INFO [http-nio-8082-exec-11] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-May-2024 17:46:56.561 INFO [http-nio-8082-exec-11] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war] has finished in [654] ms
+03-May-2024 17:47:45.495 INFO [http-nio-8082-exec-14] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/coches]
+03-May-2024 17:47:45.618 WARNING [http-nio-8082-exec-14] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [coches] registered the JDBC driver [oracle.jdbc.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+03-May-2024 17:47:45.619 WARNING [http-nio-8082-exec-14] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [coches] appears to have started a thread named [oracle.jdbc.diagnostics.Diagnostic.CLOCK] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.util.TimerThread.mainLoop(Timer.java:563)
+ java.base/java.util.TimerThread.run(Timer.java:516)
+03-May-2024 17:47:45.641 INFO [http-nio-8082-exec-14] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war]
+03-May-2024 17:47:46.203 INFO [http-nio-8082-exec-14] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-May-2024 17:47:46.206 INFO [http-nio-8082-exec-14] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war] has finished in [565] ms
+03-May-2024 17:48:30.090 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.87
+03-May-2024 17:48:30.093 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 11 2024 10:12:34 UTC
+03-May-2024 17:48:30.093 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.87.0
+03-May-2024 17:48:30.094 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+03-May-2024 17:48:30.094 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+03-May-2024 17:48:30.094 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+03-May-2024 17:48:30.094 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-21
+03-May-2024 17:48:30.094 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21+35-LTS-2513
+03-May-2024 17:48:30.094 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+03-May-2024 17:48:30.094 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\jimmy\Desktop\apache-tomcat-9.0.87
+03-May-2024 17:48:30.094 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\jimmy\Desktop\apache-tomcat-9.0.87
+03-May-2024 17:48:30.103 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+03-May-2024 17:48:30.103 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+03-May-2024 17:48:30.103 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+03-May-2024 17:48:30.103 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+03-May-2024 17:48:30.104 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+03-May-2024 17:48:30.104 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\conf\logging.properties
+03-May-2024 17:48:30.104 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+03-May-2024 17:48:30.105 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+03-May-2024 17:48:30.105 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+03-May-2024 17:48:30.105 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+03-May-2024 17:48:30.105 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\jimmy\Desktop\apache-tomcat-9.0.87
+03-May-2024 17:48:30.106 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\jimmy\Desktop\apache-tomcat-9.0.87
+03-May-2024 17:48:30.106 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\temp
+03-May-2024 17:48:30.109 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.3.0] using APR version [1.7.4].
+03-May-2024 17:48:30.110 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+03-May-2024 17:48:30.111 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+03-May-2024 17:48:30.116 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+03-May-2024 17:48:30.384 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8082"]
+03-May-2024 17:48:30.409 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [460] milliseconds
+03-May-2024 17:48:30.460 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+03-May-2024 17:48:30.461 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.87]
+03-May-2024 17:48:30.487 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war]
+03-May-2024 17:48:31.424 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-May-2024 17:48:31.466 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war] has finished in [980] ms
+03-May-2024 17:48:31.470 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\parque.war]
+03-May-2024 17:48:31.994 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-May-2024 17:48:32.001 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\parque.war] has finished in [530] ms
+03-May-2024 17:48:32.004 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\docs]
+03-May-2024 17:48:32.044 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\docs] has finished in [41] ms
+03-May-2024 17:48:32.045 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\examples]
+03-May-2024 17:48:32.436 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\examples] has finished in [391] ms
+03-May-2024 17:48:32.437 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\host-manager]
+03-May-2024 17:48:32.492 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\host-manager] has finished in [56] ms
+03-May-2024 17:48:32.492 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\manager]
+03-May-2024 17:48:32.575 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\manager] has finished in [82] ms
+03-May-2024 17:48:32.576 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\ROOT]
+03-May-2024 17:48:32.652 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\ROOT] has finished in [77] ms
+03-May-2024 17:48:32.659 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8082"]
+03-May-2024 17:48:32.687 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2274] milliseconds
+03-May-2024 17:48:36.837 INFO [http-nio-8082-exec-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/coches]
+03-May-2024 17:48:36.874 INFO [http-nio-8082-exec-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war]
+03-May-2024 17:48:37.465 INFO [http-nio-8082-exec-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-May-2024 17:48:37.469 INFO [http-nio-8082-exec-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war] has finished in [594] ms
+03-May-2024 17:49:30.841 INFO [http-nio-8082-exec-7] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/coches]
+03-May-2024 17:49:30.869 INFO [http-nio-8082-exec-7] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war]
+03-May-2024 17:49:31.459 INFO [http-nio-8082-exec-7] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-May-2024 17:49:31.462 INFO [http-nio-8082-exec-7] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war] has finished in [593] ms
+03-May-2024 17:51:08.425 INFO [http-nio-8082-exec-15] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/coches]
+03-May-2024 17:51:08.447 INFO [http-nio-8082-exec-15] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war]
+03-May-2024 17:51:09.020 INFO [http-nio-8082-exec-15] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-May-2024 17:51:09.025 INFO [http-nio-8082-exec-15] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war] has finished in [578] ms
+03-May-2024 17:51:49.242 INFO [http-nio-8082-exec-16] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/coches]
+03-May-2024 17:51:49.284 INFO [http-nio-8082-exec-16] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war]
+03-May-2024 17:51:49.913 INFO [http-nio-8082-exec-16] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-May-2024 17:51:49.916 INFO [http-nio-8082-exec-16] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war] has finished in [632] ms
+03-May-2024 17:52:15.971 INFO [http-nio-8082-exec-9] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/coches]
+03-May-2024 17:52:15.994 INFO [http-nio-8082-exec-9] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war]
+03-May-2024 17:52:16.550 INFO [http-nio-8082-exec-9] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-May-2024 17:52:16.553 INFO [http-nio-8082-exec-9] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war] has finished in [559] ms
+03-May-2024 17:52:31.425 INFO [http-nio-8082-exec-13] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/coches]
+03-May-2024 17:52:31.454 INFO [http-nio-8082-exec-13] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war]
+03-May-2024 17:52:32.023 INFO [http-nio-8082-exec-13] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-May-2024 17:52:32.027 INFO [http-nio-8082-exec-13] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war] has finished in [573] ms
+03-May-2024 17:53:35.763 INFO [http-nio-8082-exec-26] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/coches]
+03-May-2024 17:53:35.786 INFO [http-nio-8082-exec-26] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war]
+03-May-2024 17:53:36.483 INFO [http-nio-8082-exec-26] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-May-2024 17:53:36.488 INFO [http-nio-8082-exec-26] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war] has finished in [702] ms
+03-May-2024 17:54:10.810 INFO [http-nio-8082-exec-28] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/coches]
+03-May-2024 17:54:10.836 INFO [http-nio-8082-exec-28] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war]
+03-May-2024 17:54:11.397 INFO [http-nio-8082-exec-28] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-May-2024 17:54:11.400 INFO [http-nio-8082-exec-28] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war] has finished in [564] ms
+03-May-2024 17:54:56.042 INFO [http-nio-8082-exec-23] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/coches]
+03-May-2024 17:54:56.189 WARNING [http-nio-8082-exec-23] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [coches] registered the JDBC driver [oracle.jdbc.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+03-May-2024 17:54:56.189 WARNING [http-nio-8082-exec-23] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [coches] appears to have started a thread named [oracle.jdbc.diagnostics.Diagnostic.CLOCK] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.util.TimerThread.mainLoop(Timer.java:563)
+ java.base/java.util.TimerThread.run(Timer.java:516)
+03-May-2024 17:54:56.211 INFO [http-nio-8082-exec-23] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war]
+03-May-2024 17:54:56.757 INFO [http-nio-8082-exec-23] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-May-2024 17:54:56.760 INFO [http-nio-8082-exec-23] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war] has finished in [549] ms
+03-May-2024 17:55:03.018 INFO [http-nio-8082-exec-35] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/coches]
+03-May-2024 17:55:03.040 INFO [http-nio-8082-exec-35] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war]
+03-May-2024 17:55:03.619 INFO [http-nio-8082-exec-35] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-May-2024 17:55:03.622 INFO [http-nio-8082-exec-35] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war] has finished in [582] ms
+03-May-2024 18:19:00.236 INFO [http-nio-8082-exec-40] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/coches]
+03-May-2024 18:19:00.374 WARNING [http-nio-8082-exec-40] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [coches] registered the JDBC driver [oracle.jdbc.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+03-May-2024 18:19:00.375 WARNING [http-nio-8082-exec-40] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [coches] appears to have started a thread named [oracle.jdbc.diagnostics.Diagnostic.CLOCK] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.util.TimerThread.mainLoop(Timer.java:563)
+ java.base/java.util.TimerThread.run(Timer.java:516)
+03-May-2024 18:19:00.397 INFO [http-nio-8082-exec-40] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war]
+03-May-2024 18:19:01.020 INFO [http-nio-8082-exec-40] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-May-2024 18:19:01.023 INFO [http-nio-8082-exec-40] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war] has finished in [626] ms
+03-May-2024 18:19:28.371 INFO [http-nio-8082-exec-41] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/coches]
+03-May-2024 18:19:28.478 WARNING [http-nio-8082-exec-41] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [coches] registered the JDBC driver [oracle.jdbc.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+03-May-2024 18:19:28.478 WARNING [http-nio-8082-exec-41] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [coches] appears to have started a thread named [oracle.jdbc.diagnostics.Diagnostic.CLOCK] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.util.TimerThread.mainLoop(Timer.java:563)
+ java.base/java.util.TimerThread.run(Timer.java:516)
+03-May-2024 18:19:28.501 INFO [http-nio-8082-exec-41] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war]
+03-May-2024 18:19:29.071 INFO [http-nio-8082-exec-41] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-May-2024 18:19:29.075 INFO [http-nio-8082-exec-41] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war] has finished in [574] ms
+03-May-2024 18:21:14.862 INFO [http-nio-8082-exec-49] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/coches]
+03-May-2024 18:21:14.976 WARNING [http-nio-8082-exec-49] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [coches] registered the JDBC driver [oracle.jdbc.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+03-May-2024 18:21:14.976 WARNING [http-nio-8082-exec-49] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [coches] appears to have started a thread named [oracle.jdbc.diagnostics.Diagnostic.CLOCK] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.util.TimerThread.mainLoop(Timer.java:563)
+ java.base/java.util.TimerThread.run(Timer.java:516)
+03-May-2024 18:21:14.998 INFO [http-nio-8082-exec-49] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war]
+03-May-2024 18:21:15.547 INFO [http-nio-8082-exec-49] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-May-2024 18:21:15.550 INFO [http-nio-8082-exec-49] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war] has finished in [552] ms
+03-May-2024 18:22:16.556 INFO [http-nio-8082-exec-58] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/coches]
+03-May-2024 18:22:16.692 WARNING [http-nio-8082-exec-58] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [coches] registered the JDBC driver [oracle.jdbc.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+03-May-2024 18:22:16.693 WARNING [http-nio-8082-exec-58] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [coches] appears to have started a thread named [oracle.jdbc.diagnostics.Diagnostic.CLOCK] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.util.TimerThread.mainLoop(Timer.java:563)
+ java.base/java.util.TimerThread.run(Timer.java:516)
+03-May-2024 18:22:16.725 INFO [http-nio-8082-exec-58] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war]
+03-May-2024 18:22:17.322 INFO [http-nio-8082-exec-58] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-May-2024 18:22:17.324 INFO [http-nio-8082-exec-58] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war] has finished in [599] ms
+03-May-2024 18:22:53.811 INFO [http-nio-8082-exec-60] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/coches]
+03-May-2024 18:22:53.859 INFO [http-nio-8082-exec-60] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war]
+03-May-2024 18:22:54.545 INFO [http-nio-8082-exec-60] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-May-2024 18:22:54.548 INFO [http-nio-8082-exec-60] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war] has finished in [688] ms
+03-May-2024 18:23:58.266 INFO [http-nio-8082-exec-65] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/coches]
+03-May-2024 18:23:58.374 WARNING [http-nio-8082-exec-65] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [coches] registered the JDBC driver [oracle.jdbc.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+03-May-2024 18:23:58.375 WARNING [http-nio-8082-exec-65] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [coches] appears to have started a thread named [oracle.jdbc.diagnostics.Diagnostic.CLOCK] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.util.TimerThread.mainLoop(Timer.java:563)
+ java.base/java.util.TimerThread.run(Timer.java:516)
+03-May-2024 18:23:58.397 INFO [http-nio-8082-exec-65] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war]
+03-May-2024 18:23:59.001 INFO [http-nio-8082-exec-65] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-May-2024 18:23:59.005 INFO [http-nio-8082-exec-65] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war] has finished in [607] ms
+03-May-2024 18:24:23.681 INFO [http-nio-8082-exec-67] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/coches]
+03-May-2024 18:24:23.735 INFO [http-nio-8082-exec-67] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war]
+03-May-2024 18:24:24.466 INFO [http-nio-8082-exec-67] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-May-2024 18:24:24.470 INFO [http-nio-8082-exec-67] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war] has finished in [735] ms
+03-May-2024 18:25:05.546 INFO [http-nio-8082-exec-72] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/coches]
+03-May-2024 18:25:05.574 INFO [http-nio-8082-exec-72] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war]
+03-May-2024 18:25:06.142 INFO [http-nio-8082-exec-72] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-May-2024 18:25:06.146 INFO [http-nio-8082-exec-72] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war] has finished in [572] ms
+03-May-2024 18:26:45.287 INFO [http-nio-8082-exec-79] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/coches]
+03-May-2024 18:26:45.404 WARNING [http-nio-8082-exec-79] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [coches] registered the JDBC driver [oracle.jdbc.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+03-May-2024 18:26:45.404 WARNING [http-nio-8082-exec-79] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [coches] appears to have started a thread named [oracle.jdbc.diagnostics.Diagnostic.CLOCK] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.util.TimerThread.mainLoop(Timer.java:563)
+ java.base/java.util.TimerThread.run(Timer.java:516)
+03-May-2024 18:26:45.430 INFO [http-nio-8082-exec-79] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war]
+03-May-2024 18:26:46.009 INFO [http-nio-8082-exec-79] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-May-2024 18:26:46.013 INFO [http-nio-8082-exec-79] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war] has finished in [583] ms
+03-May-2024 18:27:01.508 INFO [http-nio-8082-exec-80] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/coches]
+03-May-2024 18:27:01.534 INFO [http-nio-8082-exec-80] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war]
+03-May-2024 18:27:02.102 INFO [http-nio-8082-exec-80] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-May-2024 18:27:02.105 INFO [http-nio-8082-exec-80] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war] has finished in [571] ms
+03-May-2024 18:30:44.316 INFO [http-nio-8082-exec-88] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/coches]
+03-May-2024 18:30:44.431 WARNING [http-nio-8082-exec-88] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [coches] registered the JDBC driver [oracle.jdbc.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+03-May-2024 18:30:44.431 WARNING [http-nio-8082-exec-88] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [coches] appears to have started a thread named [oracle.jdbc.diagnostics.Diagnostic.CLOCK] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.util.TimerThread.mainLoop(Timer.java:563)
+ java.base/java.util.TimerThread.run(Timer.java:516)
+03-May-2024 18:30:44.456 INFO [http-nio-8082-exec-88] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war]
+03-May-2024 18:30:45.047 INFO [http-nio-8082-exec-88] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-May-2024 18:30:45.050 INFO [http-nio-8082-exec-88] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war] has finished in [594] ms
+03-May-2024 18:31:22.103 INFO [http-nio-8082-exec-95] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/coches]
+03-May-2024 18:31:22.131 INFO [http-nio-8082-exec-95] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war]
+03-May-2024 18:31:22.854 INFO [http-nio-8082-exec-95] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-May-2024 18:31:22.858 INFO [http-nio-8082-exec-95] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war] has finished in [727] ms
+03-May-2024 18:31:36.827 INFO [http-nio-8082-exec-102] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/coches]
+03-May-2024 18:31:36.858 INFO [http-nio-8082-exec-102] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war]
+03-May-2024 18:31:37.468 INFO [http-nio-8082-exec-102] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-May-2024 18:31:37.472 INFO [http-nio-8082-exec-102] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war] has finished in [614] ms
+03-May-2024 18:32:02.926 INFO [http-nio-8082-exec-89] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/coches]
+03-May-2024 18:32:02.963 INFO [http-nio-8082-exec-89] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war]
+03-May-2024 18:32:03.518 INFO [http-nio-8082-exec-89] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-May-2024 18:32:03.522 INFO [http-nio-8082-exec-89] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war] has finished in [558] ms
+03-May-2024 18:42:26.770 INFO [http-nio-8082-exec-110] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/coches]
+03-May-2024 18:42:26.798 INFO [http-nio-8082-exec-110] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war]
+03-May-2024 18:42:27.362 INFO [http-nio-8082-exec-110] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-May-2024 18:42:27.364 INFO [http-nio-8082-exec-110] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war] has finished in [566] ms
+03-May-2024 18:42:37.024 INFO [http-nio-8082-exec-117] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/coches]
+03-May-2024 18:42:37.052 INFO [http-nio-8082-exec-117] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war]
+03-May-2024 18:42:37.656 INFO [http-nio-8082-exec-117] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-May-2024 18:42:37.659 INFO [http-nio-8082-exec-117] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war] has finished in [607] ms
+03-May-2024 18:44:40.553 INFO [http-nio-8082-exec-121] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/coches]
+03-May-2024 18:44:40.582 INFO [http-nio-8082-exec-121] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war]
+03-May-2024 18:44:41.179 INFO [http-nio-8082-exec-121] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-May-2024 18:44:41.184 INFO [http-nio-8082-exec-121] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war] has finished in [602] ms
+03-May-2024 18:45:31.384 INFO [http-nio-8082-exec-124] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/coches]
+03-May-2024 18:45:31.449 INFO [http-nio-8082-exec-124] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war]
+03-May-2024 18:45:32.077 INFO [http-nio-8082-exec-124] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-May-2024 18:45:32.081 INFO [http-nio-8082-exec-124] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war] has finished in [632] ms
+03-May-2024 18:49:35.821 INFO [http-nio-8082-exec-136] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/coches]
+03-May-2024 18:49:35.848 INFO [http-nio-8082-exec-136] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war]
+03-May-2024 18:49:36.441 INFO [http-nio-8082-exec-136] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-May-2024 18:49:36.447 INFO [http-nio-8082-exec-136] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war] has finished in [598] ms
+03-May-2024 18:52:52.184 INFO [http-nio-8082-exec-143] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/coches]
+03-May-2024 18:52:52.214 INFO [http-nio-8082-exec-143] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war]
+03-May-2024 18:52:52.809 INFO [http-nio-8082-exec-143] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-May-2024 18:52:52.812 INFO [http-nio-8082-exec-143] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war] has finished in [598] ms
+03-May-2024 18:54:38.372 INFO [http-nio-8082-exec-153] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/coches]
+03-May-2024 18:54:38.524 WARNING [http-nio-8082-exec-153] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [coches] registered the JDBC driver [oracle.jdbc.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+03-May-2024 18:54:38.524 WARNING [http-nio-8082-exec-153] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [coches] appears to have started a thread named [oracle.jdbc.diagnostics.Diagnostic.CLOCK] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.util.TimerThread.mainLoop(Timer.java:563)
+ java.base/java.util.TimerThread.run(Timer.java:516)
+03-May-2024 18:54:38.555 INFO [http-nio-8082-exec-153] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war]
+03-May-2024 18:54:39.151 INFO [http-nio-8082-exec-153] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-May-2024 18:54:39.154 INFO [http-nio-8082-exec-153] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war] has finished in [598] ms
+03-May-2024 18:55:57.038 INFO [http-nio-8082-exec-159] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/coches]
+03-May-2024 18:55:57.115 INFO [http-nio-8082-exec-159] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war]
+03-May-2024 18:55:57.800 INFO [http-nio-8082-exec-159] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-May-2024 18:55:57.803 INFO [http-nio-8082-exec-159] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war] has finished in [688] ms
+03-May-2024 18:56:31.752 INFO [http-nio-8082-exec-160] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/coches]
+03-May-2024 18:56:31.775 INFO [http-nio-8082-exec-160] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war]
+03-May-2024 18:56:32.345 INFO [http-nio-8082-exec-160] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-May-2024 18:56:32.348 INFO [http-nio-8082-exec-160] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war] has finished in [573] ms
+03-May-2024 18:57:10.149 INFO [http-nio-8082-exec-144] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/coches]
+03-May-2024 18:57:10.172 INFO [http-nio-8082-exec-144] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war]
+03-May-2024 18:57:10.746 INFO [http-nio-8082-exec-144] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-May-2024 18:57:10.749 INFO [http-nio-8082-exec-144] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war] has finished in [577] ms
+03-May-2024 19:15:13.642 INFO [http-nio-8082-exec-179] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/coches]
+03-May-2024 19:15:13.685 INFO [http-nio-8082-exec-179] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war]
+03-May-2024 19:15:14.301 INFO [http-nio-8082-exec-179] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-May-2024 19:15:14.305 INFO [http-nio-8082-exec-179] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war] has finished in [619] ms
+03-May-2024 19:17:14.370 INFO [http-nio-8082-exec-184] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/coches]
+03-May-2024 19:17:14.592 WARNING [http-nio-8082-exec-184] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [coches] registered the JDBC driver [oracle.jdbc.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+03-May-2024 19:17:14.594 WARNING [http-nio-8082-exec-184] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [coches] appears to have started a thread named [oracle.jdbc.diagnostics.Diagnostic.CLOCK] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.util.TimerThread.mainLoop(Timer.java:563)
+ java.base/java.util.TimerThread.run(Timer.java:516)
+03-May-2024 19:17:14.637 INFO [http-nio-8082-exec-184] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war]
+03-May-2024 19:17:15.300 INFO [http-nio-8082-exec-184] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-May-2024 19:17:15.302 INFO [http-nio-8082-exec-184] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war] has finished in [665] ms
+03-May-2024 19:19:53.779 INFO [http-nio-8082-exec-193] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/coches]
+03-May-2024 19:19:53.805 INFO [http-nio-8082-exec-193] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war]
+03-May-2024 19:19:54.456 INFO [http-nio-8082-exec-193] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-May-2024 19:19:54.459 INFO [http-nio-8082-exec-193] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war] has finished in [654] ms
+03-May-2024 19:24:58.734 INFO [http-nio-8082-exec-206] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/coches]
+03-May-2024 19:24:58.847 WARNING [http-nio-8082-exec-206] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [coches] registered the JDBC driver [oracle.jdbc.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+03-May-2024 19:24:58.847 WARNING [http-nio-8082-exec-206] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [coches] appears to have started a thread named [oracle.jdbc.diagnostics.Diagnostic.CLOCK] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.util.TimerThread.mainLoop(Timer.java:563)
+ java.base/java.util.TimerThread.run(Timer.java:516)
+03-May-2024 19:24:58.870 INFO [http-nio-8082-exec-206] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war]
+03-May-2024 19:24:59.517 INFO [http-nio-8082-exec-206] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-May-2024 19:24:59.523 INFO [http-nio-8082-exec-206] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war] has finished in [652] ms
+03-May-2024 19:35:02.400 INFO [http-nio-8082-exec-212] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/coches]
+03-May-2024 19:35:02.498 WARNING [http-nio-8082-exec-212] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [coches] registered the JDBC driver [oracle.jdbc.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+03-May-2024 19:35:02.498 WARNING [http-nio-8082-exec-212] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [coches] appears to have started a thread named [oracle.jdbc.diagnostics.Diagnostic.CLOCK] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.util.TimerThread.mainLoop(Timer.java:563)
+ java.base/java.util.TimerThread.run(Timer.java:516)
+03-May-2024 19:35:02.521 INFO [http-nio-8082-exec-212] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war]
+03-May-2024 19:35:03.186 INFO [http-nio-8082-exec-212] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-May-2024 19:35:03.189 INFO [http-nio-8082-exec-212] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war] has finished in [668] ms
+03-May-2024 19:37:03.750 INFO [http-nio-8082-exec-220] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/coches]
+03-May-2024 19:37:03.886 WARNING [http-nio-8082-exec-220] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [coches] registered the JDBC driver [oracle.jdbc.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+03-May-2024 19:37:03.887 WARNING [http-nio-8082-exec-220] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [coches] appears to have started a thread named [oracle.jdbc.diagnostics.Diagnostic.CLOCK] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.util.TimerThread.mainLoop(Timer.java:563)
+ java.base/java.util.TimerThread.run(Timer.java:516)
+03-May-2024 19:37:03.908 INFO [http-nio-8082-exec-220] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war]
+03-May-2024 19:37:04.507 INFO [http-nio-8082-exec-220] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-May-2024 19:37:04.510 INFO [http-nio-8082-exec-220] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war] has finished in [602] ms
+03-May-2024 19:46:01.777 INFO [http-nio-8082-exec-231] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/coches]
+03-May-2024 19:46:01.901 WARNING [http-nio-8082-exec-231] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [coches] registered the JDBC driver [oracle.jdbc.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+03-May-2024 19:46:01.901 WARNING [http-nio-8082-exec-231] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [coches] appears to have started a thread named [oracle.jdbc.diagnostics.Diagnostic.CLOCK] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.util.TimerThread.mainLoop(Timer.java:563)
+ java.base/java.util.TimerThread.run(Timer.java:516)
+03-May-2024 19:46:01.925 INFO [http-nio-8082-exec-231] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war]
+03-May-2024 19:46:02.664 INFO [http-nio-8082-exec-231] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-May-2024 19:46:02.668 INFO [http-nio-8082-exec-231] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war] has finished in [743] ms
+03-May-2024 19:46:26.767 INFO [http-nio-8082-exec-241] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/coches]
+03-May-2024 19:46:26.879 WARNING [http-nio-8082-exec-241] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [coches] registered the JDBC driver [oracle.jdbc.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+03-May-2024 19:46:26.879 WARNING [http-nio-8082-exec-241] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [coches] appears to have started a thread named [oracle.jdbc.diagnostics.Diagnostic.CLOCK] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.util.TimerThread.mainLoop(Timer.java:563)
+ java.base/java.util.TimerThread.run(Timer.java:516)
+03-May-2024 19:46:26.910 INFO [http-nio-8082-exec-241] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war]
+03-May-2024 19:46:27.560 INFO [http-nio-8082-exec-241] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-May-2024 19:46:27.563 INFO [http-nio-8082-exec-241] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war] has finished in [652] ms
+03-May-2024 19:46:53.774 INFO [http-nio-8082-exec-233] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/coches]
+03-May-2024 19:46:53.795 INFO [http-nio-8082-exec-233] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war]
+03-May-2024 19:46:54.364 INFO [http-nio-8082-exec-233] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-May-2024 19:46:54.367 INFO [http-nio-8082-exec-233] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war] has finished in [572] ms
+03-May-2024 19:50:45.101 INFO [http-nio-8082-exec-254] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/coches]
+03-May-2024 19:50:45.213 WARNING [http-nio-8082-exec-254] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [coches] registered the JDBC driver [oracle.jdbc.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+03-May-2024 19:50:45.214 WARNING [http-nio-8082-exec-254] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [coches] appears to have started a thread named [oracle.jdbc.diagnostics.Diagnostic.CLOCK] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.util.TimerThread.mainLoop(Timer.java:563)
+ java.base/java.util.TimerThread.run(Timer.java:516)
+03-May-2024 19:50:45.240 INFO [http-nio-8082-exec-254] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war]
+03-May-2024 19:50:45.935 INFO [http-nio-8082-exec-254] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-May-2024 19:50:45.938 INFO [http-nio-8082-exec-254] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war] has finished in [698] ms
+03-May-2024 19:51:41.336 INFO [http-nio-8082-exec-262] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/coches]
+03-May-2024 19:51:41.476 WARNING [http-nio-8082-exec-262] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [coches] registered the JDBC driver [oracle.jdbc.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+03-May-2024 19:51:41.476 WARNING [http-nio-8082-exec-262] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [coches] appears to have started a thread named [oracle.jdbc.diagnostics.Diagnostic.CLOCK] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.util.TimerThread.mainLoop(Timer.java:563)
+ java.base/java.util.TimerThread.run(Timer.java:516)
+03-May-2024 19:51:41.502 INFO [http-nio-8082-exec-262] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war]
+03-May-2024 19:51:42.142 INFO [http-nio-8082-exec-262] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-May-2024 19:51:42.145 INFO [http-nio-8082-exec-262] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war] has finished in [642] ms
+03-May-2024 19:52:14.934 INFO [http-nio-8082-exec-265] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/coches]
+03-May-2024 19:52:15.052 WARNING [http-nio-8082-exec-265] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [coches] registered the JDBC driver [oracle.jdbc.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+03-May-2024 19:52:15.052 WARNING [http-nio-8082-exec-265] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [coches] appears to have started a thread named [oracle.jdbc.diagnostics.Diagnostic.CLOCK] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.util.TimerThread.mainLoop(Timer.java:563)
+ java.base/java.util.TimerThread.run(Timer.java:516)
+03-May-2024 19:52:15.080 INFO [http-nio-8082-exec-265] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war]
+03-May-2024 19:52:15.676 INFO [http-nio-8082-exec-265] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-May-2024 19:52:15.678 INFO [http-nio-8082-exec-265] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war] has finished in [598] ms
+03-May-2024 20:13:04.009 INFO [http-nio-8082-exec-275] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/coches]
+03-May-2024 20:13:04.119 WARNING [http-nio-8082-exec-275] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [coches] registered the JDBC driver [oracle.jdbc.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+03-May-2024 20:13:04.120 WARNING [http-nio-8082-exec-275] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [coches] appears to have started a thread named [oracle.jdbc.diagnostics.Diagnostic.CLOCK] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.util.TimerThread.mainLoop(Timer.java:563)
+ java.base/java.util.TimerThread.run(Timer.java:516)
+03-May-2024 20:13:04.143 INFO [http-nio-8082-exec-275] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war]
+03-May-2024 20:13:04.737 INFO [http-nio-8082-exec-275] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-May-2024 20:13:04.740 INFO [http-nio-8082-exec-275] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war] has finished in [597] ms
+03-May-2024 20:25:38.724 INFO [http-nio-8082-exec-281] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/coches]
+03-May-2024 20:25:38.826 WARNING [http-nio-8082-exec-281] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [coches] registered the JDBC driver [oracle.jdbc.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+03-May-2024 20:25:38.826 WARNING [http-nio-8082-exec-281] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [coches] appears to have started a thread named [oracle.jdbc.diagnostics.Diagnostic.CLOCK] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.util.TimerThread.mainLoop(Timer.java:563)
+ java.base/java.util.TimerThread.run(Timer.java:516)
+03-May-2024 20:25:38.849 INFO [http-nio-8082-exec-281] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war]
+03-May-2024 20:25:39.449 INFO [http-nio-8082-exec-281] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-May-2024 20:25:39.452 INFO [http-nio-8082-exec-281] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war] has finished in [603] ms
+03-May-2024 20:28:09.013 INFO [http-nio-8082-exec-290] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/coches]
+03-May-2024 20:28:09.131 WARNING [http-nio-8082-exec-290] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [coches] registered the JDBC driver [oracle.jdbc.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+03-May-2024 20:28:09.132 WARNING [http-nio-8082-exec-290] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [coches] appears to have started a thread named [oracle.jdbc.diagnostics.Diagnostic.CLOCK] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.util.TimerThread.mainLoop(Timer.java:563)
+ java.base/java.util.TimerThread.run(Timer.java:516)
+03-May-2024 20:28:09.162 INFO [http-nio-8082-exec-290] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war]
+03-May-2024 20:28:09.750 INFO [http-nio-8082-exec-290] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-May-2024 20:28:09.753 INFO [http-nio-8082-exec-290] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war] has finished in [591] ms
+03-May-2024 20:29:46.332 INFO [http-nio-8082-exec-304] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/coches]
+03-May-2024 20:29:46.496 WARNING [http-nio-8082-exec-304] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [coches] registered the JDBC driver [oracle.jdbc.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+03-May-2024 20:29:46.496 WARNING [http-nio-8082-exec-304] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [coches] appears to have started a thread named [oracle.jdbc.diagnostics.Diagnostic.CLOCK] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.util.TimerThread.mainLoop(Timer.java:563)
+ java.base/java.util.TimerThread.run(Timer.java:516)
+03-May-2024 20:29:46.532 INFO [http-nio-8082-exec-304] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war]
+03-May-2024 20:29:47.209 INFO [http-nio-8082-exec-304] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-May-2024 20:29:47.213 INFO [http-nio-8082-exec-304] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war] has finished in [680] ms
+03-May-2024 20:33:09.212 INFO [http-nio-8082-exec-313] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/coches]
+03-May-2024 20:33:09.321 WARNING [http-nio-8082-exec-313] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [coches] registered the JDBC driver [oracle.jdbc.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+03-May-2024 20:33:09.321 WARNING [http-nio-8082-exec-313] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [coches] appears to have started a thread named [oracle.jdbc.diagnostics.Diagnostic.CLOCK] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.util.TimerThread.mainLoop(Timer.java:563)
+ java.base/java.util.TimerThread.run(Timer.java:516)
+03-May-2024 20:33:09.346 INFO [http-nio-8082-exec-313] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war]
+03-May-2024 20:33:09.962 INFO [http-nio-8082-exec-313] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-May-2024 20:33:09.966 INFO [http-nio-8082-exec-313] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war] has finished in [620] ms
+03-May-2024 20:47:37.691 INFO [http-nio-8082-exec-318] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/coches]
+03-May-2024 20:47:37.799 WARNING [http-nio-8082-exec-318] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [coches] registered the JDBC driver [oracle.jdbc.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+03-May-2024 20:47:37.800 WARNING [http-nio-8082-exec-318] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [coches] appears to have started a thread named [oracle.jdbc.diagnostics.Diagnostic.CLOCK] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.util.TimerThread.mainLoop(Timer.java:563)
+ java.base/java.util.TimerThread.run(Timer.java:516)
+03-May-2024 20:47:37.834 INFO [http-nio-8082-exec-318] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war]
+03-May-2024 20:47:38.441 INFO [http-nio-8082-exec-318] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-May-2024 20:47:38.444 INFO [http-nio-8082-exec-318] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war] has finished in [610] ms
+03-May-2024 20:53:13.366 INFO [http-nio-8082-exec-328] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/coches]
+03-May-2024 20:53:13.391 INFO [http-nio-8082-exec-328] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war]
+03-May-2024 20:53:14.002 INFO [http-nio-8082-exec-328] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-May-2024 20:53:14.005 INFO [http-nio-8082-exec-328] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war] has finished in [614] ms
+03-May-2024 20:54:35.712 INFO [http-nio-8082-exec-339] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/coches]
+03-May-2024 20:54:35.821 WARNING [http-nio-8082-exec-339] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [coches] registered the JDBC driver [oracle.jdbc.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+03-May-2024 20:54:35.822 WARNING [http-nio-8082-exec-339] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [coches] appears to have started a thread named [oracle.jdbc.diagnostics.Diagnostic.CLOCK] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.util.TimerThread.mainLoop(Timer.java:563)
+ java.base/java.util.TimerThread.run(Timer.java:516)
+03-May-2024 20:54:35.846 INFO [http-nio-8082-exec-339] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war]
+03-May-2024 20:54:36.449 INFO [http-nio-8082-exec-339] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-May-2024 20:54:36.453 INFO [http-nio-8082-exec-339] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war] has finished in [607] ms
+03-May-2024 20:56:50.826 INFO [http-nio-8082-exec-347] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/coches]
+03-May-2024 20:56:50.937 WARNING [http-nio-8082-exec-347] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [coches] registered the JDBC driver [oracle.jdbc.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+03-May-2024 20:56:50.938 WARNING [http-nio-8082-exec-347] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [coches] appears to have started a thread named [oracle.jdbc.diagnostics.Diagnostic.CLOCK] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.util.TimerThread.mainLoop(Timer.java:563)
+ java.base/java.util.TimerThread.run(Timer.java:516)
+03-May-2024 20:56:50.961 INFO [http-nio-8082-exec-347] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war]
+03-May-2024 20:56:51.610 INFO [http-nio-8082-exec-347] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-May-2024 20:56:51.613 INFO [http-nio-8082-exec-347] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\jimmy\Desktop\apache-tomcat-9.0.87\webapps\coches.war] has finished in [652] ms
