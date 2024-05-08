@@ -4,7 +4,12 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
 <%@include file="includes/header.jsp"%>
-
+<style>
+    .btn-black{
+        background-color: #000 !important;
+        color: #fff;
+    }
+</style>
 <script>
     $(document).ready(function () {
         $("#edit-button").click(function (event) {
@@ -83,7 +88,7 @@
                 <input type="number" name="price" class="form-control" id="price">
             </div>
             <div class="col-12">
-                <input type="submit" value="Enviar" id="edit-button"/>
+                <button class="btn btn-black w-100" id="edit-button" type="submit">Enviar</button>
             </div>
         </form>
         <div id="result"></div>

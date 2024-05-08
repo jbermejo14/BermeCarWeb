@@ -21,9 +21,10 @@ public class EditUserServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         response.setContentType("text/html");
         response.setCharacterEncoding("UTF-8");
-        int id = 0;
-        id = Integer.parseInt(request.getParameter("id"));
 
+
+        HttpSession currentSession = request.getSession();
+        int id = (int) currentSession.getAttribute("id");
         try {
             String username = request.getParameter("username");
             String password = request.getParameter("password");
@@ -32,7 +33,7 @@ public class EditUserServlet extends HttpServlet {
             final int finalId = id;
             int affectedRows = Database.jdbi.withExtension(UserDao.class,
                     dao -> dao.updateUser(username, password, telephone, finalId));
-            sendMessage("Actividad modificada correctamente", response);
+            sendMessage("Usuario modificado correctamente", response);
         } catch (ClassNotFoundException cnfe) {
             cnfe.printStackTrace();
             sendError("Internal Server Error", response);

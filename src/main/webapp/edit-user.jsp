@@ -4,7 +4,12 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
 <%@include file="includes/header.jsp"%>
-
+<style>
+    .btn-black{
+        background-color: #000 !important;
+        color: #fff;
+    }
+</style>
 <script>
     $(document).ready(function () {
         $("#edit-button").click(function (event) {
@@ -56,7 +61,7 @@
             </div>
 
             <div class="mb-3">
-                <label for="telephone" class="form-label">Telefono</label>
+                <label for="telephone" class="form-label">Teléfono</label>
                 <input type="text" name="telephone" class="form-control" id="telephone"
                     value="<%= user.getTelephone() %>">
             </div>
@@ -65,7 +70,7 @@
                 <input type="password" name="password" class="form-control" id="password">
             </div>
             <div class="col-12">
-                <input type="submit" value="Enviar" id="edit-button"/>
+                <button class="btn btn-black w-100" id="edit-button" type="submit">Enviar</button>
             </div>
         </form>
         <br/>

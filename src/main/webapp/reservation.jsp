@@ -5,7 +5,12 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
 <%@include file="includes/header.jsp"%>
-
+<style>
+    .btn-black{
+        background-color: #000 !important;
+        color: #fff;
+    }
+</style>
 <main>
     <section class="py-5 text-center container">
         <h1>Mis Reservas</h1>
@@ -23,7 +28,7 @@
             <%
                 for (Reservation reservation : reservations) {
             %>
-            <a href="#" type="button" class="btn btn-sm btn-outline-primary">
+            <a href="#" type="button" class="btn btn-sm btn-black m-2">
                 <div class="d-flex w-100 justify-content-between">
                     <h6 class="mb-1">Reserva Nº: <%=reservation.getId()%></h6>
                     <p class="mb-1"><%=reservation.getDatetime()%></p>
