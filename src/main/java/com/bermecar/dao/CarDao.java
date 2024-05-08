@@ -28,5 +28,7 @@ public interface CarDao {
     @SqlUpdate("UPDATE cars SET license_plate = ?, brand = ?, model = ?, country = ?, year = ?, price = ?, photo = ? WHERE id = ?")
     int updateCar(String license_plate, String brand, String model, String country, int year, float price, String picture, int id);
 
+    @SqlUpdate("DELETE FROM cars WHERE id = ?")
+    int removeCar(int id);
 
 }

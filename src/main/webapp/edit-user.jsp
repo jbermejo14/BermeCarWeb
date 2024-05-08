@@ -62,7 +62,7 @@
             </div>
             <div class="mb-3">
                 <label for="password" class="form-label">Contraseña</label>
-                <input type="text" name="password" class="form-control" id="password">
+                <input type="password" name="password" class="form-control" id="password">
             </div>
             <div class="col-12">
                 <input type="submit" value="Enviar" id="edit-button"/>

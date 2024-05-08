@@ -18,8 +18,6 @@ body {
     font-family: "Lato", sans-serif;
 }
 
-
-
 .main-head{
     height: 150px;
     background: #FFF;
@@ -133,7 +131,6 @@ $(document).ready(function() {
                         <input type="password" name="password" class="form-control" id="floatingPassword" placeholder="Contraseña">
                         <label for="floatingPassword">Contraseña</label>
                     </div>
-
                     <button class="btn btn-black w-100" type="submit">Iniciar sesión</button>
                     <p class="h5 fw-normal"><a href="register.jsp" class="nav-link">¿No tienes cuenta? Registrate!</a></p>
                 </form>

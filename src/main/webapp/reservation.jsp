@@ -23,12 +23,11 @@
             <%
                 for (Reservation reservation : reservations) {
             %>
-            <a href="view-car.jsp?id=<%= reservation.getCar().getId() %>" type="button" class="btn btn-sm btn-outline-primary">Ver</a></div>
+            <a href="#" type="button" class="btn btn-sm btn-outline-primary">
                 <div class="d-flex w-100 justify-content-between">
-                    <h5 class="mb-1"><%=reservation.getCar().getBrand()%></h5>
-                    <h5 class="mb-1"><%=reservation.getDatetime()%></h5>
+                    <h6 class="mb-1">Reserva Nº: <%=reservation.getId()%></h6>
+                    <p class="mb-1"><%=reservation.getDatetime()%></p>
                 </div>
-                <p class="mb-1"><%=reservation.getId()%></p>
             </a>
             <%
                 }

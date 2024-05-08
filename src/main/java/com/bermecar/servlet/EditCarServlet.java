@@ -42,19 +42,13 @@ public class EditCarServlet extends HttpServlet {
             int year = Integer.parseInt(request.getParameter("year"));
             float price = Float.parseFloat(request.getParameter("price"));
 
-            String finalFilename2 = "test.jpg";
+            String finalFilename2 = "no-photo.png";
             Database.connect();
 
-            if (id == 0) {
-                int affectedRows = Database.jdbi.withExtension(CarDao.class,
-                        dao -> dao.addCar(license_plate, brand, model, country, year, price, finalFilename2));
-                sendMessage("Actividad registrada correctamente", response);
-            } else {
-                final int finalId = id;
-                int affectedRows = Database.jdbi.withExtension(CarDao.class,
-                        dao -> dao.updateCar(license_plate, brand, model, country, year, price, finalFilename2, finalId));
-                sendMessage("Actividad modificada correctamente", response);
-            }
+            int affectedRows = Database.jdbi.withExtension(CarDao.class,
+                    dao -> dao.addCar(license_plate, brand, model, country, year, price, finalFilename2));
+            sendMessage("Coche registrado correctamente", response);
+
         } catch (ClassNotFoundException cnfe) {
             cnfe.printStackTrace();
             sendError("Internal Server Error", response);
