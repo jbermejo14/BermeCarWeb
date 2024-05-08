@@ -17,7 +17,7 @@ public class ReservationMapper implements RowMapper<Reservation> {
             try {
                 return dao.getCar(rs.getInt("id"));
             } catch (SQLException e) {
-                return new Car(); // return a default Car object
+                return new Car();
             }
         });
         User user = Database.jdbi.withExtension(UserDao.class, dao -> dao.getUser(rs.getInt("id")));
