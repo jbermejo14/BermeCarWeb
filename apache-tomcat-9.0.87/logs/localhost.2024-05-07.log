@@ -2038,9 +2038,9 @@ Stacktrace:
 07-May-2024 08:46:41.333 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
 07-May-2024 08:46:41.333 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
 07-May-2024 08:46:41.335 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@1f87607c')
-07-May-2024 09:16:26.700 SEVERE [http-nio-8082-exec-45] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [com.bermecar.servlet.EditCarServlet] in context with path [/bermecars] threw exception
+07-May-2024 09:16:26.700 SEVERE [http-nio-8082-exec-45] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [com.bermecar.servlet.AddCarServlet] in context with path [/bermecars] threw exception
 	java.lang.NullPointerException: Cannot invoke "Object.toString()" because the return value of "javax.servlet.ServletContext.getAttribute(String)" is null
-		at com.bermecar.servlet.EditCarServlet.doPost(EditCarServlet.java:55)
+		at com.bermecar.servlet.AddCarServlet.doPost(EditCarServlet.java:55)
 		at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
 		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
 		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:210)
@@ -2065,9 +2065,9 @@ Stacktrace:
 		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
 		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
 		at java.base/java.lang.Thread.run(Thread.java:1583)
-07-May-2024 09:17:34.603 SEVERE [http-nio-8082-exec-51] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [com.bermecar.servlet.EditCarServlet] in context with path [/bermecars] threw exception
+07-May-2024 09:17:34.603 SEVERE [http-nio-8082-exec-51] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [com.bermecar.servlet.AddCarServlet] in context with path [/bermecars] threw exception
 	java.lang.NullPointerException: Cannot invoke "Object.toString()" because the return value of "javax.servlet.ServletContext.getAttribute(String)" is null
-		at com.bermecar.servlet.EditCarServlet.doPost(EditCarServlet.java:55)
+		at com.bermecar.servlet.AddCarServlet.doPost(EditCarServlet.java:55)
 		at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
 		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
 		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:210)
@@ -2092,9 +2092,9 @@ Stacktrace:
 		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
 		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
 		at java.base/java.lang.Thread.run(Thread.java:1583)
-07-May-2024 09:22:39.419 SEVERE [http-nio-8082-exec-49] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [com.bermecar.servlet.EditCarServlet] in context with path [/bermecars] threw exception
+07-May-2024 09:22:39.419 SEVERE [http-nio-8082-exec-49] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [com.bermecar.servlet.AddCarServlet] in context with path [/bermecars] threw exception
 	java.lang.NullPointerException: Cannot invoke "Object.toString()" because the return value of "javax.servlet.ServletContext.getAttribute(String)" is null
-		at com.bermecar.servlet.EditCarServlet.doPost(EditCarServlet.java:55)
+		at com.bermecar.servlet.AddCarServlet.doPost(EditCarServlet.java:55)
 		at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
 		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
 		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:210)
@@ -2119,9 +2119,9 @@ Stacktrace:
 		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
 		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
 		at java.base/java.lang.Thread.run(Thread.java:1583)
-07-May-2024 09:26:22.677 SEVERE [http-nio-8082-exec-68] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [com.bermecar.servlet.EditCarServlet] in context with path [/bermecars] threw exception
+07-May-2024 09:26:22.677 SEVERE [http-nio-8082-exec-68] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [com.bermecar.servlet.AddCarServlet] in context with path [/bermecars] threw exception
 	java.lang.NullPointerException: Cannot invoke "Object.toString()" because the return value of "javax.servlet.ServletContext.getAttribute(String)" is null
-		at com.bermecar.servlet.EditCarServlet.doPost(EditCarServlet.java:55)
+		at com.bermecar.servlet.AddCarServlet.doPost(EditCarServlet.java:55)
 		at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
 		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
 		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:210)
@@ -2146,7 +2146,7 @@ Stacktrace:
 		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
 		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
 		at java.base/java.lang.Thread.run(Thread.java:1583)
-07-May-2024 09:27:32.886 SEVERE [http-nio-8082-exec-68] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [com.bermecar.servlet.EditCarServlet] in context with path [/bermecars] threw exception
+07-May-2024 09:27:32.886 SEVERE [http-nio-8082-exec-68] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [com.bermecar.servlet.AddCarServlet] in context with path [/bermecars] threw exception
 	org.jdbi.v3.core.statement.UnableToCreateStatementException: Superfluous positional param at (0 based) position 6 [statement:"INSERT INTO cars (license_plate, brand, model, country, year, price, photo) VALUES (?, ?, ?, ?, ?, ?)", arguments:{positional:{0:1233ttt,1:test,2:test,3:test,4:2002,5:1233412.0,6:test.jpg}, named:{}, finder:[]}]
 		at org.jdbi.v3.core.statement.ArgumentBinder.bindPositional(ArgumentBinder.java:75)
 		at org.jdbi.v3.core.statement.ArgumentBinder.bind(ArgumentBinder.java:66)
@@ -2163,10 +2163,10 @@ Stacktrace:
 		at org.jdbi.v3.core.extension.ExtensionMetadata$ExtensionHandlerInvoker.invoke(ExtensionMetadata.java:331)
 		at org.jdbi.v3.core.extension.ExtensionFactoryDelegate.lambda$attach$0(ExtensionFactoryDelegate.java:117)
 		at jdk.proxy10/jdk.proxy10.$Proxy178.addCar(Unknown Source)
-		at com.bermecar.servlet.EditCarServlet.lambda$doPost$0(EditCarServlet.java:58)
+		at com.bermecar.servlet.AddCarServlet.lambda$doPost$0(EditCarServlet.java:58)
 		at org.jdbi.v3.core.Jdbi.callWithExtension(Jdbi.java:506)
 		at org.jdbi.v3.core.Jdbi.withExtension(Jdbi.java:493)
-		at com.bermecar.servlet.EditCarServlet.doPost(EditCarServlet.java:57)
+		at com.bermecar.servlet.AddCarServlet.doPost(EditCarServlet.java:57)
 		at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
 		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
 		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:210)
@@ -2191,7 +2191,7 @@ Stacktrace:
 		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
 		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
 		at java.base/java.lang.Thread.run(Thread.java:1583)
-07-May-2024 09:28:18.032 SEVERE [http-nio-8082-exec-77] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [com.bermecar.servlet.EditCarServlet] in context with path [/bermecars] threw exception
+07-May-2024 09:28:18.032 SEVERE [http-nio-8082-exec-77] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [com.bermecar.servlet.AddCarServlet] in context with path [/bermecars] threw exception
 	org.jdbi.v3.core.statement.UnableToCreateStatementException: Superfluous positional param at (0 based) position 6 [statement:"INSERT INTO cars (license_plate, brand, model, country, year, price, photo) VALUES (?, ?, ?, ?, ?, ?)", arguments:{positional:{0:12312323,1:test,2:test,3:test,4:2005,5:2314.0,6:test.jpg}, named:{}, finder:[]}]
 		at org.jdbi.v3.core.statement.ArgumentBinder.bindPositional(ArgumentBinder.java:75)
 		at org.jdbi.v3.core.statement.ArgumentBinder.bind(ArgumentBinder.java:66)
@@ -2208,10 +2208,10 @@ Stacktrace:
 		at org.jdbi.v3.core.extension.ExtensionMetadata$ExtensionHandlerInvoker.invoke(ExtensionMetadata.java:331)
 		at org.jdbi.v3.core.extension.ExtensionFactoryDelegate.lambda$attach$0(ExtensionFactoryDelegate.java:117)
 		at jdk.proxy10/jdk.proxy10.$Proxy178.addCar(Unknown Source)
-		at com.bermecar.servlet.EditCarServlet.lambda$doPost$0(EditCarServlet.java:58)
+		at com.bermecar.servlet.AddCarServlet.lambda$doPost$0(EditCarServlet.java:58)
 		at org.jdbi.v3.core.Jdbi.callWithExtension(Jdbi.java:506)
 		at org.jdbi.v3.core.Jdbi.withExtension(Jdbi.java:493)
-		at com.bermecar.servlet.EditCarServlet.doPost(EditCarServlet.java:57)
+		at com.bermecar.servlet.AddCarServlet.doPost(EditCarServlet.java:57)
 		at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
 		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
 		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:210)
@@ -3581,11 +3581,11 @@ Stacktrace:
 		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
 		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
 		at java.base/java.lang.Thread.run(Thread.java:1583)
-07-May-2024 15:39:42.495 SEVERE [http-nio-8082-exec-471] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [com.bermecar.servlet.EditCarServlet] in context with path [/bermecars] threw exception
+07-May-2024 15:39:42.495 SEVERE [http-nio-8082-exec-471] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [com.bermecar.servlet.AddCarServlet] in context with path [/bermecars] threw exception
 	java.lang.NumberFormatException: Cannot parse null string
 		at java.base/java.lang.Integer.parseInt(Integer.java:623)
 		at java.base/java.lang.Integer.parseInt(Integer.java:777)
-		at com.bermecar.servlet.EditCarServlet.doPost(EditCarServlet.java:42)
+		at com.bermecar.servlet.AddCarServlet.doPost(EditCarServlet.java:42)
 		at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
 		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
 		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:210)
@@ -3610,11 +3610,11 @@ Stacktrace:
 		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
 		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
 		at java.base/java.lang.Thread.run(Thread.java:1583)
-07-May-2024 15:39:44.695 SEVERE [http-nio-8082-exec-464] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [com.bermecar.servlet.EditCarServlet] in context with path [/bermecars] threw exception
+07-May-2024 15:39:44.695 SEVERE [http-nio-8082-exec-464] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [com.bermecar.servlet.AddCarServlet] in context with path [/bermecars] threw exception
 	java.lang.NumberFormatException: Cannot parse null string
 		at java.base/java.lang.Integer.parseInt(Integer.java:623)
 		at java.base/java.lang.Integer.parseInt(Integer.java:777)
-		at com.bermecar.servlet.EditCarServlet.doPost(EditCarServlet.java:42)
+		at com.bermecar.servlet.AddCarServlet.doPost(EditCarServlet.java:42)
 		at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
 		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
 		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:210)
@@ -3639,11 +3639,11 @@ Stacktrace:
 		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
 		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
 		at java.base/java.lang.Thread.run(Thread.java:1583)
-07-May-2024 15:40:00.287 SEVERE [http-nio-8082-exec-472] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [com.bermecar.servlet.EditCarServlet] in context with path [/bermecars] threw exception
+07-May-2024 15:40:00.287 SEVERE [http-nio-8082-exec-472] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [com.bermecar.servlet.AddCarServlet] in context with path [/bermecars] threw exception
 	java.lang.NumberFormatException: Cannot parse null string
 		at java.base/java.lang.Integer.parseInt(Integer.java:623)
 		at java.base/java.lang.Integer.parseInt(Integer.java:777)
-		at com.bermecar.servlet.EditCarServlet.doPost(EditCarServlet.java:42)
+		at com.bermecar.servlet.AddCarServlet.doPost(EditCarServlet.java:42)
 		at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
 		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
 		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:210)
@@ -3668,11 +3668,11 @@ Stacktrace:
 		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
 		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
 		at java.base/java.lang.Thread.run(Thread.java:1583)
-07-May-2024 15:40:00.436 SEVERE [http-nio-8082-exec-461] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [com.bermecar.servlet.EditCarServlet] in context with path [/bermecars] threw exception
+07-May-2024 15:40:00.436 SEVERE [http-nio-8082-exec-461] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [com.bermecar.servlet.AddCarServlet] in context with path [/bermecars] threw exception
 	java.lang.NumberFormatException: Cannot parse null string
 		at java.base/java.lang.Integer.parseInt(Integer.java:623)
 		at java.base/java.lang.Integer.parseInt(Integer.java:777)
-		at com.bermecar.servlet.EditCarServlet.doPost(EditCarServlet.java:42)
+		at com.bermecar.servlet.AddCarServlet.doPost(EditCarServlet.java:42)
 		at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
 		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
 		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:210)
@@ -3739,11 +3739,11 @@ Stacktrace:] with root cause
 		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
 		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
 		at java.base/java.lang.Thread.run(Thread.java:1583)
-07-May-2024 15:47:30.585 SEVERE [http-nio-8082-exec-472] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [com.bermecar.servlet.EditCarServlet] in context with path [/bermecars] threw exception
+07-May-2024 15:47:30.585 SEVERE [http-nio-8082-exec-472] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [com.bermecar.servlet.AddCarServlet] in context with path [/bermecars] threw exception
 	java.lang.NumberFormatException: Cannot parse null string
 		at java.base/java.lang.Integer.parseInt(Integer.java:623)
 		at java.base/java.lang.Integer.parseInt(Integer.java:777)
-		at com.bermecar.servlet.EditCarServlet.doPost(EditCarServlet.java:42)
+		at com.bermecar.servlet.AddCarServlet.doPost(EditCarServlet.java:42)
 		at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
 		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
 		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:210)
@@ -3768,11 +3768,11 @@ Stacktrace:] with root cause
 		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
 		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
 		at java.base/java.lang.Thread.run(Thread.java:1583)
-07-May-2024 15:47:32.205 SEVERE [http-nio-8082-exec-482] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [com.bermecar.servlet.EditCarServlet] in context with path [/bermecars] threw exception
+07-May-2024 15:47:32.205 SEVERE [http-nio-8082-exec-482] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [com.bermecar.servlet.AddCarServlet] in context with path [/bermecars] threw exception
 	java.lang.NumberFormatException: Cannot parse null string
 		at java.base/java.lang.Integer.parseInt(Integer.java:623)
 		at java.base/java.lang.Integer.parseInt(Integer.java:777)
-		at com.bermecar.servlet.EditCarServlet.doPost(EditCarServlet.java:42)
+		at com.bermecar.servlet.AddCarServlet.doPost(EditCarServlet.java:42)
 		at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
 		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
 		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:210)
@@ -3797,11 +3797,11 @@ Stacktrace:] with root cause
 		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
 		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
 		at java.base/java.lang.Thread.run(Thread.java:1583)
-07-May-2024 15:47:35.599 SEVERE [http-nio-8082-exec-483] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [com.bermecar.servlet.EditCarServlet] in context with path [/bermecars] threw exception
+07-May-2024 15:47:35.599 SEVERE [http-nio-8082-exec-483] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [com.bermecar.servlet.AddCarServlet] in context with path [/bermecars] threw exception
 	java.lang.NumberFormatException: Cannot parse null string
 		at java.base/java.lang.Integer.parseInt(Integer.java:623)
 		at java.base/java.lang.Integer.parseInt(Integer.java:777)
-		at com.bermecar.servlet.EditCarServlet.doPost(EditCarServlet.java:42)
+		at com.bermecar.servlet.AddCarServlet.doPost(EditCarServlet.java:42)
 		at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
 		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
 		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:210)
@@ -3826,11 +3826,11 @@ Stacktrace:] with root cause
 		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
 		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
 		at java.base/java.lang.Thread.run(Thread.java:1583)
-07-May-2024 15:48:34.960 SEVERE [http-nio-8082-exec-481] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [com.bermecar.servlet.EditCarServlet] in context with path [/bermecars] threw exception
+07-May-2024 15:48:34.960 SEVERE [http-nio-8082-exec-481] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [com.bermecar.servlet.AddCarServlet] in context with path [/bermecars] threw exception
 	java.lang.NumberFormatException: Cannot parse null string
 		at java.base/java.lang.Integer.parseInt(Integer.java:623)
 		at java.base/java.lang.Integer.parseInt(Integer.java:777)
-		at com.bermecar.servlet.EditCarServlet.doPost(EditCarServlet.java:42)
+		at com.bermecar.servlet.AddCarServlet.doPost(EditCarServlet.java:42)
 		at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
 		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
 		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:210)
@@ -3855,11 +3855,11 @@ Stacktrace:] with root cause
 		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
 		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
 		at java.base/java.lang.Thread.run(Thread.java:1583)
-07-May-2024 16:00:33.733 SEVERE [http-nio-8082-exec-498] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [com.bermecar.servlet.EditCarServlet] in context with path [/bermecars] threw exception
+07-May-2024 16:00:33.733 SEVERE [http-nio-8082-exec-498] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [com.bermecar.servlet.AddCarServlet] in context with path [/bermecars] threw exception
 	java.lang.NumberFormatException: Cannot parse null string
 		at java.base/java.lang.Integer.parseInt(Integer.java:623)
 		at java.base/java.lang.Integer.parseInt(Integer.java:777)
-		at com.bermecar.servlet.EditCarServlet.doPost(EditCarServlet.java:42)
+		at com.bermecar.servlet.AddCarServlet.doPost(EditCarServlet.java:42)
 		at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
 		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
 		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:210)
@@ -3884,11 +3884,11 @@ Stacktrace:] with root cause
 		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
 		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
 		at java.base/java.lang.Thread.run(Thread.java:1583)
-07-May-2024 16:04:21.494 SEVERE [http-nio-8082-exec-507] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [com.bermecar.servlet.EditCarServlet] in context with path [/bermecars] threw exception
+07-May-2024 16:04:21.494 SEVERE [http-nio-8082-exec-507] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [com.bermecar.servlet.AddCarServlet] in context with path [/bermecars] threw exception
 	java.lang.NumberFormatException: Cannot parse null string
 		at java.base/java.lang.Integer.parseInt(Integer.java:623)
 		at java.base/java.lang.Integer.parseInt(Integer.java:777)
-		at com.bermecar.servlet.EditCarServlet.doPost(EditCarServlet.java:42)
+		at com.bermecar.servlet.AddCarServlet.doPost(EditCarServlet.java:42)
 		at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
 		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
 		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:210)
@@ -3913,11 +3913,11 @@ Stacktrace:] with root cause
 		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
 		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
 		at java.base/java.lang.Thread.run(Thread.java:1583)
-07-May-2024 16:06:19.359 SEVERE [http-nio-8082-exec-515] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [com.bermecar.servlet.EditCarServlet] in context with path [/bermecars] threw exception
+07-May-2024 16:06:19.359 SEVERE [http-nio-8082-exec-515] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [com.bermecar.servlet.AddCarServlet] in context with path [/bermecars] threw exception
 	java.lang.NumberFormatException: Cannot parse null string
 		at java.base/java.lang.Integer.parseInt(Integer.java:623)
 		at java.base/java.lang.Integer.parseInt(Integer.java:777)
-		at com.bermecar.servlet.EditCarServlet.doPost(EditCarServlet.java:42)
+		at com.bermecar.servlet.AddCarServlet.doPost(EditCarServlet.java:42)
 		at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
 		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
 		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:210)
@@ -3942,11 +3942,11 @@ Stacktrace:] with root cause
 		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
 		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
 		at java.base/java.lang.Thread.run(Thread.java:1583)
-07-May-2024 16:12:43.120 SEVERE [http-nio-8082-exec-526] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [com.bermecar.servlet.EditCarServlet] in context with path [/bermecars] threw exception
+07-May-2024 16:12:43.120 SEVERE [http-nio-8082-exec-526] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [com.bermecar.servlet.AddCarServlet] in context with path [/bermecars] threw exception
 	java.lang.NumberFormatException: Cannot parse null string
 		at java.base/java.lang.Integer.parseInt(Integer.java:623)
 		at java.base/java.lang.Integer.parseInt(Integer.java:777)
-		at com.bermecar.servlet.EditCarServlet.doPost(EditCarServlet.java:42)
+		at com.bermecar.servlet.AddCarServlet.doPost(EditCarServlet.java:42)
 		at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
 		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
 		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:210)
@@ -4097,11 +4097,11 @@ Stacktrace:] with root cause
 		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
 		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
 		at java.base/java.lang.Thread.run(Thread.java:1583)
-07-May-2024 16:17:03.997 SEVERE [http-nio-8082-exec-534] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [com.bermecar.servlet.EditCarServlet] in context with path [/bermecars] threw exception
+07-May-2024 16:17:03.997 SEVERE [http-nio-8082-exec-534] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [com.bermecar.servlet.AddCarServlet] in context with path [/bermecars] threw exception
 	java.lang.NumberFormatException: Cannot parse null string
 		at java.base/java.lang.Integer.parseInt(Integer.java:623)
 		at java.base/java.lang.Integer.parseInt(Integer.java:777)
-		at com.bermecar.servlet.EditCarServlet.doPost(EditCarServlet.java:42)
+		at com.bermecar.servlet.AddCarServlet.doPost(EditCarServlet.java:42)
 		at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
 		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
 		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:210)
@@ -4210,11 +4210,11 @@ Stacktrace:] with root cause
 		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
 		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
 		at java.base/java.lang.Thread.run(Thread.java:1583)
-07-May-2024 16:24:43.697 SEVERE [http-nio-8082-exec-544] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [com.bermecar.servlet.EditCarServlet] in context with path [/bermecars] threw exception
+07-May-2024 16:24:43.697 SEVERE [http-nio-8082-exec-544] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [com.bermecar.servlet.AddCarServlet] in context with path [/bermecars] threw exception
 	java.lang.NumberFormatException: Cannot parse null string
 		at java.base/java.lang.Integer.parseInt(Integer.java:623)
 		at java.base/java.lang.Integer.parseInt(Integer.java:777)
-		at com.bermecar.servlet.EditCarServlet.doPost(EditCarServlet.java:42)
+		at com.bermecar.servlet.AddCarServlet.doPost(EditCarServlet.java:42)
 		at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
 		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
 		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:210)

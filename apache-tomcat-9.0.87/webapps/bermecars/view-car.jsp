@@ -26,6 +26,7 @@
                         if (role.equals("admin")) {
                     %>
                         <a href="removecar?id=<%= car.getId()%>" class="btn btn-primary">Borrar</a>
+                        <a href="edit-car.jsp?id=<%= car.getId()%>" class="btn btn-primary">Editar</a>
                     <%
                        }
                     %>

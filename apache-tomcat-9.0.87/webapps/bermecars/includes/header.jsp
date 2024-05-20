@@ -56,7 +56,7 @@
               <li><a href="reservation.jsp" class="nav-link px-2 text-white">Reservas</a></li>
               <li><a href="user-profile.jsp" class="nav-link px-2 text-white">Perfil</a></li>
               <li><a href="list-users.jsp" class="nav-link px-2 text-white">Usuarios</a></li>
-              <li><a href="edit-car.jsp" class="nav-link px-2 text-white">Editar</a></li>
+              <li><a href="add-car.jsp" class="nav-link px-2 text-white">Coches</a></li>
         </div>
 
         <button type="button" class="btn btn-outline-light text-white me-2 mr-2"><a href="logout" title="logout" class="text-decoration-none">Logout</a></button>

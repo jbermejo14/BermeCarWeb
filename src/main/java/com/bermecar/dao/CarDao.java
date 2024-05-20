@@ -23,10 +23,10 @@ public interface CarDao {
     List<Car> getCars(@Bind("searchTerm") String searchTerm);
 
     @SqlUpdate("INSERT INTO cars (license_plate, brand, model, country, year, price, photo) VALUES (?, ?, ?, ?, ?, ?, ?)")
-    int addCar(String license_plate, String brand, String model, String country, int year, float price, String picture);
+    int addCar(String license_plate, String brand, String model, String country, int year, float price, String photo);
 
     @SqlUpdate("UPDATE cars SET license_plate = ?, brand = ?, model = ?, country = ?, year = ?, price = ?, photo = ? WHERE id = ?")
-    int updateCar(String license_plate, String brand, String model, String country, int year, float price, String picture, int id);
+    int updateCar(String license_plate, String brand, String model, String country, int year, float price, String photo, int id);
 
     @SqlUpdate("DELETE FROM cars WHERE id = ?")
     int removeCar(int id);

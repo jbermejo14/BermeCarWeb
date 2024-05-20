@@ -47,7 +47,7 @@
         %>
     <div class="container">
         <div class="list-group">
-            <a href="add-users.jsp?id=<%= user.getId() %>" type="button" class="btn btn-sm btn-black m-2">
+            <a href="view-users.jsp?id=<%= user.getId() %>" type="button" class="btn btn-sm btn-black m-2">
                 <div class="d-flex w-100 justify-content-between">
                     <h6 class="mb-1">User Nº: <%=user.getId()%></h6>
                     <p class="mb-1"><%=user.getUsername()%></p>
