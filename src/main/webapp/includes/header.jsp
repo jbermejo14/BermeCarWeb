@@ -30,7 +30,7 @@
         userId = Integer.parseInt(currentSession.getAttribute("id").toString());
     }
 %>
-<header data-bs-theme="dark">
+<header>
 <%
     if (role.equals("user")) {
 %>
@@ -49,7 +49,7 @@
     } if (role.equals("admin")){
 %>
 
-    <div class="navbar bg-dark shadow-sm">
+    <div class="navbar shadow-sm">
         <div class="container">
             <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
               <li><a href="/bermecars" class="nav-link px-2 text-secondary">Home</a></li>

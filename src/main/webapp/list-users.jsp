@@ -1,6 +1,6 @@
 <%@ page import="com.bermecar.dao.Database" %>
 <%@ page import="com.bermecar.dao.UserDao" %>
-<%@ page import="com.bermecar.domain.Users" %>
+<%@ page import="com.bermecar.domain.User" %>
 <%@ page import="java.util.List" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
@@ -20,18 +20,18 @@
                 response.sendRedirect("index.jsp");
             }
           Database.connect();
-          final int theUserid = userId;
-          User user = Database.jdbi.withExtension(UserDao.class, dao -> dao.getAllUsers());
+          List<User> users = null;
+          users = Database.jdbi.withExtension(UserDao.class, dao -> dao.getAllUsers());
         %>
     <div class="container">
         <div class="list-group">
             <%
                 for (User user : users) {
             %>
-            <a href="#" type="button" class="btn btn-sm btn-black m-2">
+            <a href="add-users.jsp?id=<%= user.getId() %>" type="button" class="btn btn-sm btn-black m-2">
                 <div class="d-flex w-100 justify-content-between">
                     <h6 class="mb-1">User Nº: <%=user.getId()%></h6>
-                    <p class="mb-1"><%=user.getName()%></p>
+                    <p class="mb-1"><%=user.getUsername()%></p>
                     <p class="mb-1"><%=user.getTelephone()%></p>
                     <p class="mb-1"><%=user.getRole()%></p>
                 </div>
