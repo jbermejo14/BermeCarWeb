@@ -13,7 +13,7 @@ public interface UserDao {
     @UseRowMapper(UserMapper.class)
     List<User> getAllUsers();
 
-    @SqlQuery("SELECT * FROM users WHERE username LIKE '%' || :searchTerm || '%' ")
+    @SqlQuery("SELECT * FROM users WHERE username LIKE '%' || :searchTerm || '%' OR role LIKE '%' || :searchTerm || '%'")
     @UseRowMapper(UserMapper.class)
     List<User> getUsers(@Bind("searchTerm") String searchTerm);
 

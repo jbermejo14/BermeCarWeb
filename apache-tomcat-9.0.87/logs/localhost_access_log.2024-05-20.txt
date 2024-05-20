@@ -1051,3 +1051,6 @@
 0:0:0:0:0:0:0:1 - - [20/May/2024:23:11:05 +0200] "GET /bermecars/ HTTP/1.1" 200 8422
 0:0:0:0:0:0:0:1 - - [20/May/2024:23:11:08 +0200] "GET /bermecars HTTP/1.1" 302 -
 0:0:0:0:0:0:0:1 - - [20/May/2024:23:11:08 +0200] "GET /bermecars/ HTTP/1.1" 200 8422
+0:0:0:0:0:0:0:1 - - [20/May/2024:23:12:30 +0200] "GET /bermecars/reservation.jsp HTTP/1.1" 200 2034
+0:0:0:0:0:0:0:1 - - [20/May/2024:23:12:31 +0200] "GET /bermecars/user-profile.jsp HTTP/1.1" 404 746
+0:0:0:0:0:0:0:1 - - [20/May/2024:23:12:36 +0200] "GET /bermecars/user-profile.jsp HTTP/1.1" 404 746

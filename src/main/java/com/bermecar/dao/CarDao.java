@@ -18,7 +18,7 @@ public interface CarDao {
     @UseRowMapper(CarMapper.class)
     Car getCar(int id);
 
-    @SqlQuery("SELECT * FROM cars WHERE brand LIKE '%' || :searchTerm || '%' ")
+    @SqlQuery("SELECT * FROM cars WHERE brand LIKE '%' || :searchTerm || '%' OR model LIKE '%' || :searchTerm || '%'")
     @UseRowMapper(CarMapper.class)
     List<Car> getCars(@Bind("searchTerm") String searchTerm);
 
