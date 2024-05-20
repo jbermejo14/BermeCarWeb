@@ -55,6 +55,7 @@
               <li><a href="/bermecars" class="nav-link px-2 text-secondary">Home</a></li>
               <li><a href="reservation.jsp" class="nav-link px-2 text-white">Reservas</a></li>
               <li><a href="user-profile.jsp" class="nav-link px-2 text-white">Perfil</a></li>
+              <li><a href="list-users.jsp" class="nav-link px-2 text-white">Usuarios</a></li>
               <li><a href="edit-car.jsp" class="nav-link px-2 text-white">Editar</a></li>
         </div>
 
