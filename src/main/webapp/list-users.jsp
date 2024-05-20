@@ -54,9 +54,9 @@
                     <p class="mb-1"><%=user.getRole()%></p>
                 </div>
             </a>
-            <%
-                }
-            %>
         </div>
     </div>
+    <%
+        }
+    %>
 </main>

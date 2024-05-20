@@ -28,7 +28,7 @@
             <%
                 for (Reservation reservation : reservations) {
             %>
-            <a href="#" type="button" class="btn btn-sm btn-black m-2">
+            <a href="view-reservation.jsp?id=<%= reservation.getId() %>" type="button" class="btn btn-sm btn-black m-2">
                 <div class="d-flex w-100 justify-content-between">
                     <h6 class="mb-1">Reserva Nº: <%=reservation.getId()%></h6>
                     <p class="mb-1"><%=reservation.getDatetime()%></p>

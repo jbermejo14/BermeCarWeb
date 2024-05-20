@@ -16,7 +16,7 @@ public interface ReservationDao {
 
     @SqlQuery("SELECT * FROM Reservations WHERE id = ?")
     @UseRowMapper(ReservationMapper.class)
-    Reservation getReservations(int id);
+    Reservation getReservation(int id);
 
     @SqlUpdate("INSERT INTO Reservations (Datetime, Id_cars, Id_users) VALUES (?, ?, ?)")
     int addReservation(Date datetime, int id_cars, int id_users);

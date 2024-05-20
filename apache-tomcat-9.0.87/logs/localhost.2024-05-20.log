@@ -742,3 +742,1172 @@ Stacktrace:
 		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
 		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
 		at java.base/java.lang.Thread.run(Thread.java:1583)
+20-May-2024 21:10:52.947 SEVERE [http-nio-8082-exec-132] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/bermecars] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [265] in the generated java file: [C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87\work\Catalina\localhost\bermecars\org\apache\jsp\list_002dusers_jsp.java]
+Syntax error, insert "}" to complete Block
+
+An error occurred at line: [282] in the generated java file: [C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87\work\Catalina\localhost\bermecars\org\apache\jsp\list_002dusers_jsp.java]
+Syntax error on token "}", delete this token
+
+An error occurred at line: [283] in the generated java file: [C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87\work\Catalina\localhost\bermecars\org\apache\jsp\list_002dusers_jsp.java]
+Syntax error, insert "}" to complete ClassBody
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [265] in the generated java file: [C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87\work\Catalina\localhost\bermecars\org\apache\jsp\list_002dusers_jsp.java]
+Syntax error, insert "}" to complete Block
+
+An error occurred at line: [282] in the generated java file: [C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87\work\Catalina\localhost\bermecars\org\apache\jsp\list_002dusers_jsp.java]
+Syntax error on token "}", delete this token
+
+An error occurred at line: [283] in the generated java file: [C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87\work\Catalina\localhost\bermecars\org\apache\jsp\list_002dusers_jsp.java]
+Syntax error, insert "}" to complete ClassBody
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:214)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:542)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:398)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:368)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:352)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:210)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:179)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1786)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+20-May-2024 21:11:53.817 SEVERE [http-nio-8082-exec-134] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/bermecars] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [29] in the jsp file: [/list-users.jsp]
+Type mismatch: cannot convert from Object to List<User>
+26:                 users = Database.jdbi.withExtension(UserDao.class, dao -> dao.getAllUsers());
+27:             } else {
+28:                 final String searchTerm = search;
+29:                 users = Database.jdbi.withExtension(UserDao.class, dao -> dao.getUser(searchTerm));
+30:             }
+31:                 for (Car car : cars) {
+32:         %>
+
+
+An error occurred at line: [29] in the jsp file: [/list-users.jsp]
+The method getUser(int) in the type UserDao is not applicable for the arguments (String)
+26:                 users = Database.jdbi.withExtension(UserDao.class, dao -> dao.getAllUsers());
+27:             } else {
+28:                 final String searchTerm = search;
+29:                 users = Database.jdbi.withExtension(UserDao.class, dao -> dao.getUser(searchTerm));
+30:             }
+31:                 for (Car car : cars) {
+32:         %>
+
+
+An error occurred at line: [31] in the jsp file: [/list-users.jsp]
+Car cannot be resolved to a type
+28:                 final String searchTerm = search;
+29:                 users = Database.jdbi.withExtension(UserDao.class, dao -> dao.getUser(searchTerm));
+30:             }
+31:                 for (Car car : cars) {
+32:         %>
+33:     <div class="container">
+34:         <div class="list-group">
+
+
+An error occurred at line: [31] in the jsp file: [/list-users.jsp]
+cars cannot be resolved to a variable
+28:                 final String searchTerm = search;
+29:                 users = Database.jdbi.withExtension(UserDao.class, dao -> dao.getUser(searchTerm));
+30:             }
+31:                 for (Car car : cars) {
+32:         %>
+33:     <div class="container">
+34:         <div class="list-group">
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [29] in the jsp file: [/list-users.jsp]
+Type mismatch: cannot convert from Object to List<User>
+26:                 users = Database.jdbi.withExtension(UserDao.class, dao -> dao.getAllUsers());
+27:             } else {
+28:                 final String searchTerm = search;
+29:                 users = Database.jdbi.withExtension(UserDao.class, dao -> dao.getUser(searchTerm));
+30:             }
+31:                 for (Car car : cars) {
+32:         %>
+
+
+An error occurred at line: [29] in the jsp file: [/list-users.jsp]
+The method getUser(int) in the type UserDao is not applicable for the arguments (String)
+26:                 users = Database.jdbi.withExtension(UserDao.class, dao -> dao.getAllUsers());
+27:             } else {
+28:                 final String searchTerm = search;
+29:                 users = Database.jdbi.withExtension(UserDao.class, dao -> dao.getUser(searchTerm));
+30:             }
+31:                 for (Car car : cars) {
+32:         %>
+
+
+An error occurred at line: [31] in the jsp file: [/list-users.jsp]
+Car cannot be resolved to a type
+28:                 final String searchTerm = search;
+29:                 users = Database.jdbi.withExtension(UserDao.class, dao -> dao.getUser(searchTerm));
+30:             }
+31:                 for (Car car : cars) {
+32:         %>
+33:     <div class="container">
+34:         <div class="list-group">
+
+
+An error occurred at line: [31] in the jsp file: [/list-users.jsp]
+cars cannot be resolved to a variable
+28:                 final String searchTerm = search;
+29:                 users = Database.jdbi.withExtension(UserDao.class, dao -> dao.getUser(searchTerm));
+30:             }
+31:                 for (Car car : cars) {
+32:         %>
+33:     <div class="container">
+34:         <div class="list-group">
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:214)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:542)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:398)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:368)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:352)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:210)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:179)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1786)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+20-May-2024 21:12:16.202 SEVERE [http-nio-8082-exec-127] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/bermecars] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [29] in the jsp file: [/list-users.jsp]
+Type mismatch: cannot convert from Object to List<User>
+26:                 users = Database.jdbi.withExtension(UserDao.class, dao -> dao.getAllUsers());
+27:             } else {
+28:                 final String searchTerm = search;
+29:                 users = Database.jdbi.withExtension(UserDao.class, dao -> dao.getUsers(searchTerm));
+30:             }
+31:                 for (Car car : cars) {
+32:         %>
+
+
+An error occurred at line: [29] in the jsp file: [/list-users.jsp]
+The method getUsers(String) is undefined for the type UserDao
+26:                 users = Database.jdbi.withExtension(UserDao.class, dao -> dao.getAllUsers());
+27:             } else {
+28:                 final String searchTerm = search;
+29:                 users = Database.jdbi.withExtension(UserDao.class, dao -> dao.getUsers(searchTerm));
+30:             }
+31:                 for (Car car : cars) {
+32:         %>
+
+
+An error occurred at line: [31] in the jsp file: [/list-users.jsp]
+Car cannot be resolved to a type
+28:                 final String searchTerm = search;
+29:                 users = Database.jdbi.withExtension(UserDao.class, dao -> dao.getUsers(searchTerm));
+30:             }
+31:                 for (Car car : cars) {
+32:         %>
+33:     <div class="container">
+34:         <div class="list-group">
+
+
+An error occurred at line: [31] in the jsp file: [/list-users.jsp]
+cars cannot be resolved to a variable
+28:                 final String searchTerm = search;
+29:                 users = Database.jdbi.withExtension(UserDao.class, dao -> dao.getUsers(searchTerm));
+30:             }
+31:                 for (Car car : cars) {
+32:         %>
+33:     <div class="container">
+34:         <div class="list-group">
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [29] in the jsp file: [/list-users.jsp]
+Type mismatch: cannot convert from Object to List<User>
+26:                 users = Database.jdbi.withExtension(UserDao.class, dao -> dao.getAllUsers());
+27:             } else {
+28:                 final String searchTerm = search;
+29:                 users = Database.jdbi.withExtension(UserDao.class, dao -> dao.getUsers(searchTerm));
+30:             }
+31:                 for (Car car : cars) {
+32:         %>
+
+
+An error occurred at line: [29] in the jsp file: [/list-users.jsp]
+The method getUsers(String) is undefined for the type UserDao
+26:                 users = Database.jdbi.withExtension(UserDao.class, dao -> dao.getAllUsers());
+27:             } else {
+28:                 final String searchTerm = search;
+29:                 users = Database.jdbi.withExtension(UserDao.class, dao -> dao.getUsers(searchTerm));
+30:             }
+31:                 for (Car car : cars) {
+32:         %>
+
+
+An error occurred at line: [31] in the jsp file: [/list-users.jsp]
+Car cannot be resolved to a type
+28:                 final String searchTerm = search;
+29:                 users = Database.jdbi.withExtension(UserDao.class, dao -> dao.getUsers(searchTerm));
+30:             }
+31:                 for (Car car : cars) {
+32:         %>
+33:     <div class="container">
+34:         <div class="list-group">
+
+
+An error occurred at line: [31] in the jsp file: [/list-users.jsp]
+cars cannot be resolved to a variable
+28:                 final String searchTerm = search;
+29:                 users = Database.jdbi.withExtension(UserDao.class, dao -> dao.getUsers(searchTerm));
+30:             }
+31:                 for (Car car : cars) {
+32:         %>
+33:     <div class="container">
+34:         <div class="list-group">
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:214)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:542)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:398)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:368)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:352)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:210)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:179)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1786)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+20-May-2024 21:12:17.729 SEVERE [http-nio-8082-exec-137] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/bermecars] threw exception [org.apache.jasper.JasperException: java.lang.ClassNotFoundException: org.apache.jsp.list_002dusers_jsp] with root cause
+	java.lang.ClassNotFoundException: org.apache.jsp.list_002dusers_jsp
+		at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:445)
+		at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:129)
+		at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:58)
+		at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:150)
+		at org.apache.jasper.servlet.JspServletWrapper.getServlet(JspServletWrapper.java:192)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:413)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:210)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:179)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1786)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+20-May-2024 21:12:18.996 SEVERE [http-nio-8082-exec-131] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/bermecars] threw exception [org.apache.jasper.JasperException: java.lang.ClassNotFoundException: org.apache.jsp.list_002dusers_jsp] with root cause
+	java.lang.ClassNotFoundException: org.apache.jsp.list_002dusers_jsp
+		at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:445)
+		at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:129)
+		at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:58)
+		at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:150)
+		at org.apache.jasper.servlet.JspServletWrapper.getServlet(JspServletWrapper.java:192)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:413)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:210)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:179)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1786)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+20-May-2024 21:12:26.933 SEVERE [http-nio-8082-exec-135] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/bermecars] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [29] in the jsp file: [/list-users.jsp]
+Type mismatch: cannot convert from Object to List<User>
+26:                 users = Database.jdbi.withExtension(UserDao.class, dao -> dao.getAllUsers());
+27:             } else {
+28:                 final String searchTerm = search;
+29:                 users = Database.jdbi.withExtension(UserDao.class, dao -> dao.getUsers(searchTerm));
+30:             }
+31:                 for (Car car : cars) {
+32:         %>
+
+
+An error occurred at line: [29] in the jsp file: [/list-users.jsp]
+The method getUsers(String) is undefined for the type UserDao
+26:                 users = Database.jdbi.withExtension(UserDao.class, dao -> dao.getAllUsers());
+27:             } else {
+28:                 final String searchTerm = search;
+29:                 users = Database.jdbi.withExtension(UserDao.class, dao -> dao.getUsers(searchTerm));
+30:             }
+31:                 for (Car car : cars) {
+32:         %>
+
+
+An error occurred at line: [31] in the jsp file: [/list-users.jsp]
+Car cannot be resolved to a type
+28:                 final String searchTerm = search;
+29:                 users = Database.jdbi.withExtension(UserDao.class, dao -> dao.getUsers(searchTerm));
+30:             }
+31:                 for (Car car : cars) {
+32:         %>
+33:     <div class="container">
+34:         <div class="list-group">
+
+
+An error occurred at line: [31] in the jsp file: [/list-users.jsp]
+cars cannot be resolved to a variable
+28:                 final String searchTerm = search;
+29:                 users = Database.jdbi.withExtension(UserDao.class, dao -> dao.getUsers(searchTerm));
+30:             }
+31:                 for (Car car : cars) {
+32:         %>
+33:     <div class="container">
+34:         <div class="list-group">
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [29] in the jsp file: [/list-users.jsp]
+Type mismatch: cannot convert from Object to List<User>
+26:                 users = Database.jdbi.withExtension(UserDao.class, dao -> dao.getAllUsers());
+27:             } else {
+28:                 final String searchTerm = search;
+29:                 users = Database.jdbi.withExtension(UserDao.class, dao -> dao.getUsers(searchTerm));
+30:             }
+31:                 for (Car car : cars) {
+32:         %>
+
+
+An error occurred at line: [29] in the jsp file: [/list-users.jsp]
+The method getUsers(String) is undefined for the type UserDao
+26:                 users = Database.jdbi.withExtension(UserDao.class, dao -> dao.getAllUsers());
+27:             } else {
+28:                 final String searchTerm = search;
+29:                 users = Database.jdbi.withExtension(UserDao.class, dao -> dao.getUsers(searchTerm));
+30:             }
+31:                 for (Car car : cars) {
+32:         %>
+
+
+An error occurred at line: [31] in the jsp file: [/list-users.jsp]
+Car cannot be resolved to a type
+28:                 final String searchTerm = search;
+29:                 users = Database.jdbi.withExtension(UserDao.class, dao -> dao.getUsers(searchTerm));
+30:             }
+31:                 for (Car car : cars) {
+32:         %>
+33:     <div class="container">
+34:         <div class="list-group">
+
+
+An error occurred at line: [31] in the jsp file: [/list-users.jsp]
+cars cannot be resolved to a variable
+28:                 final String searchTerm = search;
+29:                 users = Database.jdbi.withExtension(UserDao.class, dao -> dao.getUsers(searchTerm));
+30:             }
+31:                 for (Car car : cars) {
+32:         %>
+33:     <div class="container">
+34:         <div class="list-group">
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:214)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:542)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:398)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:368)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:352)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:210)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:179)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1786)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+20-May-2024 21:13:01.032 SEVERE [http-nio-8082-exec-145] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/bermecars] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [29] in the jsp file: [/list-users.jsp]
+Type mismatch: cannot convert from Object to List<User>
+26:                 users = Database.jdbi.withExtension(UserDao.class, dao -> dao.getAllUsers());
+27:             } else {
+28:                 final String searchTerm = search;
+29:                 users = Database.jdbi.withExtension(UserDao.class, dao -> dao.getUsers(searchTerm));
+30:             }
+31:                 for (User user : users) {
+32:         %>
+
+
+An error occurred at line: [29] in the jsp file: [/list-users.jsp]
+The method getUsers(String) is undefined for the type UserDao
+26:                 users = Database.jdbi.withExtension(UserDao.class, dao -> dao.getAllUsers());
+27:             } else {
+28:                 final String searchTerm = search;
+29:                 users = Database.jdbi.withExtension(UserDao.class, dao -> dao.getUsers(searchTerm));
+30:             }
+31:                 for (User user : users) {
+32:         %>
+
+
+An error occurred at line: [36] in the jsp file: [/list-users.jsp]
+Duplicate local variable user
+33:     <div class="container">
+34:         <div class="list-group">
+35:             <%
+36:                 for (User user : users) {
+37:             %>
+38:             <a href="add-users.jsp?id=<%= user.getId() %>" type="button" class="btn btn-sm btn-black m-2">
+39:                 <div class="d-flex w-100 justify-content-between">
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [29] in the jsp file: [/list-users.jsp]
+Type mismatch: cannot convert from Object to List<User>
+26:                 users = Database.jdbi.withExtension(UserDao.class, dao -> dao.getAllUsers());
+27:             } else {
+28:                 final String searchTerm = search;
+29:                 users = Database.jdbi.withExtension(UserDao.class, dao -> dao.getUsers(searchTerm));
+30:             }
+31:                 for (User user : users) {
+32:         %>
+
+
+An error occurred at line: [29] in the jsp file: [/list-users.jsp]
+The method getUsers(String) is undefined for the type UserDao
+26:                 users = Database.jdbi.withExtension(UserDao.class, dao -> dao.getAllUsers());
+27:             } else {
+28:                 final String searchTerm = search;
+29:                 users = Database.jdbi.withExtension(UserDao.class, dao -> dao.getUsers(searchTerm));
+30:             }
+31:                 for (User user : users) {
+32:         %>
+
+
+An error occurred at line: [36] in the jsp file: [/list-users.jsp]
+Duplicate local variable user
+33:     <div class="container">
+34:         <div class="list-group">
+35:             <%
+36:                 for (User user : users) {
+37:             %>
+38:             <a href="add-users.jsp?id=<%= user.getId() %>" type="button" class="btn btn-sm btn-black m-2">
+39:                 <div class="d-flex w-100 justify-content-between">
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:214)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:542)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:398)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:368)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:352)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:210)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:179)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1786)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+20-May-2024 21:14:20.297 SEVERE [http-nio-8082-exec-147] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/bermecars] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [29] in the jsp file: [/list-users.jsp]
+Type mismatch: cannot convert from Object to List<User>
+26:                 users = Database.jdbi.withExtension(UserDao.class, dao -> dao.getAllUsers());
+27:             } else {
+28:                 final String searchTerm = search;
+29:                 users = Database.jdbi.withExtension(UserDao.class, dao -> dao.getUsers(searchTerm));
+30:             }
+31:                 for (User user : users) {
+32:         %>
+
+
+An error occurred at line: [29] in the jsp file: [/list-users.jsp]
+The method getUsers(String) is undefined for the type UserDao
+26:                 users = Database.jdbi.withExtension(UserDao.class, dao -> dao.getAllUsers());
+27:             } else {
+28:                 final String searchTerm = search;
+29:                 users = Database.jdbi.withExtension(UserDao.class, dao -> dao.getUsers(searchTerm));
+30:             }
+31:                 for (User user : users) {
+32:         %>
+
+
+An error occurred at line: [36] in the jsp file: [/list-users.jsp]
+Duplicate local variable user
+33:     <div class="container">
+34:         <div class="list-group">
+35:             <%
+36:                 for (User user : users) {
+37:             %>
+38:             <a href="add-users.jsp?id=<%= user.getId() %>" type="button" class="btn btn-sm btn-black m-2">
+39:                 <div class="d-flex w-100 justify-content-between">
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [29] in the jsp file: [/list-users.jsp]
+Type mismatch: cannot convert from Object to List<User>
+26:                 users = Database.jdbi.withExtension(UserDao.class, dao -> dao.getAllUsers());
+27:             } else {
+28:                 final String searchTerm = search;
+29:                 users = Database.jdbi.withExtension(UserDao.class, dao -> dao.getUsers(searchTerm));
+30:             }
+31:                 for (User user : users) {
+32:         %>
+
+
+An error occurred at line: [29] in the jsp file: [/list-users.jsp]
+The method getUsers(String) is undefined for the type UserDao
+26:                 users = Database.jdbi.withExtension(UserDao.class, dao -> dao.getAllUsers());
+27:             } else {
+28:                 final String searchTerm = search;
+29:                 users = Database.jdbi.withExtension(UserDao.class, dao -> dao.getUsers(searchTerm));
+30:             }
+31:                 for (User user : users) {
+32:         %>
+
+
+An error occurred at line: [36] in the jsp file: [/list-users.jsp]
+Duplicate local variable user
+33:     <div class="container">
+34:         <div class="list-group">
+35:             <%
+36:                 for (User user : users) {
+37:             %>
+38:             <a href="add-users.jsp?id=<%= user.getId() %>" type="button" class="btn btn-sm btn-black m-2">
+39:                 <div class="d-flex w-100 justify-content-between">
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:214)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:542)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:398)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:368)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:352)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:210)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:179)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1786)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+20-May-2024 21:14:21.465 SEVERE [http-nio-8082-exec-148] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/bermecars] threw exception [org.apache.jasper.JasperException: java.lang.ClassNotFoundException: org.apache.jsp.list_002dusers_jsp] with root cause
+	java.lang.ClassNotFoundException: org.apache.jsp.list_002dusers_jsp
+		at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:445)
+		at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:129)
+		at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:58)
+		at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:150)
+		at org.apache.jasper.servlet.JspServletWrapper.getServlet(JspServletWrapper.java:192)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:413)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:210)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:179)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1786)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+20-May-2024 21:14:24.208 SEVERE [http-nio-8082-exec-147] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/bermecars] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [29] in the jsp file: [/list-users.jsp]
+Type mismatch: cannot convert from Object to List<User>
+26:                 users = Database.jdbi.withExtension(UserDao.class, dao -> dao.getAllUsers());
+27:             } else {
+28:                 final String searchTerm = search;
+29:                 users = Database.jdbi.withExtension(UserDao.class, dao -> dao.getUsers(searchTerm));
+30:             }
+31:                 for (User user : users) {
+32:         %>
+
+
+An error occurred at line: [36] in the jsp file: [/list-users.jsp]
+Duplicate local variable user
+33:     <div class="container">
+34:         <div class="list-group">
+35:             <%
+36:                 for (User user : users) {
+37:             %>
+38:             <a href="add-users.jsp?id=<%= user.getId() %>" type="button" class="btn btn-sm btn-black m-2">
+39:                 <div class="d-flex w-100 justify-content-between">
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [29] in the jsp file: [/list-users.jsp]
+Type mismatch: cannot convert from Object to List<User>
+26:                 users = Database.jdbi.withExtension(UserDao.class, dao -> dao.getAllUsers());
+27:             } else {
+28:                 final String searchTerm = search;
+29:                 users = Database.jdbi.withExtension(UserDao.class, dao -> dao.getUsers(searchTerm));
+30:             }
+31:                 for (User user : users) {
+32:         %>
+
+
+An error occurred at line: [36] in the jsp file: [/list-users.jsp]
+Duplicate local variable user
+33:     <div class="container">
+34:         <div class="list-group">
+35:             <%
+36:                 for (User user : users) {
+37:             %>
+38:             <a href="add-users.jsp?id=<%= user.getId() %>" type="button" class="btn btn-sm btn-black m-2">
+39:                 <div class="d-flex w-100 justify-content-between">
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:214)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:542)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:398)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:368)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:352)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:210)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:179)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1786)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+20-May-2024 21:14:26.407 SEVERE [http-nio-8082-exec-139] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/bermecars] threw exception [org.apache.jasper.JasperException: java.lang.ClassNotFoundException: org.apache.jsp.list_002dusers_jsp] with root cause
+	java.lang.ClassNotFoundException: org.apache.jsp.list_002dusers_jsp
+		at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:445)
+		at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:129)
+		at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:58)
+		at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:150)
+		at org.apache.jasper.servlet.JspServletWrapper.getServlet(JspServletWrapper.java:192)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:413)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:210)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:179)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1786)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+20-May-2024 21:14:35.268 SEVERE [http-nio-8082-exec-151] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/bermecars] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [29] in the jsp file: [/list-users.jsp]
+Type mismatch: cannot convert from Object to List<User>
+26:                 users = Database.jdbi.withExtension(UserDao.class, dao -> dao.getAllUsers());
+27:             } else {
+28:                 final String searchTerm = search;
+29:                 users = Database.jdbi.withExtension(UserDao.class, dao -> dao.getUsers(searchTerm));
+30:             }
+31:                 for (User user : users) {
+32:         %>
+
+
+An error occurred at line: [36] in the jsp file: [/list-users.jsp]
+Duplicate local variable user
+33:     <div class="container">
+34:         <div class="list-group">
+35:             <%
+36:                 for (User user : users) {
+37:             %>
+38:             <a href="add-users.jsp?id=<%= user.getId() %>" type="button" class="btn btn-sm btn-black m-2">
+39:                 <div class="d-flex w-100 justify-content-between">
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [29] in the jsp file: [/list-users.jsp]
+Type mismatch: cannot convert from Object to List<User>
+26:                 users = Database.jdbi.withExtension(UserDao.class, dao -> dao.getAllUsers());
+27:             } else {
+28:                 final String searchTerm = search;
+29:                 users = Database.jdbi.withExtension(UserDao.class, dao -> dao.getUsers(searchTerm));
+30:             }
+31:                 for (User user : users) {
+32:         %>
+
+
+An error occurred at line: [36] in the jsp file: [/list-users.jsp]
+Duplicate local variable user
+33:     <div class="container">
+34:         <div class="list-group">
+35:             <%
+36:                 for (User user : users) {
+37:             %>
+38:             <a href="add-users.jsp?id=<%= user.getId() %>" type="button" class="btn btn-sm btn-black m-2">
+39:                 <div class="d-flex w-100 justify-content-between">
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:214)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:542)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:398)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:368)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:352)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:210)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:179)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1786)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+20-May-2024 21:15:35.364 SEVERE [http-nio-8082-exec-150] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/bermecars] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [49] in the jsp file: [/list-users.jsp]
+Syntax error, insert "Finally" to complete TryStatement
+46:     </div>
+47: </main>
+48: <%
+49:     }
+50: %>
+
+
+An error occurred at line: [265] in the generated java file: [C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87\work\Catalina\localhost\bermecars\org\apache\jsp\list_002dusers_jsp.java]
+Syntax error on token "catch", Identifier expected
+
+An error occurred at line: [267] in the generated java file: [C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87\work\Catalina\localhost\bermecars\org\apache\jsp\list_002dusers_jsp.java]
+out cannot be resolved to a variable
+
+An error occurred at line: [267] in the generated java file: [C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87\work\Catalina\localhost\bermecars\org\apache\jsp\list_002dusers_jsp.java]
+_jspx_out cannot be resolved to a variable
+
+An error occurred at line: [268] in the generated java file: [C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87\work\Catalina\localhost\bermecars\org\apache\jsp\list_002dusers_jsp.java]
+out cannot be resolved to a variable
+
+An error occurred at line: [268] in the generated java file: [C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87\work\Catalina\localhost\bermecars\org\apache\jsp\list_002dusers_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [270] in the generated java file: [C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87\work\Catalina\localhost\bermecars\org\apache\jsp\list_002dusers_jsp.java]
+response cannot be resolved
+
+An error occurred at line: [271] in the generated java file: [C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87\work\Catalina\localhost\bermecars\org\apache\jsp\list_002dusers_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [273] in the generated java file: [C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87\work\Catalina\localhost\bermecars\org\apache\jsp\list_002dusers_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [276] in the generated java file: [C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87\work\Catalina\localhost\bermecars\org\apache\jsp\list_002dusers_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+An error occurred at line: [276] in the generated java file: [C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87\work\Catalina\localhost\bermecars\org\apache\jsp\list_002dusers_jsp.java]
+_jspx_page_context cannot be resolved
+
+An error occurred at line: [279] in the generated java file: [C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87\work\Catalina\localhost\bermecars\org\apache\jsp\list_002dusers_jsp.java]
+Syntax error on token "finally", { expected
+
+An error occurred at line: [280] in the generated java file: [C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87\work\Catalina\localhost\bermecars\org\apache\jsp\list_002dusers_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [49] in the jsp file: [/list-users.jsp]
+Syntax error, insert "Finally" to complete TryStatement
+46:     </div>
+47: </main>
+48: <%
+49:     }
+50: %>
+
+
+An error occurred at line: [265] in the generated java file: [C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87\work\Catalina\localhost\bermecars\org\apache\jsp\list_002dusers_jsp.java]
+Syntax error on token "catch", Identifier expected
+
+An error occurred at line: [267] in the generated java file: [C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87\work\Catalina\localhost\bermecars\org\apache\jsp\list_002dusers_jsp.java]
+out cannot be resolved to a variable
+
+An error occurred at line: [267] in the generated java file: [C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87\work\Catalina\localhost\bermecars\org\apache\jsp\list_002dusers_jsp.java]
+_jspx_out cannot be resolved to a variable
+
+An error occurred at line: [268] in the generated java file: [C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87\work\Catalina\localhost\bermecars\org\apache\jsp\list_002dusers_jsp.java]
+out cannot be resolved to a variable
+
+An error occurred at line: [268] in the generated java file: [C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87\work\Catalina\localhost\bermecars\org\apache\jsp\list_002dusers_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [270] in the generated java file: [C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87\work\Catalina\localhost\bermecars\org\apache\jsp\list_002dusers_jsp.java]
+response cannot be resolved
+
+An error occurred at line: [271] in the generated java file: [C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87\work\Catalina\localhost\bermecars\org\apache\jsp\list_002dusers_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [273] in the generated java file: [C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87\work\Catalina\localhost\bermecars\org\apache\jsp\list_002dusers_jsp.java]
+out cannot be resolved
+
+An error occurred at line: [276] in the generated java file: [C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87\work\Catalina\localhost\bermecars\org\apache\jsp\list_002dusers_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+An error occurred at line: [276] in the generated java file: [C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87\work\Catalina\localhost\bermecars\org\apache\jsp\list_002dusers_jsp.java]
+_jspx_page_context cannot be resolved
+
+An error occurred at line: [279] in the generated java file: [C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87\work\Catalina\localhost\bermecars\org\apache\jsp\list_002dusers_jsp.java]
+Syntax error on token "finally", { expected
+
+An error occurred at line: [280] in the generated java file: [C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87\work\Catalina\localhost\bermecars\org\apache\jsp\list_002dusers_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:214)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:542)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:398)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:368)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:352)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:210)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:179)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1786)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+20-May-2024 21:15:37.966 SEVERE [http-nio-8082-exec-154] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/bermecars] threw exception [org.apache.jasper.JasperException: java.lang.ClassNotFoundException: org.apache.jsp.list_002dusers_jsp] with root cause
+	java.lang.ClassNotFoundException: org.apache.jsp.list_002dusers_jsp
+		at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:445)
+		at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:129)
+		at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:58)
+		at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:150)
+		at org.apache.jasper.servlet.JspServletWrapper.getServlet(JspServletWrapper.java:192)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:413)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:210)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:179)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1786)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+20-May-2024 21:16:36.623 SEVERE [http-nio-8082-exec-159] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/bermecars] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [34] in the jsp file: [/list-users.jsp]
+Type mismatch: cannot convert from Object to List<User>
+31:                 users = Database.jdbi.withExtension(UserDao.class, dao -> dao.getAllUsers());
+32:             } else {
+33:                 final String searchTerm = search;
+34:                 users = Database.jdbi.withExtension(UserDao.class, dao -> dao.getUsers(searchTerm));
+35:             }
+36:                 for (User user : users) {
+37:         %>
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [34] in the jsp file: [/list-users.jsp]
+Type mismatch: cannot convert from Object to List<User>
+31:                 users = Database.jdbi.withExtension(UserDao.class, dao -> dao.getAllUsers());
+32:             } else {
+33:                 final String searchTerm = search;
+34:                 users = Database.jdbi.withExtension(UserDao.class, dao -> dao.getUsers(searchTerm));
+35:             }
+36:                 for (User user : users) {
+37:         %>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:214)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:542)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:398)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:368)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:352)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:210)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:179)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1786)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)

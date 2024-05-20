@@ -5,7 +5,12 @@
 <%@ page import="com.bermecar.dao.Database" %>
 <%@ page import="java.util.ArrayList" %>
 <%@include file="includes/header.jsp"%>
-
+<style>
+    .btn-black{
+        background-color: #000 !important;
+        color: #fff;
+    }
+</style>
 <% if (role.equals("anonymous")) { %>
     <script type="text/javascript">
        window.location.href = "/bermecars/login.jsp";
@@ -36,7 +41,7 @@
         <input type="text" class="form-control" placeholder="Búsqueda" name="search" id="search-input">
       </div>
       <div class="col-auto">
-        <button type="submit" class="btn btn-primary mb-3" id="search-button">Buscar</button>
+        <button type="submit" class="btn btn-black text-white mb-3" id="search-button">Buscar</button>
       </div>
     </form>
   </section>

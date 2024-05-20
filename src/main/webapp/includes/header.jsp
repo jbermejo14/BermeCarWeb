@@ -42,7 +42,7 @@
               <li><a href="reservation.jsp" class="nav-link px-2 text-white">Reservas</a></li>
               <li><a href="user-profile.jsp" class="nav-link px-2 text-white">Perfil</a></li>
         </div>
-        <button type="button" class="btn btn-outline-light me-5"><a href="logout" title="logout" class="text-white text-decoration-none">Logout</a></button>
+        <button type="button" class="btn btn-outline-light me-5 text-white"><a href="logout" title="logout" class="text-white text-decoration-none">Logout</a></button>
     </div>
 
 <%

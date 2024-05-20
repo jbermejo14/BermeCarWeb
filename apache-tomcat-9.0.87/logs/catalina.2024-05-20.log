@@ -165,3 +165,113 @@
 20-May-2024 21:00:29.727 INFO [http-nio-8082-exec-89] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87\webapps\bermecars.war]
 20-May-2024 21:00:30.345 INFO [http-nio-8082-exec-89] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
 20-May-2024 21:00:30.348 INFO [http-nio-8082-exec-89] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87\webapps\bermecars.war] has finished in [621] ms
+20-May-2024 21:02:42.850 INFO [http-nio-8082-exec-102] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/bermecars]
+20-May-2024 21:02:42.977 WARNING [http-nio-8082-exec-102] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [bermecars] registered the JDBC driver [oracle.jdbc.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+20-May-2024 21:02:42.978 WARNING [http-nio-8082-exec-102] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [bermecars] appears to have started a thread named [oracle.jdbc.diagnostics.Diagnostic.CLOCK] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.util.TimerThread.mainLoop(Timer.java:563)
+ java.base/java.util.TimerThread.run(Timer.java:516)
+20-May-2024 21:02:43.004 INFO [http-nio-8082-exec-102] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87\webapps\bermecars.war]
+20-May-2024 21:02:43.631 INFO [http-nio-8082-exec-102] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-May-2024 21:02:43.634 INFO [http-nio-8082-exec-102] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87\webapps\bermecars.war] has finished in [630] ms
+20-May-2024 21:04:23.984 INFO [http-nio-8082-exec-105] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/bermecars]
+20-May-2024 21:04:24.115 WARNING [http-nio-8082-exec-105] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [bermecars] registered the JDBC driver [oracle.jdbc.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+20-May-2024 21:04:24.115 WARNING [http-nio-8082-exec-105] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [bermecars] appears to have started a thread named [oracle.jdbc.diagnostics.Diagnostic.CLOCK] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.util.TimerThread.mainLoop(Timer.java:563)
+ java.base/java.util.TimerThread.run(Timer.java:516)
+20-May-2024 21:04:24.141 INFO [http-nio-8082-exec-105] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87\webapps\bermecars.war]
+20-May-2024 21:04:24.789 INFO [http-nio-8082-exec-105] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-May-2024 21:04:24.792 INFO [http-nio-8082-exec-105] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87\webapps\bermecars.war] has finished in [651] ms
+20-May-2024 21:06:34.359 INFO [http-nio-8082-exec-117] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/bermecars]
+20-May-2024 21:06:34.470 WARNING [http-nio-8082-exec-117] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [bermecars] registered the JDBC driver [oracle.jdbc.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+20-May-2024 21:06:34.471 WARNING [http-nio-8082-exec-117] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [bermecars] appears to have started a thread named [oracle.jdbc.diagnostics.Diagnostic.CLOCK] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.util.TimerThread.mainLoop(Timer.java:563)
+ java.base/java.util.TimerThread.run(Timer.java:516)
+20-May-2024 21:06:34.499 INFO [http-nio-8082-exec-117] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87\webapps\bermecars.war]
+20-May-2024 21:06:35.099 INFO [http-nio-8082-exec-117] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-May-2024 21:06:35.102 INFO [http-nio-8082-exec-117] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87\webapps\bermecars.war] has finished in [603] ms
+20-May-2024 21:10:49.192 INFO [http-nio-8082-exec-125] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/bermecars]
+20-May-2024 21:10:49.304 WARNING [http-nio-8082-exec-125] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [bermecars] registered the JDBC driver [oracle.jdbc.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+20-May-2024 21:10:49.305 WARNING [http-nio-8082-exec-125] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [bermecars] appears to have started a thread named [oracle.jdbc.diagnostics.Diagnostic.CLOCK] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.util.TimerThread.mainLoop(Timer.java:563)
+ java.base/java.util.TimerThread.run(Timer.java:516)
+20-May-2024 21:10:49.333 INFO [http-nio-8082-exec-125] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87\webapps\bermecars.war]
+20-May-2024 21:10:49.956 INFO [http-nio-8082-exec-125] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-May-2024 21:10:49.959 INFO [http-nio-8082-exec-125] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87\webapps\bermecars.war] has finished in [625] ms
+20-May-2024 21:11:51.296 INFO [http-nio-8082-exec-133] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/bermecars]
+20-May-2024 21:11:51.321 INFO [http-nio-8082-exec-133] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87\webapps\bermecars.war]
+20-May-2024 21:11:52.036 INFO [http-nio-8082-exec-133] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-May-2024 21:11:52.040 INFO [http-nio-8082-exec-133] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87\webapps\bermecars.war] has finished in [719] ms
+20-May-2024 21:12:14.684 INFO [http-nio-8082-exec-123] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/bermecars]
+20-May-2024 21:12:14.712 INFO [http-nio-8082-exec-123] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87\webapps\bermecars.war]
+20-May-2024 21:12:15.325 INFO [http-nio-8082-exec-123] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-May-2024 21:12:15.328 INFO [http-nio-8082-exec-123] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87\webapps\bermecars.war] has finished in [616] ms
+20-May-2024 21:12:55.100 INFO [http-nio-8082-exec-141] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/bermecars]
+20-May-2024 21:12:55.237 WARNING [http-nio-8082-exec-141] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [bermecars] registered the JDBC driver [oracle.jdbc.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+20-May-2024 21:12:55.237 WARNING [http-nio-8082-exec-141] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [bermecars] appears to have started a thread named [oracle.jdbc.diagnostics.Diagnostic.CLOCK] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.util.TimerThread.mainLoop(Timer.java:563)
+ java.base/java.util.TimerThread.run(Timer.java:516)
+20-May-2024 21:12:55.264 INFO [http-nio-8082-exec-141] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87\webapps\bermecars.war]
+20-May-2024 21:12:55.879 INFO [http-nio-8082-exec-141] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-May-2024 21:12:55.883 INFO [http-nio-8082-exec-141] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87\webapps\bermecars.war] has finished in [619] ms
+20-May-2024 21:14:22.540 INFO [http-nio-8082-exec-149] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/bermecars]
+20-May-2024 21:14:22.570 INFO [http-nio-8082-exec-149] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87\webapps\bermecars.war]
+20-May-2024 21:14:23.168 INFO [http-nio-8082-exec-149] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-May-2024 21:14:23.170 INFO [http-nio-8082-exec-149] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87\webapps\bermecars.war] has finished in [601] ms
+20-May-2024 21:15:24.767 INFO [http-nio-8082-exec-152] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/bermecars]
+20-May-2024 21:15:24.881 WARNING [http-nio-8082-exec-152] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [bermecars] registered the JDBC driver [oracle.jdbc.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+20-May-2024 21:15:24.881 WARNING [http-nio-8082-exec-152] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [bermecars] appears to have started a thread named [oracle.jdbc.diagnostics.Diagnostic.CLOCK] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.util.TimerThread.mainLoop(Timer.java:563)
+ java.base/java.util.TimerThread.run(Timer.java:516)
+20-May-2024 21:15:24.905 INFO [http-nio-8082-exec-152] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87\webapps\bermecars.war]
+20-May-2024 21:15:25.518 INFO [http-nio-8082-exec-152] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-May-2024 21:15:25.522 INFO [http-nio-8082-exec-152] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87\webapps\bermecars.war] has finished in [616] ms
+20-May-2024 21:16:35.127 INFO [http-nio-8082-exec-157] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/bermecars]
+20-May-2024 21:16:35.153 INFO [http-nio-8082-exec-157] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87\webapps\bermecars.war]
+20-May-2024 21:16:35.790 INFO [http-nio-8082-exec-157] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-May-2024 21:16:35.793 INFO [http-nio-8082-exec-157] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87\webapps\bermecars.war] has finished in [640] ms
+20-May-2024 21:18:36.917 INFO [http-nio-8082-exec-162] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/bermecars]
+20-May-2024 21:18:36.947 INFO [http-nio-8082-exec-162] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87\webapps\bermecars.war]
+20-May-2024 21:18:37.720 INFO [http-nio-8082-exec-162] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-May-2024 21:18:37.731 INFO [http-nio-8082-exec-162] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87\webapps\bermecars.war] has finished in [785] ms
+20-May-2024 21:20:06.324 INFO [http-nio-8082-exec-170] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/bermecars]
+20-May-2024 21:20:06.436 WARNING [http-nio-8082-exec-170] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [bermecars] registered the JDBC driver [oracle.jdbc.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+20-May-2024 21:20:06.436 WARNING [http-nio-8082-exec-170] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [bermecars] appears to have started a thread named [oracle.jdbc.diagnostics.Diagnostic.CLOCK] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.util.TimerThread.mainLoop(Timer.java:563)
+ java.base/java.util.TimerThread.run(Timer.java:516)
+20-May-2024 21:20:06.464 INFO [http-nio-8082-exec-170] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87\webapps\bermecars.war]
+20-May-2024 21:20:07.110 INFO [http-nio-8082-exec-170] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-May-2024 21:20:07.113 INFO [http-nio-8082-exec-170] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87\webapps\bermecars.war] has finished in [649] ms
+20-May-2024 21:22:33.511 INFO [http-nio-8082-exec-176] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/bermecars]
+20-May-2024 21:22:33.626 WARNING [http-nio-8082-exec-176] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [bermecars] registered the JDBC driver [oracle.jdbc.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+20-May-2024 21:22:33.627 WARNING [http-nio-8082-exec-176] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [bermecars] appears to have started a thread named [oracle.jdbc.diagnostics.Diagnostic.CLOCK] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.util.TimerThread.mainLoop(Timer.java:563)
+ java.base/java.util.TimerThread.run(Timer.java:516)
+20-May-2024 21:22:33.656 INFO [http-nio-8082-exec-176] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87\webapps\bermecars.war]
+20-May-2024 21:22:34.279 INFO [http-nio-8082-exec-176] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-May-2024 21:22:34.282 INFO [http-nio-8082-exec-176] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87\webapps\bermecars.war] has finished in [626] ms
+20-May-2024 21:23:32.645 INFO [http-nio-8082-exec-180] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/bermecars]
+20-May-2024 21:23:32.753 WARNING [http-nio-8082-exec-180] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [bermecars] registered the JDBC driver [oracle.jdbc.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+20-May-2024 21:23:32.754 WARNING [http-nio-8082-exec-180] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [bermecars] appears to have started a thread named [oracle.jdbc.diagnostics.Diagnostic.CLOCK] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.util.TimerThread.mainLoop(Timer.java:563)
+ java.base/java.util.TimerThread.run(Timer.java:516)
+20-May-2024 21:23:32.778 INFO [http-nio-8082-exec-180] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87\webapps\bermecars.war]
+20-May-2024 21:23:33.428 INFO [http-nio-8082-exec-180] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-May-2024 21:23:33.433 INFO [http-nio-8082-exec-180] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87\webapps\bermecars.war] has finished in [654] ms
