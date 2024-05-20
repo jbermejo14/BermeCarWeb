@@ -28,12 +28,13 @@ public class RegisterServlet extends HttpServlet {
 
         String username = request.getParameter("username");
         String password = request.getParameter("password");
+        String email = request.getParameter("email");
         int telephone = Integer.parseInt(request.getParameter("telephone"));
         String role = "user";
 
         try {
             Database.connect();
-            Database.jdbi.withExtension(UserDao.class, dao -> dao.addUser(username, password, telephone, role));
+            Database.jdbi.withExtension(UserDao.class, dao -> dao.addUser(username, password, email, telephone, role));
             User user = Database.jdbi.withExtension(UserDao.class, dao -> dao.getUser(username, password));
             HttpSession session = request.getSession();
             session.setAttribute("id", user.getId());

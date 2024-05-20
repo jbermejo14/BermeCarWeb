@@ -28,11 +28,12 @@ public class EditUserServlet extends HttpServlet {
         try {
             String username = request.getParameter("username");
             String password = request.getParameter("password");
+            String email = request.getParameter("email");
             int telephone = Integer.parseInt(request.getParameter("telephone"));
             Database.connect();
             final int finalId = id;
             int affectedRows = Database.jdbi.withExtension(UserDao.class,
-                    dao -> dao.updateUser(username, password, telephone, finalId));
+                    dao -> dao.updateUser(username, password, email, telephone, finalId));
             sendMessage("Usuario modificado correctamente", response);
         } catch (ClassNotFoundException cnfe) {
             cnfe.printStackTrace();

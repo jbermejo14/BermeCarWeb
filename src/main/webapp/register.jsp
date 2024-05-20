@@ -125,6 +125,10 @@ $(document).ready(function() {
                         <input type="text" name="telephone" class="form-control" id="floatingTelephone" placeholder="Telephone">
                         <label for="floatingInput">Telefono</label>
                     </div>
+                    <div class="form-group">
+                        <input type="text" name="email" class="form-control" id="floatingTelephone" placeholder="Email">
+                        <label for="floatingInput">Email</label>
+                    </div>
                     <div class="form-group py-2">
                         <input type="text" name="username" class="form-control" id="floatingInput" placeholder="Usuario">
                         <label for="floatingInput">Usuario</label>

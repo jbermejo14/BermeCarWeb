@@ -19,11 +19,11 @@ public interface UserDao {
     @UseRowMapper(UserMapper.class)
     User getUser(String username, String password);
 
-    @SqlUpdate("INSERT INTO users (username, password, telephone, role) VALUES (?, ?, ?, ?)")
-    int addUser(String username, String password, int telephone, String role);
+    @SqlUpdate("INSERT INTO users (username, password, email, telephone, role) VALUES (?, ?, ?, ?)")
+    int addUser(String username, String password, String email, int telephone, String role);
 
-    @SqlUpdate("UPDATE users SET username = ?, password = ?, telephone = ? WHERE id = ?")
-    int updateUser(String username, String password, int telephone, int id);
+    @SqlUpdate("UPDATE users SET username = ?, password = ?, email = ?, telephone = ? WHERE id = ?")
+    int updateUser(String username, String password, String email, int telephone, int id);
 
     @SqlUpdate("DELETE FROM users WHERE id = ?")
     int removeUser(int id);
