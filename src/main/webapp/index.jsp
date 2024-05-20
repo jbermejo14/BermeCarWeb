@@ -36,7 +36,7 @@
         <input type="text" class="form-control" placeholder="Búsqueda" name="search" id="search-input">
       </div>
       <div class="col-auto">
-        <button type="submit" class="btn btn-primary mb-3" id="search-button">Buscar</button>
+        <button type="submit" class="btn btn-black mb-3" id="search-button">Buscar</button>
       </div>
     </form>
   </section>

@@ -55,15 +55,19 @@
         <h1>Modificar Perfil</h1>
         <form class="row g-3 needs-validation" method="post" id="edit-form">
             <div class="mb-3">
-                <label for="username" class="form-label">Nombre de usuario:</label>
-                <input type="text" name="username" class="form-control" id="username"
-                    value="<%= user.getUsername() %>">
-            </div>
-
-            <div class="mb-3">
                 <label for="telephone" class="form-label">Teléfono</label>
                 <input type="text" name="telephone" class="form-control" id="telephone"
                     value="<%= user.getTelephone() %>">
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="text" name="email" class="form-control" id="email"
+                    value="<%= user.getEmail() %>">
+            </div>
+            <div class="mb-3">
+                <label for="username" class="form-label">Nombre de usuario:</label>
+                <input type="text" name="username" class="form-control" id="username"
+                    value="<%= user.getUsername() %>">
             </div>
             <div class="mb-3">
                 <label for="password" class="form-label">Contraseña</label>

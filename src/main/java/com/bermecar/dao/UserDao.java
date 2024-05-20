@@ -1,5 +1,7 @@
 package com.bermecar.dao;
+import com.bermecar.domain.Car;
 import com.bermecar.domain.User;
+import org.jdbi.v3.sqlobject.customizer.Bind;
 import org.jdbi.v3.sqlobject.statement.SqlQuery;
 import org.jdbi.v3.sqlobject.statement.SqlUpdate;
 import org.jdbi.v3.sqlobject.statement.UseRowMapper;
@@ -11,6 +13,10 @@ public interface UserDao {
     @UseRowMapper(UserMapper.class)
     List<User> getAllUsers();
 
+    @SqlQuery("SELECT * FROM users WHERE username LIKE '%' || :searchTerm || '%' ")
+    @UseRowMapper(UserMapper.class)
+    List<User> getUsers(@Bind("searchTerm") String searchTerm);
+
     @SqlQuery("SELECT * FROM users WHERE id = ?")
     @UseRowMapper(UserMapper.class)
     User getUser(int id);
@@ -19,7 +25,7 @@ public interface UserDao {
     @UseRowMapper(UserMapper.class)
     User getUser(String username, String password);
 
-    @SqlUpdate("INSERT INTO users (username, password, email, telephone, role) VALUES (?, ?, ?, ?)")
+    @SqlUpdate("INSERT INTO users (username, password, email, telephone, role) VALUES (?, ?, ?, ?, ?)")
     int addUser(String username, String password, String email, int telephone, String role);
 
     @SqlUpdate("UPDATE users SET username = ?, password = ?, email = ?, telephone = ? WHERE id = ?")

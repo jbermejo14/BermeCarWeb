@@ -27,6 +27,7 @@
     <div class="container">
         <h5 class="card-title">Nombre de usuario: <%= user.getUsername() %></h5>
         <h6 class="card-text">Telefono: <%= user.getTelephone() %></h6>
+        <h6 class="card-text">Email: <%= user.getEmail() %></h6>
         <button class="btn btn-black"><a href="edit-user.jsp" class="nav-link px-2 btn btn-black">Editar Perfil</a></button>
     </div>
 
