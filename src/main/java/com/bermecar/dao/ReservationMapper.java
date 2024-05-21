@@ -14,8 +14,8 @@ public class ReservationMapper implements RowMapper<Reservation> {
     @Override
     public Reservation map(ResultSet rs, StatementContext ctx) throws SQLException {
         // Obtenemos los IDs de usuario y coche de la reserva
-        int userId = rs.getInt("Id_Users");
-        int carId = rs.getInt("Id_Cars");
+        int userId = rs.getInt("id_users");
+        int carId = rs.getInt("id_cars");
 
         // Obtenemos los objetos de usuario y coche de la base de datos utilizando los IDs
         User user = Database.jdbi.withExtension(UserDao.class, dao -> dao.getUser(userId));

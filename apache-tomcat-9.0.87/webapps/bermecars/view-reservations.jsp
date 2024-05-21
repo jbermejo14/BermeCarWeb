@@ -53,6 +53,7 @@
                     <p class="mb-1"><%=reservation.getDatetime()%></p>
                     <p class="mb-1"><%=reservation.getUser().getUsername()%></p>
                     <p class="mb-1"><%=reservation.getCar().getBrand()%></p>
+                    <p class="mb-1"><%=reservation.getCar().getModel()%></p>
                 </div>
             </a>
         </div>

@@ -1145,3 +1145,282 @@ Stacktrace:] with root cause
 21-May-2024 15:22:52.595 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
 21-May-2024 15:22:52.596 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
 21-May-2024 15:22:52.598 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@20349058')
+21-May-2024 15:23:29.350 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+21-May-2024 15:23:29.351 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+21-May-2024 15:23:29.352 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@cdb3c85')
+21-May-2024 15:23:46.788 SEVERE [http-nio-8082-exec-9] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/bermecars] threw exception [An exception occurred processing [/view-reservations.jsp] at line [54]
+
+51:                 <div class="d-flex w-100 justify-content-between">
+52:                     <h6 class="mb-1">Reservation Nº: <%=reservation.getId()%></h6>
+53:                     <p class="mb-1"><%=reservation.getDatetime()%></p>
+54:                     <p class="mb-1"><%=reservation.getUser().getUsername()%></p>
+55:                     <p class="mb-1"><%=reservation.getCar().getBrand()%></p>
+56:                 </div>
+57:             </a>
+
+
+Stacktrace:] with root cause
+	java.lang.NullPointerException: Cannot invoke "com.bermecar.domain.User.getUsername()" because the return value of "com.bermecar.domain.Reservation.getUser()" is null
+		at org.apache.jsp.view_002dreservations_jsp._jspService(view_002dreservations_jsp.java:263)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:210)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:179)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1786)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+21-May-2024 15:24:00.278 SEVERE [http-nio-8082-exec-7] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/bermecars] threw exception [An exception occurred processing [/view-reservations.jsp] at line [54]
+
+51:                 <div class="d-flex w-100 justify-content-between">
+52:                     <h6 class="mb-1">Reservation Nº: <%=reservation.getId()%></h6>
+53:                     <p class="mb-1"><%=reservation.getDatetime()%></p>
+54:                     <p class="mb-1"><%=reservation.getUser().getUsername()%></p>
+55:                     <p class="mb-1"><%=reservation.getCar().getBrand()%></p>
+56:                 </div>
+57:             </a>
+
+
+Stacktrace:] with root cause
+	java.lang.NullPointerException: Cannot invoke "com.bermecar.domain.User.getUsername()" because the return value of "com.bermecar.domain.Reservation.getUser()" is null
+		at org.apache.jsp.view_002dreservations_jsp._jspService(view_002dreservations_jsp.java:263)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:210)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:179)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1786)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+21-May-2024 15:37:10.707 SEVERE [http-nio-8082-exec-15] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/bermecars] threw exception [An exception occurred processing [/view-reservations.jsp] at line [41]
+
+38:             Database.connect();
+39:             List<Reservation> reservations = null;
+40:             if (search.isEmpty()) {
+41:                 reservations = Database.jdbi.withExtension(ReservationDao.class, dao -> dao.getAllReservations());
+42:             } else {
+43:                 final String searchTerm = search;
+44:                 reservations = Database.jdbi.withExtension(ReservationDao.class, dao -> dao.getReservations(searchTerm));
+
+
+Stacktrace:] with root cause
+	java.sql.SQLException: ORA-17006: Invalid column name
+https://docs.oracle.com/error-help/db/ora-17006/
+		at oracle.jdbc.driver.OracleStatement.getColumnIndexPrimitive(OracleStatement.java:4456)
+		at oracle.jdbc.driver.OracleStatement.getColumnIndex(OracleStatement.java:4414)
+		at oracle.jdbc.driver.InsensitiveScrollableResultSet.findColumn(InsensitiveScrollableResultSet.java:292)
+		at oracle.jdbc.driver.GeneratedResultSet.getInt(GeneratedResultSet.java:608)
+		at com.bermecar.dao.ReservationMapper.lambda$map$0(ReservationMapper.java:16)
+		at org.jdbi.v3.core.Jdbi.callWithExtension(Jdbi.java:506)
+		at org.jdbi.v3.core.Jdbi.withExtension(Jdbi.java:488)
+		at com.bermecar.dao.ReservationMapper.map(ReservationMapper.java:16)
+		at com.bermecar.dao.ReservationMapper.map(ReservationMapper.java:12)
+		at org.jdbi.v3.core.result.internal.ResultSetResultIterator.next(ResultSetResultIterator.java:83)
+		at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+		at org.jdbi.v3.core.result.ResultIterator.forEachRemaining(ResultIterator.java:39)
+		at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1939)
+		at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+		at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+		at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+		at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+		at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+		at org.jdbi.v3.core.result.ResultIterable.collect(ResultIterable.java:341)
+		at org.jdbi.v3.sqlobject.statement.internal.ResultReturner$CollectedResultReturner.mappedResult(ResultReturner.java:292)
+		at org.jdbi.v3.sqlobject.statement.internal.SqlQueryHandler.lambda$configureReturner$0(SqlQueryHandler.java:65)
+		at org.jdbi.v3.sqlobject.statement.internal.CustomizingStatementHandler.invoke(CustomizingStatementHandler.java:194)
+		at org.jdbi.v3.sqlobject.statement.internal.SqlQueryHandler.invoke(SqlQueryHandler.java:27)
+		at org.jdbi.v3.core.extension.ExtensionMetadata$ExtensionHandlerInvoker.lambda$invoke$0(ExtensionMetadata.java:330)
+		at org.jdbi.v3.core.AbstractHandleSupplier.invokeInContext(AbstractHandleSupplier.java:36)
+		at org.jdbi.v3.core.extension.ExtensionMetadata$ExtensionHandlerInvoker.call(ExtensionMetadata.java:348)
+		at org.jdbi.v3.core.extension.ExtensionMetadata$ExtensionHandlerInvoker.invoke(ExtensionMetadata.java:331)
+		at org.jdbi.v3.core.extension.ExtensionFactoryDelegate.lambda$attach$0(ExtensionFactoryDelegate.java:117)
+		at jdk.proxy4/jdk.proxy4.$Proxy47.getAllReservations(Unknown Source)
+		at org.apache.jsp.view_002dreservations_jsp.lambda$0(view_002dreservations_jsp.java:242)
+		at org.jdbi.v3.core.Jdbi.callWithExtension(Jdbi.java:506)
+		at org.jdbi.v3.core.Jdbi.withExtension(Jdbi.java:493)
+		at org.apache.jsp.view_002dreservations_jsp._jspService(view_002dreservations_jsp.java:242)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:210)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:179)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1786)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+21-May-2024 15:38:17.540 SEVERE [http-nio-8082-exec-18] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/bermecars] threw exception [An exception occurred processing [/view-reservations.jsp] at line [54]
+
+51:                 <div class="d-flex w-100 justify-content-between">
+52:                     <h6 class="mb-1">Reservation Nº: <%=reservation.getId()%></h6>
+53:                     <p class="mb-1"><%=reservation.getDatetime()%></p>
+54:                     <p class="mb-1"><%=reservation.getUser().getUsername()%></p>
+55:                     <p class="mb-1"><%=reservation.getCar().getBrand()%></p>
+56:                 </div>
+57:             </a>
+
+
+Stacktrace:] with root cause
+	java.lang.NullPointerException: Cannot invoke "com.bermecar.domain.User.getUsername()" because the return value of "com.bermecar.domain.Reservation.getUser()" is null
+		at org.apache.jsp.view_002dreservations_jsp._jspService(view_002dreservations_jsp.java:263)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:210)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:179)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1786)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+21-May-2024 15:38:42.302 SEVERE [http-nio-8082-exec-28] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/bermecars] threw exception [An exception occurred processing [/view-reservations.jsp] at line [41]
+
+38:             Database.connect();
+39:             List<Reservation> reservations = null;
+40:             if (search.isEmpty()) {
+41:                 reservations = Database.jdbi.withExtension(ReservationDao.class, dao -> dao.getAllReservations());
+42:             } else {
+43:                 final String searchTerm = search;
+44:                 reservations = Database.jdbi.withExtension(ReservationDao.class, dao -> dao.getReservations(searchTerm));
+
+
+Stacktrace:] with root cause
+	java.sql.SQLException: ORA-17006: Invalid column name
+https://docs.oracle.com/error-help/db/ora-17006/
+		at oracle.jdbc.driver.OracleStatement.getColumnIndexPrimitive(OracleStatement.java:4456)
+		at oracle.jdbc.driver.OracleStatement.getColumnIndex(OracleStatement.java:4414)
+		at oracle.jdbc.driver.InsensitiveScrollableResultSet.findColumn(InsensitiveScrollableResultSet.java:292)
+		at oracle.jdbc.driver.GeneratedResultSet.getInt(GeneratedResultSet.java:608)
+		at com.bermecar.dao.ReservationMapper.lambda$map$0(ReservationMapper.java:16)
+		at org.jdbi.v3.core.Jdbi.callWithExtension(Jdbi.java:506)
+		at org.jdbi.v3.core.Jdbi.withExtension(Jdbi.java:488)
+		at com.bermecar.dao.ReservationMapper.map(ReservationMapper.java:16)
+		at com.bermecar.dao.ReservationMapper.map(ReservationMapper.java:12)
+		at org.jdbi.v3.core.result.internal.ResultSetResultIterator.next(ResultSetResultIterator.java:83)
+		at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+		at org.jdbi.v3.core.result.ResultIterator.forEachRemaining(ResultIterator.java:39)
+		at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1939)
+		at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+		at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+		at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+		at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+		at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+		at org.jdbi.v3.core.result.ResultIterable.collect(ResultIterable.java:341)
+		at org.jdbi.v3.sqlobject.statement.internal.ResultReturner$CollectedResultReturner.mappedResult(ResultReturner.java:292)
+		at org.jdbi.v3.sqlobject.statement.internal.SqlQueryHandler.lambda$configureReturner$0(SqlQueryHandler.java:65)
+		at org.jdbi.v3.sqlobject.statement.internal.CustomizingStatementHandler.invoke(CustomizingStatementHandler.java:194)
+		at org.jdbi.v3.sqlobject.statement.internal.SqlQueryHandler.invoke(SqlQueryHandler.java:27)
+		at org.jdbi.v3.core.extension.ExtensionMetadata$ExtensionHandlerInvoker.lambda$invoke$0(ExtensionMetadata.java:330)
+		at org.jdbi.v3.core.AbstractHandleSupplier.invokeInContext(AbstractHandleSupplier.java:36)
+		at org.jdbi.v3.core.extension.ExtensionMetadata$ExtensionHandlerInvoker.call(ExtensionMetadata.java:348)
+		at org.jdbi.v3.core.extension.ExtensionMetadata$ExtensionHandlerInvoker.invoke(ExtensionMetadata.java:331)
+		at org.jdbi.v3.core.extension.ExtensionFactoryDelegate.lambda$attach$0(ExtensionFactoryDelegate.java:117)
+		at jdk.proxy6/jdk.proxy6.$Proxy91.getAllReservations(Unknown Source)
+		at org.apache.jsp.view_002dreservations_jsp.lambda$0(view_002dreservations_jsp.java:242)
+		at org.jdbi.v3.core.Jdbi.callWithExtension(Jdbi.java:506)
+		at org.jdbi.v3.core.Jdbi.withExtension(Jdbi.java:493)
+		at org.apache.jsp.view_002dreservations_jsp._jspService(view_002dreservations_jsp.java:242)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:210)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:179)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1786)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)

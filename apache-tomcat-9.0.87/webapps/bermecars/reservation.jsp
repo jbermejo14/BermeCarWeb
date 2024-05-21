@@ -32,6 +32,8 @@
                 <div class="d-flex w-100 justify-content-between">
                     <h6 class="mb-1">Reserva Nº: <%=reservation.getId()%></h6>
                     <p class="mb-1"><%=reservation.getDatetime()%></p>
+                    <p class="mb-1"><%=reservation.getCar().getBrand()%></p>
+                    <p class="mb-1"><%=reservation.getCar().getModel()%></p>
                 </div>
             </a>
             <%

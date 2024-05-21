@@ -12,9 +12,9 @@ import java.util.List;
 
 public interface ReservationDao {
 
-    @SqlQuery("SELECT * FROM Reservations WHERE Id_users = ?")
+    @SqlQuery("SELECT * FROM Reservations WHERE id_users = ?")
     @UseRowMapper(ReservationMapper.class)
-    List<Reservation> getReservationByUser(int id_user);
+    List<Reservation> getReservationByUser(int id_users);
 
     @SqlQuery("SELECT * FROM Reservations")
     @UseRowMapper(ReservationMapper.class)
@@ -28,10 +28,14 @@ public interface ReservationDao {
     @UseRowMapper(ReservationMapper.class)
     Reservation getReservation(int id);
 
-    @SqlUpdate("INSERT INTO Reservations (Datetime, Id_cars, Id_users) VALUES (?, ?, ?)")
+    @SqlUpdate("INSERT INTO Reservations (Datetime, id_cars, id_users) VALUES (?, ?, ?)")
     int addReservation(Date datetime, int id_cars, int id_users);
 
     @SqlUpdate("DELETE FROM Reservations WHERE id = ?")
     int removeReservation(int id);
+
+    @SqlUpdate("UPDATE Reservations SET datetime = ?, id_cars = ?, id_users = ? WHERE id = ?")
+    int updateReservation(Date datetime, int id_cars, int id_users, int id);
+
 }
 
