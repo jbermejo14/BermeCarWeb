@@ -43,19 +43,19 @@
 </script>
 
 <%
-    if (!role.equals("admin")) {
-        response.sendRedirect("/bermecars");
-    }
-    int id;
-    Reservation reservation = null;
-    if (request.getParameter("id") == null) {
-        id = 0;
-    } else {
-        id = Integer.parseInt(request.getParameter("id"));
-        Database.connect();
-        reservation = Database.jdbi.withExtension(ReservationDao.class, dao -> dao.getReservation(id));
-    }
-%>
+      if (!role.equals("admin")) {
+          response.sendRedirect("/bermecars");
+      }
+      int id;
+      Reservation reservation = null;
+      if (request.getParameter("id") == null) {
+          id = 0;
+      } else {
+          id = Integer.parseInt(request.getParameter("id"));
+          Database.connect();
+          reservation = Database.jdbi.withExtension(ReservationDao.class, dao -> dao.getReservation(id));
+      }
+  %>
 
 <main>
     <section class="py-5 container">

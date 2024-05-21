@@ -1424,3 +1424,760 @@ https://docs.oracle.com/error-help/db/ora-17006/
 		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
 		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
 		at java.base/java.lang.Thread.run(Thread.java:1583)
+21-May-2024 16:31:13.368 SEVERE [http-nio-8082-exec-66] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/bermecars] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [50] in the jsp file: [/edit-reservation.jsp]
+Car cannot be resolved to a type
+47:         response.sendRedirect("/bermecars");
+48:     }
+49:     int id;
+50:     Car car = null;
+51:     if (request.getParameter("id") == null) {
+52:         id = 0;
+53:     } else {
+
+
+An error occurred at line: [56] in the jsp file: [/edit-reservation.jsp]
+reservation cannot be resolved to a variable
+53:     } else {
+54:         id = Integer.parseInt(request.getParameter("id"));
+55:         Database.connect();
+56:         reservation = Database.jdbi.withExtension(ReservationDao.class, dao -> dao.getReservation(id));
+57:     }
+58: %>
+59: 
+
+
+An error occurred at line: [66] in the jsp file: [/edit-reservation.jsp]
+reservation cannot be resolved
+63:         <form class="row g-3 needs-validation" method="post" enctype="multipart/form-data" id="edit-form">
+64:             <div class="mb-3">
+65:                 <label for="datetime" class="form-label">Fecha</label>
+66:                 <input type="Date" name="datetime" class="form-control" id="datetime" value="<%= reservation.getDatetime() %>">
+67:             </div>
+68:             <div class="mb-3">
+69:                 <label for="car_id" class="form-label">ID coche</label>
+
+
+An error occurred at line: [70] in the jsp file: [/edit-reservation.jsp]
+reservation cannot be resolved
+67:             </div>
+68:             <div class="mb-3">
+69:                 <label for="car_id" class="form-label">ID coche</label>
+70:                 <input type="text" name="car_id" class="form-control" id="car_id" value="<%= reservation.getCar() %>">
+71:             </div>
+72:             <div class="mb-3">
+73:                 <label for="user_id" class="form-label">ID usuario</label>
+
+
+An error occurred at line: [74] in the jsp file: [/edit-reservation.jsp]
+reservation cannot be resolved
+71:             </div>
+72:             <div class="mb-3">
+73:                 <label for="user_id" class="form-label">ID usuario</label>
+74:                 <input type="text" name="user_id" class="form-control" id="user_id" value="<%= reservation.getUser() %>">
+75:             </div>
+76:             <div class="mb-3">
+77:                 <label for="id" class="form-label">ID</label>
+
+
+An error occurred at line: [78] in the jsp file: [/edit-reservation.jsp]
+reservation cannot be resolved
+75:             </div>
+76:             <div class="mb-3">
+77:                 <label for="id" class="form-label">ID</label>
+78:                 <input type="text" name="id" class="form-control" id="id" value="<%= reservation.getId() %>">
+79:             </div>
+80:             <div class="col-12">
+81:                 <button class="btn btn-black w-100" id="edit-button" type="submit">Enviar</button>
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [50] in the jsp file: [/edit-reservation.jsp]
+Car cannot be resolved to a type
+47:         response.sendRedirect("/bermecars");
+48:     }
+49:     int id;
+50:     Car car = null;
+51:     if (request.getParameter("id") == null) {
+52:         id = 0;
+53:     } else {
+
+
+An error occurred at line: [56] in the jsp file: [/edit-reservation.jsp]
+reservation cannot be resolved to a variable
+53:     } else {
+54:         id = Integer.parseInt(request.getParameter("id"));
+55:         Database.connect();
+56:         reservation = Database.jdbi.withExtension(ReservationDao.class, dao -> dao.getReservation(id));
+57:     }
+58: %>
+59: 
+
+
+An error occurred at line: [66] in the jsp file: [/edit-reservation.jsp]
+reservation cannot be resolved
+63:         <form class="row g-3 needs-validation" method="post" enctype="multipart/form-data" id="edit-form">
+64:             <div class="mb-3">
+65:                 <label for="datetime" class="form-label">Fecha</label>
+66:                 <input type="Date" name="datetime" class="form-control" id="datetime" value="<%= reservation.getDatetime() %>">
+67:             </div>
+68:             <div class="mb-3">
+69:                 <label for="car_id" class="form-label">ID coche</label>
+
+
+An error occurred at line: [70] in the jsp file: [/edit-reservation.jsp]
+reservation cannot be resolved
+67:             </div>
+68:             <div class="mb-3">
+69:                 <label for="car_id" class="form-label">ID coche</label>
+70:                 <input type="text" name="car_id" class="form-control" id="car_id" value="<%= reservation.getCar() %>">
+71:             </div>
+72:             <div class="mb-3">
+73:                 <label for="user_id" class="form-label">ID usuario</label>
+
+
+An error occurred at line: [74] in the jsp file: [/edit-reservation.jsp]
+reservation cannot be resolved
+71:             </div>
+72:             <div class="mb-3">
+73:                 <label for="user_id" class="form-label">ID usuario</label>
+74:                 <input type="text" name="user_id" class="form-control" id="user_id" value="<%= reservation.getUser() %>">
+75:             </div>
+76:             <div class="mb-3">
+77:                 <label for="id" class="form-label">ID</label>
+
+
+An error occurred at line: [78] in the jsp file: [/edit-reservation.jsp]
+reservation cannot be resolved
+75:             </div>
+76:             <div class="mb-3">
+77:                 <label for="id" class="form-label">ID</label>
+78:                 <input type="text" name="id" class="form-control" id="id" value="<%= reservation.getId() %>">
+79:             </div>
+80:             <div class="col-12">
+81:                 <button class="btn btn-black w-100" id="edit-button" type="submit">Enviar</button>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:214)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:542)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:398)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:368)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:352)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:210)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:179)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1786)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+21-May-2024 16:32:13.804 SEVERE [http-nio-8082-exec-63] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [com.bermecar.servlet.EditReservationServlet] in context with path [/bermecars] threw exception
+	java.lang.NumberFormatException: For input string: "Car(id=40, license_plate=7453MKD  , brand=Aston Martin, model=DB12, country=United Kingdom, year=2023, price=158000.0, photo=db12.jpeg)"
+		at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+		at java.base/java.lang.Integer.parseInt(Integer.java:661)
+		at java.base/java.lang.Integer.parseInt(Integer.java:777)
+		at com.bermecar.servlet.EditReservationServlet.doPost(EditReservationServlet.java:34)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:210)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:179)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1786)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+21-May-2024 16:33:34.983 SEVERE [http-nio-8082-exec-80] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [com.bermecar.servlet.EditReservationServlet] in context with path [/bermecars] threw exception
+	org.jdbi.v3.core.statement.UnableToExecuteStatementException: java.sql.SQLSyntaxErrorException: ORA-00904: "USER_ID": identificador no válido
+
+https://docs.oracle.com/error-help/db/ora-00904/ [statement:"UPDATE cars SET datetime = ?, car_id = ?, user_id = ? WHERE id = ?", arguments:{positional:{0:2024-05-22,1:40,2:28,3:54}, named:{}, finder:[]}]
+		at org.jdbi.v3.core.statement.SqlStatement.internalExecute(SqlStatement.java:1803)
+		at org.jdbi.v3.core.result.ResultProducers.lambda$returningUpdateCount$0(ResultProducers.java:48)
+		at org.jdbi.v3.core.statement.Update.execute(Update.java:69)
+		at org.jdbi.v3.core.statement.Update.execute(Update.java:57)
+		at org.jdbi.v3.sqlobject.statement.internal.SqlUpdateHandler.lambda$configureReturner$2(SqlUpdateHandler.java:95)
+		at org.jdbi.v3.sqlobject.statement.internal.CustomizingStatementHandler.invoke(CustomizingStatementHandler.java:194)
+		at org.jdbi.v3.sqlobject.statement.internal.SqlUpdateHandler.invoke(SqlUpdateHandler.java:34)
+		at org.jdbi.v3.core.extension.ExtensionMetadata$ExtensionHandlerInvoker.lambda$invoke$0(ExtensionMetadata.java:330)
+		at org.jdbi.v3.core.AbstractHandleSupplier.invokeInContext(AbstractHandleSupplier.java:36)
+		at org.jdbi.v3.core.extension.ExtensionMetadata$ExtensionHandlerInvoker.call(ExtensionMetadata.java:348)
+		at org.jdbi.v3.core.extension.ExtensionMetadata$ExtensionHandlerInvoker.invoke(ExtensionMetadata.java:331)
+		at org.jdbi.v3.core.extension.ExtensionFactoryDelegate.lambda$attach$0(ExtensionFactoryDelegate.java:117)
+		at jdk.proxy12/jdk.proxy12.$Proxy228.updateReservation(Unknown Source)
+		at com.bermecar.servlet.EditReservationServlet.lambda$doPost$0(EditReservationServlet.java:39)
+		at org.jdbi.v3.core.Jdbi.callWithExtension(Jdbi.java:506)
+		at org.jdbi.v3.core.Jdbi.withExtension(Jdbi.java:493)
+		at com.bermecar.servlet.EditReservationServlet.doPost(EditReservationServlet.java:38)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:210)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:179)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1786)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+	Caused by: java.sql.SQLSyntaxErrorException: ORA-00904: "USER_ID": identificador no válido
+
+https://docs.oracle.com/error-help/db/ora-00904/
+		at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:702)
+		at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:608)
+		at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1277)
+		at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:1102)
+		at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:456)
+		at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:482)
+		at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:259)
+		at oracle.jdbc.driver.T4CPreparedStatement.executeForRows(T4CPreparedStatement.java:1207)
+		at oracle.jdbc.driver.OracleStatement.executeSQLStatement(OracleStatement.java:1652)
+		at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1417)
+		at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3731)
+		at oracle.jdbc.driver.OraclePreparedStatement.execute(OraclePreparedStatement.java:3945)
+		at oracle.jdbc.driver.OraclePreparedStatementWrapper.execute(OraclePreparedStatementWrapper.java:1011)
+		at org.jdbi.v3.core.statement.SqlLoggerUtil.wrap(SqlLoggerUtil.java:32)
+		at org.jdbi.v3.core.statement.SqlStatement.internalExecute(SqlStatement.java:1801)
+		... 40 more
+	Caused by: Error : 904, Position : 46, SQL = UPDATE cars SET datetime = :1 , car_id = :2 , user_id = :3 WHERE id = :4 , Original SQL = UPDATE cars SET datetime = ?, car_id = ?, user_id = ? WHERE id = ?, Error Message = ORA-00904: "USER_ID": identificador no válido
+
+		at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:710)
+		... 54 more
+21-May-2024 16:34:58.487 SEVERE [http-nio-8082-exec-91] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [com.bermecar.servlet.EditReservationServlet] in context with path [/bermecars] threw exception
+	org.jdbi.v3.core.statement.UnableToExecuteStatementException: java.sql.SQLSyntaxErrorException: ORA-00904: "USER_ID": identificador no válido
+
+https://docs.oracle.com/error-help/db/ora-00904/ [statement:"UPDATE cars SET datetime = ?, car_id = ?, user_id = ? WHERE id = ?", arguments:{positional:{0:2024-05-22,1:40,2:28,3:54}, named:{}, finder:[]}]
+		at org.jdbi.v3.core.statement.SqlStatement.internalExecute(SqlStatement.java:1803)
+		at org.jdbi.v3.core.result.ResultProducers.lambda$returningUpdateCount$0(ResultProducers.java:48)
+		at org.jdbi.v3.core.statement.Update.execute(Update.java:69)
+		at org.jdbi.v3.core.statement.Update.execute(Update.java:57)
+		at org.jdbi.v3.sqlobject.statement.internal.SqlUpdateHandler.lambda$configureReturner$2(SqlUpdateHandler.java:95)
+		at org.jdbi.v3.sqlobject.statement.internal.CustomizingStatementHandler.invoke(CustomizingStatementHandler.java:194)
+		at org.jdbi.v3.sqlobject.statement.internal.SqlUpdateHandler.invoke(SqlUpdateHandler.java:34)
+		at org.jdbi.v3.core.extension.ExtensionMetadata$ExtensionHandlerInvoker.lambda$invoke$0(ExtensionMetadata.java:330)
+		at org.jdbi.v3.core.AbstractHandleSupplier.invokeInContext(AbstractHandleSupplier.java:36)
+		at org.jdbi.v3.core.extension.ExtensionMetadata$ExtensionHandlerInvoker.call(ExtensionMetadata.java:348)
+		at org.jdbi.v3.core.extension.ExtensionMetadata$ExtensionHandlerInvoker.invoke(ExtensionMetadata.java:331)
+		at org.jdbi.v3.core.extension.ExtensionFactoryDelegate.lambda$attach$0(ExtensionFactoryDelegate.java:117)
+		at jdk.proxy13/jdk.proxy13.$Proxy251.updateReservation(Unknown Source)
+		at com.bermecar.servlet.EditReservationServlet.lambda$doPost$0(EditReservationServlet.java:39)
+		at org.jdbi.v3.core.Jdbi.callWithExtension(Jdbi.java:506)
+		at org.jdbi.v3.core.Jdbi.withExtension(Jdbi.java:493)
+		at com.bermecar.servlet.EditReservationServlet.doPost(EditReservationServlet.java:38)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:210)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:179)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1786)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+	Caused by: java.sql.SQLSyntaxErrorException: ORA-00904: "USER_ID": identificador no válido
+
+https://docs.oracle.com/error-help/db/ora-00904/
+		at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:702)
+		at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:608)
+		at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1277)
+		at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:1102)
+		at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:456)
+		at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:482)
+		at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:259)
+		at oracle.jdbc.driver.T4CPreparedStatement.executeForRows(T4CPreparedStatement.java:1207)
+		at oracle.jdbc.driver.OracleStatement.executeSQLStatement(OracleStatement.java:1652)
+		at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1417)
+		at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3731)
+		at oracle.jdbc.driver.OraclePreparedStatement.execute(OraclePreparedStatement.java:3945)
+		at oracle.jdbc.driver.OraclePreparedStatementWrapper.execute(OraclePreparedStatementWrapper.java:1011)
+		at org.jdbi.v3.core.statement.SqlLoggerUtil.wrap(SqlLoggerUtil.java:32)
+		at org.jdbi.v3.core.statement.SqlStatement.internalExecute(SqlStatement.java:1801)
+		... 40 more
+	Caused by: Error : 904, Position : 46, SQL = UPDATE cars SET datetime = :1 , car_id = :2 , user_id = :3 WHERE id = :4 , Original SQL = UPDATE cars SET datetime = ?, car_id = ?, user_id = ? WHERE id = ?, Error Message = ORA-00904: "USER_ID": identificador no válido
+
+		at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:710)
+		... 54 more
+21-May-2024 16:35:45.299 SEVERE [http-nio-8082-exec-97] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [com.bermecar.servlet.EditReservationServlet] in context with path [/bermecars] threw exception
+	org.jdbi.v3.core.statement.UnableToExecuteStatementException: java.sql.SQLSyntaxErrorException: ORA-00904: "USER_ID": identificador no válido
+
+https://docs.oracle.com/error-help/db/ora-00904/ [statement:"UPDATE Reservations SET datetime = ?, car_id = ?, user_id = ? WHERE id = ?", arguments:{positional:{0:2024-05-22,1:40,2:28,3:54}, named:{}, finder:[]}]
+		at org.jdbi.v3.core.statement.SqlStatement.internalExecute(SqlStatement.java:1803)
+		at org.jdbi.v3.core.result.ResultProducers.lambda$returningUpdateCount$0(ResultProducers.java:48)
+		at org.jdbi.v3.core.statement.Update.execute(Update.java:69)
+		at org.jdbi.v3.core.statement.Update.execute(Update.java:57)
+		at org.jdbi.v3.sqlobject.statement.internal.SqlUpdateHandler.lambda$configureReturner$2(SqlUpdateHandler.java:95)
+		at org.jdbi.v3.sqlobject.statement.internal.CustomizingStatementHandler.invoke(CustomizingStatementHandler.java:194)
+		at org.jdbi.v3.sqlobject.statement.internal.SqlUpdateHandler.invoke(SqlUpdateHandler.java:34)
+		at org.jdbi.v3.core.extension.ExtensionMetadata$ExtensionHandlerInvoker.lambda$invoke$0(ExtensionMetadata.java:330)
+		at org.jdbi.v3.core.AbstractHandleSupplier.invokeInContext(AbstractHandleSupplier.java:36)
+		at org.jdbi.v3.core.extension.ExtensionMetadata$ExtensionHandlerInvoker.call(ExtensionMetadata.java:348)
+		at org.jdbi.v3.core.extension.ExtensionMetadata$ExtensionHandlerInvoker.invoke(ExtensionMetadata.java:331)
+		at org.jdbi.v3.core.extension.ExtensionFactoryDelegate.lambda$attach$0(ExtensionFactoryDelegate.java:117)
+		at jdk.proxy14/jdk.proxy14.$Proxy274.updateReservation(Unknown Source)
+		at com.bermecar.servlet.EditReservationServlet.lambda$doPost$0(EditReservationServlet.java:39)
+		at org.jdbi.v3.core.Jdbi.callWithExtension(Jdbi.java:506)
+		at org.jdbi.v3.core.Jdbi.withExtension(Jdbi.java:493)
+		at com.bermecar.servlet.EditReservationServlet.doPost(EditReservationServlet.java:38)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:210)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:179)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1786)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+	Caused by: java.sql.SQLSyntaxErrorException: ORA-00904: "USER_ID": identificador no válido
+
+https://docs.oracle.com/error-help/db/ora-00904/
+		at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:702)
+		at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:608)
+		at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1277)
+		at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:1102)
+		at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:456)
+		at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:482)
+		at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:259)
+		at oracle.jdbc.driver.T4CPreparedStatement.executeForRows(T4CPreparedStatement.java:1207)
+		at oracle.jdbc.driver.OracleStatement.executeSQLStatement(OracleStatement.java:1652)
+		at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1417)
+		at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3731)
+		at oracle.jdbc.driver.OraclePreparedStatement.execute(OraclePreparedStatement.java:3945)
+		at oracle.jdbc.driver.OraclePreparedStatementWrapper.execute(OraclePreparedStatementWrapper.java:1011)
+		at org.jdbi.v3.core.statement.SqlLoggerUtil.wrap(SqlLoggerUtil.java:32)
+		at org.jdbi.v3.core.statement.SqlStatement.internalExecute(SqlStatement.java:1801)
+		... 40 more
+	Caused by: Error : 904, Position : 54, SQL = UPDATE Reservations SET datetime = :1 , car_id = :2 , user_id = :3 WHERE id = :4 , Original SQL = UPDATE Reservations SET datetime = ?, car_id = ?, user_id = ? WHERE id = ?, Error Message = ORA-00904: "USER_ID": identificador no válido
+
+		at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:710)
+		... 54 more
+21-May-2024 16:42:04.929 SEVERE [http-nio-8082-exec-106] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/bermecars] threw exception [An exception occurred processing [/edit-reservation.jsp] at line [56]
+
+53:     } else {
+54:         id = Integer.parseInt(request.getParameter("id"));
+55:         Database.connect();
+56:         reservation = Database.jdbi.withExtension(ReservationDao.class, dao -> dao.getReservation(id));
+57:     }
+58: %>
+59: 
+
+
+Stacktrace:] with root cause
+	java.sql.SQLException: ORA-17006: Invalid column name
+https://docs.oracle.com/error-help/db/ora-17006/
+		at oracle.jdbc.driver.OracleStatement.getColumnIndexPrimitive(OracleStatement.java:4456)
+		at oracle.jdbc.driver.OracleStatement.getColumnIndex(OracleStatement.java:4414)
+		at oracle.jdbc.driver.InsensitiveScrollableResultSet.findColumn(InsensitiveScrollableResultSet.java:292)
+		at oracle.jdbc.driver.GeneratedResultSet.getInt(GeneratedResultSet.java:608)
+		at com.bermecar.dao.ReservationMapper.map(ReservationMapper.java:17)
+		at com.bermecar.dao.ReservationMapper.map(ReservationMapper.java:12)
+		at org.jdbi.v3.core.result.internal.ResultSetResultIterator.next(ResultSetResultIterator.java:83)
+		at org.jdbi.v3.core.result.ResultIterable.findFirst(ResultIterable.java:242)
+		at org.jdbi.v3.sqlobject.statement.internal.ResultReturner$CollectedResultReturner.mappedResult(ResultReturner.java:294)
+		at org.jdbi.v3.sqlobject.statement.internal.SqlQueryHandler.lambda$configureReturner$0(SqlQueryHandler.java:65)
+		at org.jdbi.v3.sqlobject.statement.internal.CustomizingStatementHandler.invoke(CustomizingStatementHandler.java:194)
+		at org.jdbi.v3.sqlobject.statement.internal.SqlQueryHandler.invoke(SqlQueryHandler.java:27)
+		at org.jdbi.v3.core.extension.ExtensionMetadata$ExtensionHandlerInvoker.lambda$invoke$0(ExtensionMetadata.java:330)
+		at org.jdbi.v3.core.AbstractHandleSupplier.invokeInContext(AbstractHandleSupplier.java:36)
+		at org.jdbi.v3.core.extension.ExtensionMetadata$ExtensionHandlerInvoker.call(ExtensionMetadata.java:348)
+		at org.jdbi.v3.core.extension.ExtensionMetadata$ExtensionHandlerInvoker.invoke(ExtensionMetadata.java:331)
+		at org.jdbi.v3.core.extension.ExtensionFactoryDelegate.lambda$attach$0(ExtensionFactoryDelegate.java:117)
+		at jdk.proxy15/jdk.proxy15.$Proxy297.getReservation(Unknown Source)
+		at org.apache.jsp.edit_002dreservation_jsp.lambda$0(edit_002dreservation_jsp.java:254)
+		at org.jdbi.v3.core.Jdbi.callWithExtension(Jdbi.java:506)
+		at org.jdbi.v3.core.Jdbi.withExtension(Jdbi.java:493)
+		at org.apache.jsp.edit_002dreservation_jsp._jspService(edit_002dreservation_jsp.java:254)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:210)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:179)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1786)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+21-May-2024 16:42:13.509 SEVERE [http-nio-8082-exec-97] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/bermecars] threw exception [An exception occurred processing [/view-reservations.jsp] at line [41]
+
+38:             Database.connect();
+39:             List<Reservation> reservations = null;
+40:             if (search.isEmpty()) {
+41:                 reservations = Database.jdbi.withExtension(ReservationDao.class, dao -> dao.getAllReservations());
+42:             } else {
+43:                 final String searchTerm = search;
+44:                 reservations = Database.jdbi.withExtension(ReservationDao.class, dao -> dao.getReservations(searchTerm));
+
+
+Stacktrace:] with root cause
+	java.sql.SQLException: ORA-17006: Invalid column name
+https://docs.oracle.com/error-help/db/ora-17006/
+		at oracle.jdbc.driver.OracleStatement.getColumnIndexPrimitive(OracleStatement.java:4456)
+		at oracle.jdbc.driver.OracleStatement.getColumnIndex(OracleStatement.java:4414)
+		at oracle.jdbc.driver.InsensitiveScrollableResultSet.findColumn(InsensitiveScrollableResultSet.java:292)
+		at oracle.jdbc.driver.GeneratedResultSet.getInt(GeneratedResultSet.java:608)
+		at com.bermecar.dao.ReservationMapper.map(ReservationMapper.java:17)
+		at com.bermecar.dao.ReservationMapper.map(ReservationMapper.java:12)
+		at org.jdbi.v3.core.result.internal.ResultSetResultIterator.next(ResultSetResultIterator.java:83)
+		at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+		at org.jdbi.v3.core.result.ResultIterator.forEachRemaining(ResultIterator.java:39)
+		at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1939)
+		at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+		at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+		at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+		at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+		at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+		at org.jdbi.v3.core.result.ResultIterable.collect(ResultIterable.java:341)
+		at org.jdbi.v3.sqlobject.statement.internal.ResultReturner$CollectedResultReturner.mappedResult(ResultReturner.java:292)
+		at org.jdbi.v3.sqlobject.statement.internal.SqlQueryHandler.lambda$configureReturner$0(SqlQueryHandler.java:65)
+		at org.jdbi.v3.sqlobject.statement.internal.CustomizingStatementHandler.invoke(CustomizingStatementHandler.java:194)
+		at org.jdbi.v3.sqlobject.statement.internal.SqlQueryHandler.invoke(SqlQueryHandler.java:27)
+		at org.jdbi.v3.core.extension.ExtensionMetadata$ExtensionHandlerInvoker.lambda$invoke$0(ExtensionMetadata.java:330)
+		at org.jdbi.v3.core.AbstractHandleSupplier.invokeInContext(AbstractHandleSupplier.java:36)
+		at org.jdbi.v3.core.extension.ExtensionMetadata$ExtensionHandlerInvoker.call(ExtensionMetadata.java:348)
+		at org.jdbi.v3.core.extension.ExtensionMetadata$ExtensionHandlerInvoker.invoke(ExtensionMetadata.java:331)
+		at org.jdbi.v3.core.extension.ExtensionFactoryDelegate.lambda$attach$0(ExtensionFactoryDelegate.java:117)
+		at jdk.proxy15/jdk.proxy15.$Proxy297.getAllReservations(Unknown Source)
+		at org.apache.jsp.view_002dreservations_jsp.lambda$0(view_002dreservations_jsp.java:242)
+		at org.jdbi.v3.core.Jdbi.callWithExtension(Jdbi.java:506)
+		at org.jdbi.v3.core.Jdbi.withExtension(Jdbi.java:493)
+		at org.apache.jsp.view_002dreservations_jsp._jspService(view_002dreservations_jsp.java:242)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:210)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:179)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1786)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+21-May-2024 16:44:28.456 SEVERE [http-nio-8082-exec-116] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/bermecars] threw exception [An exception occurred processing [/view-reservations.jsp] at line [41]
+
+38:             Database.connect();
+39:             List<Reservation> reservations = null;
+40:             if (search.isEmpty()) {
+41:                 reservations = Database.jdbi.withExtension(ReservationDao.class, dao -> dao.getAllReservations());
+42:             } else {
+43:                 final String searchTerm = search;
+44:                 reservations = Database.jdbi.withExtension(ReservationDao.class, dao -> dao.getReservations(searchTerm));
+
+
+Stacktrace:] with root cause
+	java.sql.SQLException: ORA-17006: Invalid column name
+https://docs.oracle.com/error-help/db/ora-17006/
+		at oracle.jdbc.driver.OracleStatement.getColumnIndexPrimitive(OracleStatement.java:4456)
+		at oracle.jdbc.driver.OracleStatement.getColumnIndex(OracleStatement.java:4414)
+		at oracle.jdbc.driver.InsensitiveScrollableResultSet.findColumn(InsensitiveScrollableResultSet.java:292)
+		at oracle.jdbc.driver.GeneratedResultSet.getInt(GeneratedResultSet.java:608)
+		at com.bermecar.dao.ReservationMapper.map(ReservationMapper.java:17)
+		at com.bermecar.dao.ReservationMapper.map(ReservationMapper.java:12)
+		at org.jdbi.v3.core.result.internal.ResultSetResultIterator.next(ResultSetResultIterator.java:83)
+		at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+		at org.jdbi.v3.core.result.ResultIterator.forEachRemaining(ResultIterator.java:39)
+		at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1939)
+		at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+		at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+		at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+		at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+		at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+		at org.jdbi.v3.core.result.ResultIterable.collect(ResultIterable.java:341)
+		at org.jdbi.v3.sqlobject.statement.internal.ResultReturner$CollectedResultReturner.mappedResult(ResultReturner.java:292)
+		at org.jdbi.v3.sqlobject.statement.internal.SqlQueryHandler.lambda$configureReturner$0(SqlQueryHandler.java:65)
+		at org.jdbi.v3.sqlobject.statement.internal.CustomizingStatementHandler.invoke(CustomizingStatementHandler.java:194)
+		at org.jdbi.v3.sqlobject.statement.internal.SqlQueryHandler.invoke(SqlQueryHandler.java:27)
+		at org.jdbi.v3.core.extension.ExtensionMetadata$ExtensionHandlerInvoker.lambda$invoke$0(ExtensionMetadata.java:330)
+		at org.jdbi.v3.core.AbstractHandleSupplier.invokeInContext(AbstractHandleSupplier.java:36)
+		at org.jdbi.v3.core.extension.ExtensionMetadata$ExtensionHandlerInvoker.call(ExtensionMetadata.java:348)
+		at org.jdbi.v3.core.extension.ExtensionMetadata$ExtensionHandlerInvoker.invoke(ExtensionMetadata.java:331)
+		at org.jdbi.v3.core.extension.ExtensionFactoryDelegate.lambda$attach$0(ExtensionFactoryDelegate.java:117)
+		at jdk.proxy16/jdk.proxy16.$Proxy322.getAllReservations(Unknown Source)
+		at org.apache.jsp.view_002dreservations_jsp.lambda$0(view_002dreservations_jsp.java:242)
+		at org.jdbi.v3.core.Jdbi.callWithExtension(Jdbi.java:506)
+		at org.jdbi.v3.core.Jdbi.withExtension(Jdbi.java:493)
+		at org.apache.jsp.view_002dreservations_jsp._jspService(view_002dreservations_jsp.java:242)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:210)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:179)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1786)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+21-May-2024 16:46:02.490 SEVERE [http-nio-8082-exec-124] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/bermecars] threw exception [An exception occurred processing [/view-reservations.jsp] at line [41]
+
+38:             Database.connect();
+39:             List<Reservation> reservations = null;
+40:             if (search.isEmpty()) {
+41:                 reservations = Database.jdbi.withExtension(ReservationDao.class, dao -> dao.getAllReservations());
+42:             } else {
+43:                 final String searchTerm = search;
+44:                 reservations = Database.jdbi.withExtension(ReservationDao.class, dao -> dao.getReservations(searchTerm));
+
+
+Stacktrace:] with root cause
+	java.sql.SQLException: ORA-17006: Invalid column name
+https://docs.oracle.com/error-help/db/ora-17006/
+		at oracle.jdbc.driver.OracleStatement.getColumnIndexPrimitive(OracleStatement.java:4456)
+		at oracle.jdbc.driver.OracleStatement.getColumnIndex(OracleStatement.java:4414)
+		at oracle.jdbc.driver.InsensitiveScrollableResultSet.findColumn(InsensitiveScrollableResultSet.java:292)
+		at oracle.jdbc.driver.GeneratedResultSet.getInt(GeneratedResultSet.java:608)
+		at com.bermecar.dao.ReservationMapper.map(ReservationMapper.java:17)
+		at com.bermecar.dao.ReservationMapper.map(ReservationMapper.java:12)
+		at org.jdbi.v3.core.result.internal.ResultSetResultIterator.next(ResultSetResultIterator.java:83)
+		at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+		at org.jdbi.v3.core.result.ResultIterator.forEachRemaining(ResultIterator.java:39)
+		at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1939)
+		at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+		at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+		at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+		at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+		at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+		at org.jdbi.v3.core.result.ResultIterable.collect(ResultIterable.java:341)
+		at org.jdbi.v3.sqlobject.statement.internal.ResultReturner$CollectedResultReturner.mappedResult(ResultReturner.java:292)
+		at org.jdbi.v3.sqlobject.statement.internal.SqlQueryHandler.lambda$configureReturner$0(SqlQueryHandler.java:65)
+		at org.jdbi.v3.sqlobject.statement.internal.CustomizingStatementHandler.invoke(CustomizingStatementHandler.java:194)
+		at org.jdbi.v3.sqlobject.statement.internal.SqlQueryHandler.invoke(SqlQueryHandler.java:27)
+		at org.jdbi.v3.core.extension.ExtensionMetadata$ExtensionHandlerInvoker.lambda$invoke$0(ExtensionMetadata.java:330)
+		at org.jdbi.v3.core.AbstractHandleSupplier.invokeInContext(AbstractHandleSupplier.java:36)
+		at org.jdbi.v3.core.extension.ExtensionMetadata$ExtensionHandlerInvoker.call(ExtensionMetadata.java:348)
+		at org.jdbi.v3.core.extension.ExtensionMetadata$ExtensionHandlerInvoker.invoke(ExtensionMetadata.java:331)
+		at org.jdbi.v3.core.extension.ExtensionFactoryDelegate.lambda$attach$0(ExtensionFactoryDelegate.java:117)
+		at jdk.proxy17/jdk.proxy17.$Proxy343.getAllReservations(Unknown Source)
+		at org.apache.jsp.view_002dreservations_jsp.lambda$0(view_002dreservations_jsp.java:242)
+		at org.jdbi.v3.core.Jdbi.callWithExtension(Jdbi.java:506)
+		at org.jdbi.v3.core.Jdbi.withExtension(Jdbi.java:493)
+		at org.apache.jsp.view_002dreservations_jsp._jspService(view_002dreservations_jsp.java:242)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:210)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:179)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1786)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+21-May-2024 16:46:16.168 SEVERE [http-nio-8082-exec-121] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/bermecars] threw exception [An exception occurred processing [/view-reservations.jsp] at line [41]
+
+38:             Database.connect();
+39:             List<Reservation> reservations = null;
+40:             if (search.isEmpty()) {
+41:                 reservations = Database.jdbi.withExtension(ReservationDao.class, dao -> dao.getAllReservations());
+42:             } else {
+43:                 final String searchTerm = search;
+44:                 reservations = Database.jdbi.withExtension(ReservationDao.class, dao -> dao.getReservations(searchTerm));
+
+
+Stacktrace:] with root cause
+	java.sql.SQLException: ORA-17006: Invalid column name
+https://docs.oracle.com/error-help/db/ora-17006/
+		at oracle.jdbc.driver.OracleStatement.getColumnIndexPrimitive(OracleStatement.java:4456)
+		at oracle.jdbc.driver.OracleStatement.getColumnIndex(OracleStatement.java:4414)
+		at oracle.jdbc.driver.InsensitiveScrollableResultSet.findColumn(InsensitiveScrollableResultSet.java:292)
+		at oracle.jdbc.driver.GeneratedResultSet.getInt(GeneratedResultSet.java:608)
+		at com.bermecar.dao.ReservationMapper.map(ReservationMapper.java:17)
+		at com.bermecar.dao.ReservationMapper.map(ReservationMapper.java:12)
+		at org.jdbi.v3.core.result.internal.ResultSetResultIterator.next(ResultSetResultIterator.java:83)
+		at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+		at org.jdbi.v3.core.result.ResultIterator.forEachRemaining(ResultIterator.java:39)
+		at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1939)
+		at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+		at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+		at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+		at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+		at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+		at org.jdbi.v3.core.result.ResultIterable.collect(ResultIterable.java:341)
+		at org.jdbi.v3.sqlobject.statement.internal.ResultReturner$CollectedResultReturner.mappedResult(ResultReturner.java:292)
+		at org.jdbi.v3.sqlobject.statement.internal.SqlQueryHandler.lambda$configureReturner$0(SqlQueryHandler.java:65)
+		at org.jdbi.v3.sqlobject.statement.internal.CustomizingStatementHandler.invoke(CustomizingStatementHandler.java:194)
+		at org.jdbi.v3.sqlobject.statement.internal.SqlQueryHandler.invoke(SqlQueryHandler.java:27)
+		at org.jdbi.v3.core.extension.ExtensionMetadata$ExtensionHandlerInvoker.lambda$invoke$0(ExtensionMetadata.java:330)
+		at org.jdbi.v3.core.AbstractHandleSupplier.invokeInContext(AbstractHandleSupplier.java:36)
+		at org.jdbi.v3.core.extension.ExtensionMetadata$ExtensionHandlerInvoker.call(ExtensionMetadata.java:348)
+		at org.jdbi.v3.core.extension.ExtensionMetadata$ExtensionHandlerInvoker.invoke(ExtensionMetadata.java:331)
+		at org.jdbi.v3.core.extension.ExtensionFactoryDelegate.lambda$attach$0(ExtensionFactoryDelegate.java:117)
+		at jdk.proxy17/jdk.proxy17.$Proxy343.getAllReservations(Unknown Source)
+		at org.apache.jsp.view_002dreservations_jsp.lambda$0(view_002dreservations_jsp.java:242)
+		at org.jdbi.v3.core.Jdbi.callWithExtension(Jdbi.java:506)
+		at org.jdbi.v3.core.Jdbi.withExtension(Jdbi.java:493)
+		at org.apache.jsp.view_002dreservations_jsp._jspService(view_002dreservations_jsp.java:242)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:210)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:179)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1786)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)

@@ -53,7 +53,7 @@
         <div class="container">
             <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
               <li><a href="/bermecars" class="nav-link px-2 text-secondary">Home</a></li>
-              <li><a href="view-reservations.jsp" class="nav-link px-2 text-white">Reservas</a></li>
+              <li><a href="list-reservations.jsp" class="nav-link px-2 text-white">Reservas</a></li>
               <li><a href="view-profile.jsp" class="nav-link px-2 text-white">Perfil</a></li>
               <li><a href="list-users.jsp" class="nav-link px-2 text-white">Usuarios</a></li>
               <li><a href="add-car.jsp" class="nav-link px-2 text-white">Coches</a></li>
