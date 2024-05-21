@@ -154,3 +154,9 @@
 20-May-2024 23:01:13.454 INFO [http-nio-8082-exec-73] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87\webapps\bermecars.war.tmp
 20-May-2024 23:03:37.132 INFO [http-nio-8082-exec-83] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/bermecars'
 20-May-2024 23:03:37.132 INFO [http-nio-8082-exec-83] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87\webapps\bermecars.war.tmp
+20-May-2024 23:13:23.533 INFO [http-nio-8082-exec-92] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/bermecars'
+20-May-2024 23:13:23.533 INFO [http-nio-8082-exec-92] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87\webapps\bermecars.war.tmp
+20-May-2024 23:24:29.741 INFO [http-nio-8082-exec-99] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/bermecars'
+20-May-2024 23:24:29.741 INFO [http-nio-8082-exec-99] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87\webapps\bermecars.war.tmp
+20-May-2024 23:26:39.427 INFO [http-nio-8082-exec-113] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/bermecars'
+20-May-2024 23:26:39.428 INFO [http-nio-8082-exec-113] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87\webapps\bermecars.war.tmp
