@@ -19,6 +19,8 @@
                     <h6 class="mb-1">Reserva Nº: <%=reservation.getId()%></h6>
                     <p class="mb-1"><%=reservation.getDatetime()%></p>
                     <a href="removereservation?id=<%= reservation.getId()%>" class="btn btn-primary">Borrar</a>
+
+
                 </div>
             </div>
         </div>

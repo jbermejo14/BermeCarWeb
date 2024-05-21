@@ -124,3 +124,229 @@
 21-May-2024 09:50:19.631 INFO [http-nio-8082-exec-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87\webapps\bermecars.war]
 21-May-2024 09:50:20.507 INFO [http-nio-8082-exec-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
 21-May-2024 09:50:20.572 INFO [http-nio-8082-exec-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87\webapps\bermecars.war] has finished in [940] ms
+21-May-2024 09:53:55.774 INFO [http-nio-8082-exec-12] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/bermecars]
+21-May-2024 09:53:55.999 WARNING [http-nio-8082-exec-12] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [bermecars] registered the JDBC driver [oracle.jdbc.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+21-May-2024 09:53:55.999 WARNING [http-nio-8082-exec-12] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [bermecars] appears to have started a thread named [oracle.jdbc.diagnostics.Diagnostic.CLOCK] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.util.TimerThread.mainLoop(Timer.java:563)
+ java.base/java.util.TimerThread.run(Timer.java:516)
+21-May-2024 09:53:56.038 INFO [http-nio-8082-exec-12] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87\webapps\bermecars.war]
+21-May-2024 09:53:57.064 INFO [http-nio-8082-exec-12] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+21-May-2024 09:53:57.143 INFO [http-nio-8082-exec-12] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87\webapps\bermecars.war] has finished in [1,106] ms
+21-May-2024 09:56:27.575 INFO [http-nio-8082-exec-20] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/bermecars]
+21-May-2024 09:56:27.611 INFO [http-nio-8082-exec-20] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87\webapps\bermecars.war]
+21-May-2024 09:56:28.449 INFO [http-nio-8082-exec-20] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+21-May-2024 09:56:28.515 INFO [http-nio-8082-exec-20] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87\webapps\bermecars.war] has finished in [904] ms
+21-May-2024 09:58:12.177 INFO [http-nio-8082-exec-24] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/bermecars]
+21-May-2024 09:58:12.434 WARNING [http-nio-8082-exec-24] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [bermecars] registered the JDBC driver [oracle.jdbc.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+21-May-2024 09:58:12.435 WARNING [http-nio-8082-exec-24] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [bermecars] appears to have started a thread named [oracle.jdbc.diagnostics.Diagnostic.CLOCK] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.util.TimerThread.mainLoop(Timer.java:563)
+ java.base/java.util.TimerThread.run(Timer.java:516)
+21-May-2024 09:58:12.463 INFO [http-nio-8082-exec-24] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87\webapps\bermecars.war]
+21-May-2024 09:58:13.553 INFO [http-nio-8082-exec-24] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+21-May-2024 09:58:13.609 INFO [http-nio-8082-exec-24] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87\webapps\bermecars.war] has finished in [1,146] ms
+21-May-2024 09:59:16.137 INFO [http-nio-8082-exec-32] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/bermecars]
+21-May-2024 09:59:16.177 INFO [http-nio-8082-exec-32] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87\webapps\bermecars.war]
+21-May-2024 09:59:16.967 INFO [http-nio-8082-exec-32] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+21-May-2024 09:59:17.022 INFO [http-nio-8082-exec-32] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87\webapps\bermecars.war] has finished in [845] ms
+21-May-2024 10:00:17.315 INFO [http-nio-8082-exec-29] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/bermecars]
+21-May-2024 10:00:17.488 WARNING [http-nio-8082-exec-29] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [bermecars] registered the JDBC driver [oracle.jdbc.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+21-May-2024 10:00:17.488 WARNING [http-nio-8082-exec-29] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [bermecars] appears to have started a thread named [oracle.jdbc.diagnostics.Diagnostic.CLOCK] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.util.TimerThread.mainLoop(Timer.java:563)
+ java.base/java.util.TimerThread.run(Timer.java:516)
+21-May-2024 10:00:17.521 INFO [http-nio-8082-exec-29] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87\webapps\bermecars.war]
+21-May-2024 10:00:18.294 INFO [http-nio-8082-exec-29] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+21-May-2024 10:00:18.356 INFO [http-nio-8082-exec-29] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87\webapps\bermecars.war] has finished in [835] ms
+21-May-2024 10:01:42.628 INFO [http-nio-8082-exec-30] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/bermecars]
+21-May-2024 10:01:42.749 WARNING [http-nio-8082-exec-30] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [bermecars] registered the JDBC driver [oracle.jdbc.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+21-May-2024 10:01:42.750 WARNING [http-nio-8082-exec-30] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [bermecars] appears to have started a thread named [oracle.jdbc.diagnostics.Diagnostic.CLOCK] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.util.TimerThread.mainLoop(Timer.java:563)
+ java.base/java.util.TimerThread.run(Timer.java:516)
+21-May-2024 10:01:42.775 INFO [http-nio-8082-exec-30] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87\webapps\bermecars.war]
+21-May-2024 10:01:43.586 INFO [http-nio-8082-exec-30] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+21-May-2024 10:01:43.640 INFO [http-nio-8082-exec-30] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87\webapps\bermecars.war] has finished in [865] ms
+21-May-2024 10:09:39.808 INFO [http-nio-8082-exec-49] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/bermecars]
+21-May-2024 10:09:39.957 WARNING [http-nio-8082-exec-49] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [bermecars] registered the JDBC driver [oracle.jdbc.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+21-May-2024 10:09:39.958 WARNING [http-nio-8082-exec-49] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [bermecars] appears to have started a thread named [oracle.jdbc.diagnostics.Diagnostic.CLOCK] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.util.TimerThread.mainLoop(Timer.java:563)
+ java.base/java.util.TimerThread.run(Timer.java:516)
+21-May-2024 10:09:39.990 INFO [http-nio-8082-exec-49] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87\webapps\bermecars.war]
+21-May-2024 10:09:41.557 INFO [http-nio-8082-exec-49] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+21-May-2024 10:09:41.607 INFO [http-nio-8082-exec-49] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87\webapps\bermecars.war] has finished in [1,617] ms
+21-May-2024 10:12:40.765 INFO [http-nio-8082-exec-55] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/bermecars]
+21-May-2024 10:12:40.878 WARNING [http-nio-8082-exec-55] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [bermecars] registered the JDBC driver [oracle.jdbc.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+21-May-2024 10:12:40.878 WARNING [http-nio-8082-exec-55] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [bermecars] appears to have started a thread named [oracle.jdbc.diagnostics.Diagnostic.CLOCK] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/java.lang.Object.wait0(Native Method)
+ java.base/java.lang.Object.wait(Object.java:366)
+ java.base/java.util.TimerThread.mainLoop(Timer.java:563)
+ java.base/java.util.TimerThread.run(Timer.java:516)
+21-May-2024 10:12:40.904 INFO [http-nio-8082-exec-55] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87\webapps\bermecars.war]
+21-May-2024 10:12:41.628 INFO [http-nio-8082-exec-55] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+21-May-2024 10:12:41.675 INFO [http-nio-8082-exec-55] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87\webapps\bermecars.war] has finished in [771] ms
+21-May-2024 10:16:05.673 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.87
+21-May-2024 10:16:05.676 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 11 2024 10:12:34 UTC
+21-May-2024 10:16:05.677 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.87.0
+21-May-2024 10:16:05.677 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+21-May-2024 10:16:05.677 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+21-May-2024 10:16:05.677 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+21-May-2024 10:16:05.677 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-21
+21-May-2024 10:16:05.677 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21+35-LTS-2513
+21-May-2024 10:16:05.677 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+21-May-2024 10:16:05.677 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87
+21-May-2024 10:16:05.677 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87
+21-May-2024 10:16:05.685 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+21-May-2024 10:16:05.685 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+21-May-2024 10:16:05.686 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+21-May-2024 10:16:05.686 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+21-May-2024 10:16:05.686 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+21-May-2024 10:16:05.686 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87\conf\logging.properties
+21-May-2024 10:16:05.686 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+21-May-2024 10:16:05.687 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+21-May-2024 10:16:05.687 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+21-May-2024 10:16:05.687 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+21-May-2024 10:16:05.687 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87
+21-May-2024 10:16:05.687 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87
+21-May-2024 10:16:05.688 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87\temp
+21-May-2024 10:16:05.691 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.3.0] using APR version [1.7.4].
+21-May-2024 10:16:05.691 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+21-May-2024 10:16:05.691 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+21-May-2024 10:16:05.697 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+21-May-2024 10:16:05.989 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8082"]
+21-May-2024 10:16:06.015 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [525] milliseconds
+21-May-2024 10:16:06.071 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+21-May-2024 10:16:06.072 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.87]
+21-May-2024 10:16:06.105 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87\webapps\bermecars.war]
+21-May-2024 10:16:07.572 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+21-May-2024 10:16:07.703 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87\webapps\bermecars.war] has finished in [1,598] ms
+21-May-2024 10:16:07.704 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87\webapps\bermecar-pictures]
+21-May-2024 10:16:07.733 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87\webapps\bermecar-pictures] has finished in [29] ms
+21-May-2024 10:16:07.734 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87\webapps\docs]
+21-May-2024 10:16:07.768 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87\webapps\docs] has finished in [34] ms
+21-May-2024 10:16:07.769 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87\webapps\examples]
+21-May-2024 10:16:08.134 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87\webapps\examples] has finished in [364] ms
+21-May-2024 10:16:08.135 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87\webapps\host-manager]
+21-May-2024 10:16:08.172 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87\webapps\host-manager] has finished in [37] ms
+21-May-2024 10:16:08.173 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87\webapps\manager]
+21-May-2024 10:16:08.210 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87\webapps\manager] has finished in [38] ms
+21-May-2024 10:16:08.210 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87\webapps\ROOT]
+21-May-2024 10:16:08.238 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87\webapps\ROOT] has finished in [28] ms
+21-May-2024 10:16:08.241 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8082"]
+21-May-2024 10:16:08.258 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2241] milliseconds
+21-May-2024 15:22:46.262 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.87
+21-May-2024 15:22:46.265 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 11 2024 10:12:34 UTC
+21-May-2024 15:22:46.266 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.87.0
+21-May-2024 15:22:46.266 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+21-May-2024 15:22:46.266 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+21-May-2024 15:22:46.266 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+21-May-2024 15:22:46.266 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-21
+21-May-2024 15:22:46.266 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21+35-LTS-2513
+21-May-2024 15:22:46.267 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+21-May-2024 15:22:46.267 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87
+21-May-2024 15:22:46.267 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87
+21-May-2024 15:22:46.274 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+21-May-2024 15:22:46.274 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+21-May-2024 15:22:46.275 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+21-May-2024 15:22:46.275 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+21-May-2024 15:22:46.275 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+21-May-2024 15:22:46.275 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87\conf\logging.properties
+21-May-2024 15:22:46.275 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+21-May-2024 15:22:46.276 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+21-May-2024 15:22:46.276 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+21-May-2024 15:22:46.276 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+21-May-2024 15:22:46.276 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87
+21-May-2024 15:22:46.277 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87
+21-May-2024 15:22:46.277 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87\temp
+21-May-2024 15:22:46.281 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.3.0] using APR version [1.7.4].
+21-May-2024 15:22:46.282 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+21-May-2024 15:22:46.282 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+21-May-2024 15:22:46.287 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+21-May-2024 15:22:46.563 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8082"]
+21-May-2024 15:22:46.584 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector["http-nio-8082"]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1011)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:554)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:1046)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:686)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:709)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:302)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:472)
+	Caused by: java.net.BindException: Address already in use: bind
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:565)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:344)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:301)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:268)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:223)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1334)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1347)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:654)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:75)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1009)
+		... 11 more
+21-May-2024 15:22:46.585 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [526] milliseconds
+21-May-2024 15:22:46.641 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+21-May-2024 15:22:46.641 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.87]
+21-May-2024 15:22:46.666 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87\webapps\bermecars.war]
+21-May-2024 15:22:50.520 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.87
+21-May-2024 15:22:50.522 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 11 2024 10:12:34 UTC
+21-May-2024 15:22:50.523 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.87.0
+21-May-2024 15:22:50.523 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+21-May-2024 15:22:50.523 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+21-May-2024 15:22:50.523 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+21-May-2024 15:22:50.523 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-21
+21-May-2024 15:22:50.523 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21+35-LTS-2513
+21-May-2024 15:22:50.524 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+21-May-2024 15:22:50.524 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87
+21-May-2024 15:22:50.524 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87
+21-May-2024 15:22:50.531 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+21-May-2024 15:22:50.531 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+21-May-2024 15:22:50.531 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+21-May-2024 15:22:50.531 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+21-May-2024 15:22:50.531 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+21-May-2024 15:22:50.532 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87\conf\logging.properties
+21-May-2024 15:22:50.533 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+21-May-2024 15:22:50.533 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+21-May-2024 15:22:50.534 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+21-May-2024 15:22:50.534 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+21-May-2024 15:22:50.537 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87
+21-May-2024 15:22:50.537 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87
+21-May-2024 15:22:50.537 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87\temp
+21-May-2024 15:22:50.540 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.3.0] using APR version [1.7.4].
+21-May-2024 15:22:50.540 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+21-May-2024 15:22:50.541 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+21-May-2024 15:22:50.546 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+21-May-2024 15:22:50.827 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8082"]
+21-May-2024 15:22:50.846 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [468] milliseconds
+21-May-2024 15:22:50.884 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+21-May-2024 15:22:50.884 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.87]
+21-May-2024 15:22:50.905 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87\webapps\bermecars.war]
+21-May-2024 15:22:51.989 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+21-May-2024 15:22:52.119 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87\webapps\bermecars.war] has finished in [1,213] ms
+21-May-2024 15:22:52.120 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87\webapps\bermecar-pictures]
+21-May-2024 15:22:52.146 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87\webapps\bermecar-pictures] has finished in [26] ms
+21-May-2024 15:22:52.147 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87\webapps\docs]
+21-May-2024 15:22:52.181 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87\webapps\docs] has finished in [34] ms
+21-May-2024 15:22:52.182 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87\webapps\examples]
+21-May-2024 15:22:52.608 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87\webapps\examples] has finished in [426] ms
+21-May-2024 15:22:52.609 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87\webapps\host-manager]
+21-May-2024 15:22:52.650 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87\webapps\host-manager] has finished in [42] ms
+21-May-2024 15:22:52.651 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87\webapps\manager]
+21-May-2024 15:22:52.688 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87\webapps\manager] has finished in [36] ms
+21-May-2024 15:22:52.688 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87\webapps\ROOT]
+21-May-2024 15:22:52.716 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\jimmy\JavaProjects\BermeCar\apache-tomcat-9.0.87\webapps\ROOT] has finished in [28] ms
+21-May-2024 15:22:52.719 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8082"]
+21-May-2024 15:22:52.735 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1887] milliseconds

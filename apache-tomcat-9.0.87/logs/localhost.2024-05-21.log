@@ -385,3 +385,763 @@ Stacktrace:
 		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
 		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
 		at java.base/java.lang.Thread.run(Thread.java:1583)
+21-May-2024 09:56:38.170 SEVERE [http-nio-8082-exec-13] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/bermecars] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [41] in the jsp file: [/view-reservations.jsp]
+Type mismatch: cannot convert from Object to List<Reservation>
+38:             Database.connect();
+39:             List<Reservation> reservations = null;
+40:             if (search.isEmpty()) {
+41:                 reservations = Database.jdbi.withExtension(ReservationDao.class, dao -> dao.getAllReservations());
+42:             } else {
+43:                 final String searchTerm = search;
+44:                 reservations = Database.jdbi.withExtension(ReservationDao.class, dao -> dao.getReservations(searchTerm));
+
+
+An error occurred at line: [41] in the jsp file: [/view-reservations.jsp]
+The method getAllReservations() is undefined for the type ReservationDao
+38:             Database.connect();
+39:             List<Reservation> reservations = null;
+40:             if (search.isEmpty()) {
+41:                 reservations = Database.jdbi.withExtension(ReservationDao.class, dao -> dao.getAllReservations());
+42:             } else {
+43:                 final String searchTerm = search;
+44:                 reservations = Database.jdbi.withExtension(ReservationDao.class, dao -> dao.getReservations(searchTerm));
+
+
+An error occurred at line: [44] in the jsp file: [/view-reservations.jsp]
+Type mismatch: cannot convert from Object to List<Reservation>
+41:                 reservations = Database.jdbi.withExtension(ReservationDao.class, dao -> dao.getAllReservations());
+42:             } else {
+43:                 final String searchTerm = search;
+44:                 reservations = Database.jdbi.withExtension(ReservationDao.class, dao -> dao.getReservations(searchTerm));
+45:             }
+46:                 for (Reservation reservation : reservations) {
+47:         %>
+
+
+An error occurred at line: [44] in the jsp file: [/view-reservations.jsp]
+The method getReservations(String) is undefined for the type ReservationDao
+41:                 reservations = Database.jdbi.withExtension(ReservationDao.class, dao -> dao.getAllReservations());
+42:             } else {
+43:                 final String searchTerm = search;
+44:                 reservations = Database.jdbi.withExtension(ReservationDao.class, dao -> dao.getReservations(searchTerm));
+45:             }
+46:                 for (Reservation reservation : reservations) {
+47:         %>
+
+
+An error occurred at line: [50] in the jsp file: [/view-reservations.jsp]
+user cannot be resolved
+47:         %>
+48:     <div class="container">
+49:         <div class="list-group">
+50:             <a href="view-users.jsp?id=<%= user.getId() %>" type="button" class="btn btn-sm btn-black m-2">
+51:                 <div class="d-flex w-100 justify-content-between">
+52:                     <h6 class="mb-1">Reservation Nº: <%=reservation.getId()%></h6>
+53:                     <p class="mb-1"><%=reservation.getDatetime()%></p>
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [41] in the jsp file: [/view-reservations.jsp]
+Type mismatch: cannot convert from Object to List<Reservation>
+38:             Database.connect();
+39:             List<Reservation> reservations = null;
+40:             if (search.isEmpty()) {
+41:                 reservations = Database.jdbi.withExtension(ReservationDao.class, dao -> dao.getAllReservations());
+42:             } else {
+43:                 final String searchTerm = search;
+44:                 reservations = Database.jdbi.withExtension(ReservationDao.class, dao -> dao.getReservations(searchTerm));
+
+
+An error occurred at line: [41] in the jsp file: [/view-reservations.jsp]
+The method getAllReservations() is undefined for the type ReservationDao
+38:             Database.connect();
+39:             List<Reservation> reservations = null;
+40:             if (search.isEmpty()) {
+41:                 reservations = Database.jdbi.withExtension(ReservationDao.class, dao -> dao.getAllReservations());
+42:             } else {
+43:                 final String searchTerm = search;
+44:                 reservations = Database.jdbi.withExtension(ReservationDao.class, dao -> dao.getReservations(searchTerm));
+
+
+An error occurred at line: [44] in the jsp file: [/view-reservations.jsp]
+Type mismatch: cannot convert from Object to List<Reservation>
+41:                 reservations = Database.jdbi.withExtension(ReservationDao.class, dao -> dao.getAllReservations());
+42:             } else {
+43:                 final String searchTerm = search;
+44:                 reservations = Database.jdbi.withExtension(ReservationDao.class, dao -> dao.getReservations(searchTerm));
+45:             }
+46:                 for (Reservation reservation : reservations) {
+47:         %>
+
+
+An error occurred at line: [44] in the jsp file: [/view-reservations.jsp]
+The method getReservations(String) is undefined for the type ReservationDao
+41:                 reservations = Database.jdbi.withExtension(ReservationDao.class, dao -> dao.getAllReservations());
+42:             } else {
+43:                 final String searchTerm = search;
+44:                 reservations = Database.jdbi.withExtension(ReservationDao.class, dao -> dao.getReservations(searchTerm));
+45:             }
+46:                 for (Reservation reservation : reservations) {
+47:         %>
+
+
+An error occurred at line: [50] in the jsp file: [/view-reservations.jsp]
+user cannot be resolved
+47:         %>
+48:     <div class="container">
+49:         <div class="list-group">
+50:             <a href="view-users.jsp?id=<%= user.getId() %>" type="button" class="btn btn-sm btn-black m-2">
+51:                 <div class="d-flex w-100 justify-content-between">
+52:                     <h6 class="mb-1">Reservation Nº: <%=reservation.getId()%></h6>
+53:                     <p class="mb-1"><%=reservation.getDatetime()%></p>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:214)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:542)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:398)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:368)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:352)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:210)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:179)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1786)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+21-May-2024 09:59:28.696 SEVERE [http-nio-8082-exec-27] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/bermecars] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [44] in the jsp file: [/view-reservations.jsp]
+Type mismatch: cannot convert from Object to List<Reservation>
+41:                 reservations = Database.jdbi.withExtension(ReservationDao.class, dao -> dao.getAllReservations());
+42:             } else {
+43:                 final String searchTerm = search;
+44:                 reservations = Database.jdbi.withExtension(ReservationDao.class, dao -> dao.getReservations(searchTerm));
+45:             }
+46:                 for (Reservation reservation : reservations) {
+47:         %>
+
+
+An error occurred at line: [44] in the jsp file: [/view-reservations.jsp]
+The method getReservations(String) is undefined for the type ReservationDao
+41:                 reservations = Database.jdbi.withExtension(ReservationDao.class, dao -> dao.getAllReservations());
+42:             } else {
+43:                 final String searchTerm = search;
+44:                 reservations = Database.jdbi.withExtension(ReservationDao.class, dao -> dao.getReservations(searchTerm));
+45:             }
+46:                 for (Reservation reservation : reservations) {
+47:         %>
+
+
+An error occurred at line: [50] in the jsp file: [/view-reservations.jsp]
+user cannot be resolved
+47:         %>
+48:     <div class="container">
+49:         <div class="list-group">
+50:             <a href="view-users.jsp?id=<%= user.getId() %>" type="button" class="btn btn-sm btn-black m-2">
+51:                 <div class="d-flex w-100 justify-content-between">
+52:                     <h6 class="mb-1">Reservation Nº: <%=reservation.getId()%></h6>
+53:                     <p class="mb-1"><%=reservation.getDatetime()%></p>
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [44] in the jsp file: [/view-reservations.jsp]
+Type mismatch: cannot convert from Object to List<Reservation>
+41:                 reservations = Database.jdbi.withExtension(ReservationDao.class, dao -> dao.getAllReservations());
+42:             } else {
+43:                 final String searchTerm = search;
+44:                 reservations = Database.jdbi.withExtension(ReservationDao.class, dao -> dao.getReservations(searchTerm));
+45:             }
+46:                 for (Reservation reservation : reservations) {
+47:         %>
+
+
+An error occurred at line: [44] in the jsp file: [/view-reservations.jsp]
+The method getReservations(String) is undefined for the type ReservationDao
+41:                 reservations = Database.jdbi.withExtension(ReservationDao.class, dao -> dao.getAllReservations());
+42:             } else {
+43:                 final String searchTerm = search;
+44:                 reservations = Database.jdbi.withExtension(ReservationDao.class, dao -> dao.getReservations(searchTerm));
+45:             }
+46:                 for (Reservation reservation : reservations) {
+47:         %>
+
+
+An error occurred at line: [50] in the jsp file: [/view-reservations.jsp]
+user cannot be resolved
+47:         %>
+48:     <div class="container">
+49:         <div class="list-group">
+50:             <a href="view-users.jsp?id=<%= user.getId() %>" type="button" class="btn btn-sm btn-black m-2">
+51:                 <div class="d-flex w-100 justify-content-between">
+52:                     <h6 class="mb-1">Reservation Nº: <%=reservation.getId()%></h6>
+53:                     <p class="mb-1"><%=reservation.getDatetime()%></p>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:214)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:542)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:398)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:368)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:352)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:210)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:179)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1786)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+21-May-2024 09:59:41.593 SEVERE [http-nio-8082-exec-22] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/bermecars] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [44] in the jsp file: [/view-reservations.jsp]
+Type mismatch: cannot convert from Object to List<Reservation>
+41:                 reservations = Database.jdbi.withExtension(ReservationDao.class, dao -> dao.getAllReservations());
+42:             } else {
+43:                 final String searchTerm = search;
+44:                 reservations = Database.jdbi.withExtension(ReservationDao.class, dao -> dao.getReservations(searchTerm));
+45:             }
+46:                 for (Reservation reservation : reservations) {
+47:         %>
+
+
+An error occurred at line: [44] in the jsp file: [/view-reservations.jsp]
+The method getReservations(String) is undefined for the type ReservationDao
+41:                 reservations = Database.jdbi.withExtension(ReservationDao.class, dao -> dao.getAllReservations());
+42:             } else {
+43:                 final String searchTerm = search;
+44:                 reservations = Database.jdbi.withExtension(ReservationDao.class, dao -> dao.getReservations(searchTerm));
+45:             }
+46:                 for (Reservation reservation : reservations) {
+47:         %>
+
+
+An error occurred at line: [50] in the jsp file: [/view-reservations.jsp]
+user cannot be resolved
+47:         %>
+48:     <div class="container">
+49:         <div class="list-group">
+50:             <a href="view-users.jsp?id=<%= user.getId() %>" type="button" class="btn btn-sm btn-black m-2">
+51:                 <div class="d-flex w-100 justify-content-between">
+52:                     <h6 class="mb-1">Reservation Nº: <%=reservation.getId()%></h6>
+53:                     <p class="mb-1"><%=reservation.getDatetime()%></p>
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [44] in the jsp file: [/view-reservations.jsp]
+Type mismatch: cannot convert from Object to List<Reservation>
+41:                 reservations = Database.jdbi.withExtension(ReservationDao.class, dao -> dao.getAllReservations());
+42:             } else {
+43:                 final String searchTerm = search;
+44:                 reservations = Database.jdbi.withExtension(ReservationDao.class, dao -> dao.getReservations(searchTerm));
+45:             }
+46:                 for (Reservation reservation : reservations) {
+47:         %>
+
+
+An error occurred at line: [44] in the jsp file: [/view-reservations.jsp]
+The method getReservations(String) is undefined for the type ReservationDao
+41:                 reservations = Database.jdbi.withExtension(ReservationDao.class, dao -> dao.getAllReservations());
+42:             } else {
+43:                 final String searchTerm = search;
+44:                 reservations = Database.jdbi.withExtension(ReservationDao.class, dao -> dao.getReservations(searchTerm));
+45:             }
+46:                 for (Reservation reservation : reservations) {
+47:         %>
+
+
+An error occurred at line: [50] in the jsp file: [/view-reservations.jsp]
+user cannot be resolved
+47:         %>
+48:     <div class="container">
+49:         <div class="list-group">
+50:             <a href="view-users.jsp?id=<%= user.getId() %>" type="button" class="btn btn-sm btn-black m-2">
+51:                 <div class="d-flex w-100 justify-content-between">
+52:                     <h6 class="mb-1">Reservation Nº: <%=reservation.getId()%></h6>
+53:                     <p class="mb-1"><%=reservation.getDatetime()%></p>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:214)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:542)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:398)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:368)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:352)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:210)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:179)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1786)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+21-May-2024 10:01:18.583 SEVERE [http-nio-8082-exec-40] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/bermecars] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [50] in the jsp file: [/view-reservations.jsp]
+user cannot be resolved
+47:         %>
+48:     <div class="container">
+49:         <div class="list-group">
+50:             <a href="view-users.jsp?id=<%= user.getId() %>" type="button" class="btn btn-sm btn-black m-2">
+51:                 <div class="d-flex w-100 justify-content-between">
+52:                     <h6 class="mb-1">Reservation Nº: <%=reservation.getId()%></h6>
+53:                     <p class="mb-1"><%=reservation.getDatetime()%></p>
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [50] in the jsp file: [/view-reservations.jsp]
+user cannot be resolved
+47:         %>
+48:     <div class="container">
+49:         <div class="list-group">
+50:             <a href="view-users.jsp?id=<%= user.getId() %>" type="button" class="btn btn-sm btn-black m-2">
+51:                 <div class="d-flex w-100 justify-content-between">
+52:                     <h6 class="mb-1">Reservation Nº: <%=reservation.getId()%></h6>
+53:                     <p class="mb-1"><%=reservation.getDatetime()%></p>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:214)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:542)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:398)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:368)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:352)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:210)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:179)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1786)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+21-May-2024 10:09:56.323 SEVERE [http-nio-8082-exec-51] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/bermecars] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [54] in the jsp file: [/view-reservations.jsp]
+getUser cannot be resolved or is not a field
+51:                 <div class="d-flex w-100 justify-content-between">
+52:                     <h6 class="mb-1">Reservation Nº: <%=reservation.getId()%></h6>
+53:                     <p class="mb-1"><%=reservation.getDatetime()%></p>
+54:                     <p class="mb-1"><%=reservation.getUser.getUsername()%></p>
+55:                     <p class="mb-1"><%=reservation.getCar.getBrand()%></p>
+56:                 </div>
+57:             </a>
+
+
+An error occurred at line: [55] in the jsp file: [/view-reservations.jsp]
+getCar cannot be resolved or is not a field
+52:                     <h6 class="mb-1">Reservation Nº: <%=reservation.getId()%></h6>
+53:                     <p class="mb-1"><%=reservation.getDatetime()%></p>
+54:                     <p class="mb-1"><%=reservation.getUser.getUsername()%></p>
+55:                     <p class="mb-1"><%=reservation.getCar.getBrand()%></p>
+56:                 </div>
+57:             </a>
+58:         </div>
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [54] in the jsp file: [/view-reservations.jsp]
+getUser cannot be resolved or is not a field
+51:                 <div class="d-flex w-100 justify-content-between">
+52:                     <h6 class="mb-1">Reservation Nº: <%=reservation.getId()%></h6>
+53:                     <p class="mb-1"><%=reservation.getDatetime()%></p>
+54:                     <p class="mb-1"><%=reservation.getUser.getUsername()%></p>
+55:                     <p class="mb-1"><%=reservation.getCar.getBrand()%></p>
+56:                 </div>
+57:             </a>
+
+
+An error occurred at line: [55] in the jsp file: [/view-reservations.jsp]
+getCar cannot be resolved or is not a field
+52:                     <h6 class="mb-1">Reservation Nº: <%=reservation.getId()%></h6>
+53:                     <p class="mb-1"><%=reservation.getDatetime()%></p>
+54:                     <p class="mb-1"><%=reservation.getUser.getUsername()%></p>
+55:                     <p class="mb-1"><%=reservation.getCar.getBrand()%></p>
+56:                 </div>
+57:             </a>
+58:         </div>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:214)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:542)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:398)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:368)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:352)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:210)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:179)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1786)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+21-May-2024 10:10:06.106 SEVERE [http-nio-8082-exec-54] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/bermecars] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [54] in the jsp file: [/view-reservations.jsp]
+getUser cannot be resolved or is not a field
+51:                 <div class="d-flex w-100 justify-content-between">
+52:                     <h6 class="mb-1">Reservation Nº: <%=reservation.getId()%></h6>
+53:                     <p class="mb-1"><%=reservation.getDatetime()%></p>
+54:                     <p class="mb-1"><%=reservation.getUser.getUsername()%></p>
+55:                     <p class="mb-1"><%=reservation.getCar.getBrand()%></p>
+56:                 </div>
+57:             </a>
+
+
+An error occurred at line: [55] in the jsp file: [/view-reservations.jsp]
+getCar cannot be resolved or is not a field
+52:                     <h6 class="mb-1">Reservation Nº: <%=reservation.getId()%></h6>
+53:                     <p class="mb-1"><%=reservation.getDatetime()%></p>
+54:                     <p class="mb-1"><%=reservation.getUser.getUsername()%></p>
+55:                     <p class="mb-1"><%=reservation.getCar.getBrand()%></p>
+56:                 </div>
+57:             </a>
+58:         </div>
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [54] in the jsp file: [/view-reservations.jsp]
+getUser cannot be resolved or is not a field
+51:                 <div class="d-flex w-100 justify-content-between">
+52:                     <h6 class="mb-1">Reservation Nº: <%=reservation.getId()%></h6>
+53:                     <p class="mb-1"><%=reservation.getDatetime()%></p>
+54:                     <p class="mb-1"><%=reservation.getUser.getUsername()%></p>
+55:                     <p class="mb-1"><%=reservation.getCar.getBrand()%></p>
+56:                 </div>
+57:             </a>
+
+
+An error occurred at line: [55] in the jsp file: [/view-reservations.jsp]
+getCar cannot be resolved or is not a field
+52:                     <h6 class="mb-1">Reservation Nº: <%=reservation.getId()%></h6>
+53:                     <p class="mb-1"><%=reservation.getDatetime()%></p>
+54:                     <p class="mb-1"><%=reservation.getUser.getUsername()%></p>
+55:                     <p class="mb-1"><%=reservation.getCar.getBrand()%></p>
+56:                 </div>
+57:             </a>
+58:         </div>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:214)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:542)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:398)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:368)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:352)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:210)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:179)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1786)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+21-May-2024 10:12:50.460 SEVERE [http-nio-8082-exec-54] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/bermecars] threw exception [An exception occurred processing [/view-reservations.jsp] at line [54]
+
+51:                 <div class="d-flex w-100 justify-content-between">
+52:                     <h6 class="mb-1">Reservation Nº: <%=reservation.getId()%></h6>
+53:                     <p class="mb-1"><%=reservation.getDatetime()%></p>
+54:                     <p class="mb-1"><%=reservation.getUser().getUsername()%></p>
+55:                     <p class="mb-1"><%=reservation.getCar().getBrand()%></p>
+56:                 </div>
+57:             </a>
+
+
+Stacktrace:] with root cause
+	java.lang.NullPointerException: Cannot invoke "com.bermecar.domain.User.getUsername()" because the return value of "com.bermecar.domain.Reservation.getUser()" is null
+		at org.apache.jsp.view_002dreservations_jsp._jspService(view_002dreservations_jsp.java:263)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:210)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:179)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1786)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+21-May-2024 10:13:03.210 SEVERE [http-nio-8082-exec-61] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/bermecars] threw exception [An exception occurred processing [/view-reservations.jsp] at line [54]
+
+51:                 <div class="d-flex w-100 justify-content-between">
+52:                     <h6 class="mb-1">Reservation Nº: <%=reservation.getId()%></h6>
+53:                     <p class="mb-1"><%=reservation.getDatetime()%></p>
+54:                     <p class="mb-1"><%=reservation.getUser().getUsername()%></p>
+55:                     <p class="mb-1"><%=reservation.getCar().getBrand()%></p>
+56:                 </div>
+57:             </a>
+
+
+Stacktrace:] with root cause
+	java.lang.NullPointerException: Cannot invoke "com.bermecar.domain.User.getUsername()" because the return value of "com.bermecar.domain.Reservation.getUser()" is null
+		at org.apache.jsp.view_002dreservations_jsp._jspService(view_002dreservations_jsp.java:263)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:210)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:179)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1786)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+21-May-2024 10:16:08.123 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+21-May-2024 10:16:08.123 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+21-May-2024 10:16:08.125 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@27a9f025')
+21-May-2024 10:16:24.601 SEVERE [http-nio-8082-exec-1] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/bermecars] threw exception [An exception occurred processing [view-reservations.jsp] at line [54]
+
+51:                 <div class="d-flex w-100 justify-content-between">
+52:                     <h6 class="mb-1">Reservation Nº: <%=reservation.getId()%></h6>
+53:                     <p class="mb-1"><%=reservation.getDatetime()%></p>
+54:                     <p class="mb-1"><%=reservation.getUser().getUsername()%></p>
+55:                     <p class="mb-1"><%=reservation.getCar().getBrand()%></p>
+56:                 </div>
+57:             </a>
+
+
+Stacktrace:] with root cause
+	java.lang.NullPointerException: Cannot invoke "com.bermecar.domain.User.getUsername()" because the return value of "com.bermecar.domain.Reservation.getUser()" is null
+		at org.apache.jsp.view_002dreservations_jsp._jspService(view_002dreservations_jsp.java:263)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:210)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:179)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1786)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+21-May-2024 15:13:36.177 SEVERE [http-nio-8082-exec-9] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/bermecars] threw exception [An exception occurred processing [view-reservations.jsp] at line [54]
+
+51:                 <div class="d-flex w-100 justify-content-between">
+52:                     <h6 class="mb-1">Reservation Nº: <%=reservation.getId()%></h6>
+53:                     <p class="mb-1"><%=reservation.getDatetime()%></p>
+54:                     <p class="mb-1"><%=reservation.getUser().getUsername()%></p>
+55:                     <p class="mb-1"><%=reservation.getCar().getBrand()%></p>
+56:                 </div>
+57:             </a>
+
+
+Stacktrace:] with root cause
+	java.lang.NullPointerException: Cannot invoke "com.bermecar.domain.User.getUsername()" because the return value of "com.bermecar.domain.Reservation.getUser()" is null
+		at org.apache.jsp.view_002dreservations_jsp._jspService(view_002dreservations_jsp.java:263)
+		at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:210)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:179)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1786)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+21-May-2024 15:22:52.595 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+21-May-2024 15:22:52.596 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+21-May-2024 15:22:52.598 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@20349058')
