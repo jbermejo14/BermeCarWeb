@@ -73,10 +73,6 @@
                 <label for="id_users" class="form-label">ID usuario</label>
                 <input type="text" name="id_users" class="form-control" id="id_users">
             </div>
-            <div class="mb-3">
-                <label for="id" class="form-label">ID</label>
-                <input type="text" name="id" class="form-control" id="id">
-            </div>
             <div class="col-12">
                 <button class="btn btn-black w-100" id="edit-button" type="submit">Enviar</button>
             </div>

@@ -1,0 +1,11 @@
+127.0.0.1 - tomcat [04/Jun/2024:12:44:53 +0200] "PUT /manager/text/deploy?path=%2Fbermecars&update=true HTTP/1.1" 200 66
+0:0:0:0:0:0:0:1 - - [04/Jun/2024:12:44:56 +0200] "GET /bermecars HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [04/Jun/2024:12:45:01 +0200] "GET /bermecars/ HTTP/1.1" 200 1043
+0:0:0:0:0:0:0:1 - - [04/Jun/2024:12:45:02 +0200] "GET /bermecars/login.jsp HTTP/1.1" 200 3713
+0:0:0:0:0:0:0:1 - - [04/Jun/2024:12:45:03 +0200] "GET /favicon.ico HTTP/1.1" 200 21630
+0:0:0:0:0:0:0:1 - - [04/Jun/2024:12:45:05 +0200] "POST /bermecars/login HTTP/1.1" 500 2684
+0:0:0:0:0:0:0:1 - - [04/Jun/2024:12:45:05 +0200] "POST /bermecars/login HTTP/1.1" 500 2684
+0:0:0:0:0:0:0:1 - - [04/Jun/2024:12:45:05 +0200] "POST /bermecars/login HTTP/1.1" 500 2684
+0:0:0:0:0:0:0:1 - - [04/Jun/2024:12:45:05 +0200] "POST /bermecars/login HTTP/1.1" 500 2684
+0:0:0:0:0:0:0:1 - - [04/Jun/2024:12:45:06 +0200] "POST /bermecars/login HTTP/1.1" 500 2684
+0:0:0:0:0:0:0:1 - - [04/Jun/2024:12:45:06 +0200] "POST /bermecars/login HTTP/1.1" 500 2684
