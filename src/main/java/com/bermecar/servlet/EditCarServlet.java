@@ -40,11 +40,11 @@ public class EditCarServlet extends HttpServlet {
 
             int affectedRows = Database.jdbi.withExtension(CarDao.class,
                     dao -> dao.updateCar(license_plate, brand, model, country, year, price, photo, id));
-            sendMessage("Coche actualizado correctamente" + id, response);
+            sendMessage("Coche actualizado correctamente", response);
 
         } catch (ClassNotFoundException cnfe) {
             cnfe.printStackTrace();
-            sendError("Internal Server Error" + id, response);
+            sendError("Internal Server Error", response);
         } catch (SQLException sqle) {
             sqle.printStackTrace();
             sendError("Error conectando con la base de datos", response);

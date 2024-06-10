@@ -71,7 +71,8 @@
             </div>
             <div class="mb-3">
                 <label for="password" class="form-label">Contraseña</label>
-                <input type="password" name="password" class="form-control" id="password">
+                <input type="password" name="password" class="form-control" id="password"
+                       value="<%= user.getPassword() %>">
             </div>
             <div class="col-12">
                 <button class="btn btn-black w-100" id="edit-button" type="submit">Enviar</button>

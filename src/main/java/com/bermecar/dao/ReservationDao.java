@@ -20,7 +20,7 @@ public interface ReservationDao {
     @UseRowMapper(ReservationMapper.class)
     List<Reservation> getAllReservations();
 
-    @SqlQuery("SELECT * FROM Reservations WHERE id LIKE '%' || :searchTerm || '%'")
+    @SqlQuery("SELECT * FROM Reservations WHERE id::text LIKE '%' || :searchTerm || '%' OR datetime::varchar LIKE '%' || :searchTerm || '%' ")
     @UseRowMapper(ReservationMapper.class)
     List<Reservation> getReservations(@Bind("searchTerm") String searchTerm);
 

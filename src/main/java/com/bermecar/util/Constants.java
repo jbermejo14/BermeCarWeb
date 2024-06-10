@@ -8,7 +8,7 @@ public class Constants {
 //    public static final String PASSWORD = "password";
 
     public static final String DRIVER = "org.postgresql.Driver";
-    public static final String DATABASE = "Bermecar";
+    public static final String DATABASE = "Bermecars";
     public static final String CONNECTION_STRING = "jdbc:postgresql://localhost:5432/" + DATABASE;
     public static final String USERNAME = "postgres";
     public static final String PASSWORD = "password";

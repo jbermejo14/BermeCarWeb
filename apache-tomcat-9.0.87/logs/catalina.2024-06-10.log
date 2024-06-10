@@ -1,0 +1,972 @@
+10-Jun-2024 10:23:04.827 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.87
+10-Jun-2024 10:23:04.838 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 11 2024 10:12:34 UTC
+10-Jun-2024 10:23:04.839 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.87.0
+10-Jun-2024 10:23:04.840 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+10-Jun-2024 10:23:04.840 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            12.7.5
+10-Jun-2024 10:23:04.840 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+10-Jun-2024 10:23:04.840 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home
+10-Jun-2024 10:23:04.841 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           22+36-2370
+10-Jun-2024 10:23:04.841 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+10-Jun-2024 10:23:04.841 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87
+10-Jun-2024 10:23:04.841 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87
+10-Jun-2024 10:23:04.891 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+10-Jun-2024 10:23:04.891 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+10-Jun-2024 10:23:04.891 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+10-Jun-2024 10:23:04.892 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+10-Jun-2024 10:23:04.892 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+10-Jun-2024 10:23:04.892 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87/conf/logging.properties
+10-Jun-2024 10:23:04.892 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+10-Jun-2024 10:23:04.892 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+10-Jun-2024 10:23:04.893 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+10-Jun-2024 10:23:04.893 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+10-Jun-2024 10:23:04.893 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+10-Jun-2024 10:23:04.893 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87
+10-Jun-2024 10:23:04.894 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87
+10-Jun-2024 10:23:04.894 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87/temp
+10-Jun-2024 10:23:05.088 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/jaimebermejo/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+10-Jun-2024 10:23:06.866 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8082"]
+10-Jun-2024 10:23:07.045 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [2780] milliseconds
+10-Jun-2024 10:23:07.296 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+10-Jun-2024 10:23:07.296 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.87]
+10-Jun-2024 10:23:07.406 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87/webapps/bermecars.war]
+10-Jun-2024 10:23:10.937 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-Jun-2024 10:23:11.006 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87/webapps/bermecars.war] has finished in [3,598] ms
+10-Jun-2024 10:23:11.007 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87/webapps/docs]
+10-Jun-2024 10:23:11.052 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87/webapps/docs] has finished in [44] ms
+10-Jun-2024 10:23:11.052 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87/webapps/manager]
+10-Jun-2024 10:23:11.123 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87/webapps/manager] has finished in [70] ms
+10-Jun-2024 10:23:11.123 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87/webapps/examples]
+10-Jun-2024 10:23:11.467 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87/webapps/examples] has finished in [343] ms
+10-Jun-2024 10:23:11.467 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87/webapps/ROOT]
+10-Jun-2024 10:23:11.492 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87/webapps/ROOT] has finished in [25] ms
+10-Jun-2024 10:23:11.492 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87/webapps/host-manager]
+10-Jun-2024 10:23:11.524 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87/webapps/host-manager] has finished in [32] ms
+10-Jun-2024 10:23:11.524 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87/webapps/bermecar-pictures]
+10-Jun-2024 10:23:11.549 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87/webapps/bermecar-pictures] has finished in [24] ms
+10-Jun-2024 10:23:11.556 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8082"]
+10-Jun-2024 10:23:11.579 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [4530] milliseconds
+10-Jun-2024 10:23:33.833 INFO [http-nio-8082-exec-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/bermecars]
+10-Jun-2024 10:23:33.891 INFO [http-nio-8082-exec-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87/webapps/bermecars.war]
+10-Jun-2024 10:23:37.405 INFO [http-nio-8082-exec-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-Jun-2024 10:23:37.409 INFO [http-nio-8082-exec-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87/webapps/bermecars.war] has finished in [3,518] ms
+10-Jun-2024 10:23:56.804 WARNING [http-nio-8082-exec-10] org.postgresql.core.v3.ConnectionFactoryImpl.log SQLException occurred while connecting to localhost:5432
+	org.postgresql.util.PSQLException: FATAL: database "Bermecar" does not exist
+		at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2433)
+		at org.postgresql.core.v3.QueryExecutorImpl.readStartupMessages(QueryExecutorImpl.java:2566)
+		at org.postgresql.core.v3.QueryExecutorImpl.<init>(QueryExecutorImpl.java:131)
+		at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:210)
+		at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:49)
+		at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:195)
+		at org.postgresql.Driver.makeConnection(Driver.java:452)
+		at org.postgresql.Driver.connect(Driver.java:254)
+		at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:682)
+		at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:230)
+		at org.jdbi.v3.core.Jdbi.lambda$create$2(Jdbi.java:152)
+		at org.jdbi.v3.core.Jdbi.open(Jdbi.java:319)
+		at com.bermecar.dao.Database.connect(Database.java:20)
+		at com.bermecar.servlet.UserServlet.doPost(UserServlet.java:33)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:210)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:179)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1786)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1570)
+10-Jun-2024 10:23:56.812 SEVERE [http-nio-8082-exec-10] org.postgresql.Driver.connect Connection error: 
+	org.postgresql.util.PSQLException: FATAL: database "Bermecar" does not exist
+		at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2433)
+		at org.postgresql.core.v3.QueryExecutorImpl.readStartupMessages(QueryExecutorImpl.java:2566)
+		at org.postgresql.core.v3.QueryExecutorImpl.<init>(QueryExecutorImpl.java:131)
+		at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:210)
+		at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:49)
+		at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:195)
+		at org.postgresql.Driver.makeConnection(Driver.java:452)
+		at org.postgresql.Driver.connect(Driver.java:254)
+		at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:682)
+		at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:230)
+		at org.jdbi.v3.core.Jdbi.lambda$create$2(Jdbi.java:152)
+		at org.jdbi.v3.core.Jdbi.open(Jdbi.java:319)
+		at com.bermecar.dao.Database.connect(Database.java:20)
+		at com.bermecar.servlet.UserServlet.doPost(UserServlet.java:33)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:210)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:179)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1786)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1570)
+10-Jun-2024 10:23:58.080 WARNING [http-nio-8082-exec-4] org.postgresql.core.v3.ConnectionFactoryImpl.log SQLException occurred while connecting to localhost:5432
+	org.postgresql.util.PSQLException: FATAL: database "Bermecar" does not exist
+		at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2433)
+		at org.postgresql.core.v3.QueryExecutorImpl.readStartupMessages(QueryExecutorImpl.java:2566)
+		at org.postgresql.core.v3.QueryExecutorImpl.<init>(QueryExecutorImpl.java:131)
+		at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:210)
+		at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:49)
+		at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:195)
+		at org.postgresql.Driver.makeConnection(Driver.java:452)
+		at org.postgresql.Driver.connect(Driver.java:254)
+		at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:682)
+		at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:230)
+		at org.jdbi.v3.core.Jdbi.lambda$create$2(Jdbi.java:152)
+		at org.jdbi.v3.core.Jdbi.open(Jdbi.java:319)
+		at com.bermecar.dao.Database.connect(Database.java:20)
+		at com.bermecar.servlet.UserServlet.doPost(UserServlet.java:33)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:210)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:179)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1786)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1570)
+10-Jun-2024 10:23:58.081 SEVERE [http-nio-8082-exec-4] org.postgresql.Driver.connect Connection error: 
+	org.postgresql.util.PSQLException: FATAL: database "Bermecar" does not exist
+		at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2433)
+		at org.postgresql.core.v3.QueryExecutorImpl.readStartupMessages(QueryExecutorImpl.java:2566)
+		at org.postgresql.core.v3.QueryExecutorImpl.<init>(QueryExecutorImpl.java:131)
+		at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:210)
+		at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:49)
+		at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:195)
+		at org.postgresql.Driver.makeConnection(Driver.java:452)
+		at org.postgresql.Driver.connect(Driver.java:254)
+		at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:682)
+		at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:230)
+		at org.jdbi.v3.core.Jdbi.lambda$create$2(Jdbi.java:152)
+		at org.jdbi.v3.core.Jdbi.open(Jdbi.java:319)
+		at com.bermecar.dao.Database.connect(Database.java:20)
+		at com.bermecar.servlet.UserServlet.doPost(UserServlet.java:33)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:210)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:179)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1786)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1570)
+10-Jun-2024 11:01:14.466 INFO [http-nio-8082-exec-13] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/bermecars]
+10-Jun-2024 11:01:14.520 WARNING [http-nio-8082-exec-13] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [bermecars] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+10-Jun-2024 11:01:14.583 INFO [http-nio-8082-exec-13] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87/webapps/bermecars.war]
+10-Jun-2024 11:01:17.833 INFO [http-nio-8082-exec-13] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-Jun-2024 11:01:17.839 INFO [http-nio-8082-exec-13] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87/webapps/bermecars.war] has finished in [3,255] ms
+10-Jun-2024 11:01:39.455 WARNING [http-nio-8082-exec-15] org.postgresql.core.v3.ConnectionFactoryImpl.log SQLException occurred while connecting to localhost:5432
+	org.postgresql.util.PSQLException: FATAL: database "Bermecar" does not exist
+		at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2433)
+		at org.postgresql.core.v3.QueryExecutorImpl.readStartupMessages(QueryExecutorImpl.java:2566)
+		at org.postgresql.core.v3.QueryExecutorImpl.<init>(QueryExecutorImpl.java:131)
+		at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:210)
+		at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:49)
+		at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:195)
+		at org.postgresql.Driver.makeConnection(Driver.java:452)
+		at org.postgresql.Driver.connect(Driver.java:254)
+		at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:682)
+		at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:230)
+		at org.jdbi.v3.core.Jdbi.lambda$create$2(Jdbi.java:152)
+		at org.jdbi.v3.core.Jdbi.open(Jdbi.java:319)
+		at com.bermecar.dao.Database.connect(Database.java:20)
+		at com.bermecar.servlet.RegisterServlet.doPost(RegisterServlet.java:36)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:210)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:179)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1786)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1570)
+10-Jun-2024 11:01:39.459 SEVERE [http-nio-8082-exec-15] org.postgresql.Driver.connect Connection error: 
+	org.postgresql.util.PSQLException: FATAL: database "Bermecar" does not exist
+		at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2433)
+		at org.postgresql.core.v3.QueryExecutorImpl.readStartupMessages(QueryExecutorImpl.java:2566)
+		at org.postgresql.core.v3.QueryExecutorImpl.<init>(QueryExecutorImpl.java:131)
+		at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:210)
+		at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:49)
+		at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:195)
+		at org.postgresql.Driver.makeConnection(Driver.java:452)
+		at org.postgresql.Driver.connect(Driver.java:254)
+		at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:682)
+		at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:230)
+		at org.jdbi.v3.core.Jdbi.lambda$create$2(Jdbi.java:152)
+		at org.jdbi.v3.core.Jdbi.open(Jdbi.java:319)
+		at com.bermecar.dao.Database.connect(Database.java:20)
+		at com.bermecar.servlet.RegisterServlet.doPost(RegisterServlet.java:36)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:210)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:179)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1786)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1570)
+10-Jun-2024 11:01:42.800 WARNING [http-nio-8082-exec-11] org.postgresql.core.v3.ConnectionFactoryImpl.log SQLException occurred while connecting to localhost:5432
+	org.postgresql.util.PSQLException: FATAL: database "Bermecar" does not exist
+		at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2433)
+		at org.postgresql.core.v3.QueryExecutorImpl.readStartupMessages(QueryExecutorImpl.java:2566)
+		at org.postgresql.core.v3.QueryExecutorImpl.<init>(QueryExecutorImpl.java:131)
+		at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:210)
+		at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:49)
+		at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:195)
+		at org.postgresql.Driver.makeConnection(Driver.java:452)
+		at org.postgresql.Driver.connect(Driver.java:254)
+		at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:682)
+		at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:230)
+		at org.jdbi.v3.core.Jdbi.lambda$create$2(Jdbi.java:152)
+		at org.jdbi.v3.core.Jdbi.open(Jdbi.java:319)
+		at com.bermecar.dao.Database.connect(Database.java:20)
+		at com.bermecar.servlet.RegisterServlet.doPost(RegisterServlet.java:36)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:210)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:179)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1786)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1570)
+10-Jun-2024 11:01:42.801 SEVERE [http-nio-8082-exec-11] org.postgresql.Driver.connect Connection error: 
+	org.postgresql.util.PSQLException: FATAL: database "Bermecar" does not exist
+		at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2433)
+		at org.postgresql.core.v3.QueryExecutorImpl.readStartupMessages(QueryExecutorImpl.java:2566)
+		at org.postgresql.core.v3.QueryExecutorImpl.<init>(QueryExecutorImpl.java:131)
+		at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:210)
+		at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:49)
+		at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:195)
+		at org.postgresql.Driver.makeConnection(Driver.java:452)
+		at org.postgresql.Driver.connect(Driver.java:254)
+		at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:682)
+		at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:230)
+		at org.jdbi.v3.core.Jdbi.lambda$create$2(Jdbi.java:152)
+		at org.jdbi.v3.core.Jdbi.open(Jdbi.java:319)
+		at com.bermecar.dao.Database.connect(Database.java:20)
+		at com.bermecar.servlet.RegisterServlet.doPost(RegisterServlet.java:36)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:210)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:179)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1786)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1570)
+10-Jun-2024 11:01:45.732 WARNING [http-nio-8082-exec-21] org.postgresql.core.v3.ConnectionFactoryImpl.log SQLException occurred while connecting to localhost:5432
+	org.postgresql.util.PSQLException: FATAL: database "Bermecar" does not exist
+		at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2433)
+		at org.postgresql.core.v3.QueryExecutorImpl.readStartupMessages(QueryExecutorImpl.java:2566)
+		at org.postgresql.core.v3.QueryExecutorImpl.<init>(QueryExecutorImpl.java:131)
+		at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:210)
+		at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:49)
+		at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:195)
+		at org.postgresql.Driver.makeConnection(Driver.java:452)
+		at org.postgresql.Driver.connect(Driver.java:254)
+		at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:682)
+		at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:230)
+		at org.jdbi.v3.core.Jdbi.lambda$create$2(Jdbi.java:152)
+		at org.jdbi.v3.core.Jdbi.open(Jdbi.java:319)
+		at com.bermecar.dao.Database.connect(Database.java:20)
+		at com.bermecar.servlet.RegisterServlet.doPost(RegisterServlet.java:36)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:210)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:179)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1786)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1570)
+10-Jun-2024 11:01:45.733 SEVERE [http-nio-8082-exec-21] org.postgresql.Driver.connect Connection error: 
+	org.postgresql.util.PSQLException: FATAL: database "Bermecar" does not exist
+		at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2433)
+		at org.postgresql.core.v3.QueryExecutorImpl.readStartupMessages(QueryExecutorImpl.java:2566)
+		at org.postgresql.core.v3.QueryExecutorImpl.<init>(QueryExecutorImpl.java:131)
+		at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:210)
+		at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:49)
+		at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:195)
+		at org.postgresql.Driver.makeConnection(Driver.java:452)
+		at org.postgresql.Driver.connect(Driver.java:254)
+		at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:682)
+		at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:230)
+		at org.jdbi.v3.core.Jdbi.lambda$create$2(Jdbi.java:152)
+		at org.jdbi.v3.core.Jdbi.open(Jdbi.java:319)
+		at com.bermecar.dao.Database.connect(Database.java:20)
+		at com.bermecar.servlet.RegisterServlet.doPost(RegisterServlet.java:36)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:210)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:179)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1786)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1570)
+10-Jun-2024 11:04:42.015 INFO [http-nio-8082-exec-22] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/bermecars]
+10-Jun-2024 11:04:42.068 WARNING [http-nio-8082-exec-22] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [bermecars] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+10-Jun-2024 11:04:42.095 INFO [http-nio-8082-exec-22] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87/webapps/bermecars.war]
+10-Jun-2024 11:04:43.098 INFO [http-nio-8082-exec-22] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-Jun-2024 11:04:43.102 INFO [http-nio-8082-exec-22] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87/webapps/bermecars.war] has finished in [1,006] ms
+10-Jun-2024 11:05:01.624 WARNING [http-nio-8082-exec-27] org.postgresql.core.v3.ConnectionFactoryImpl.log SQLException occurred while connecting to localhost:5432
+	org.postgresql.util.PSQLException: FATAL: database "Bermecar" does not exist
+		at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2433)
+		at org.postgresql.core.v3.QueryExecutorImpl.readStartupMessages(QueryExecutorImpl.java:2566)
+		at org.postgresql.core.v3.QueryExecutorImpl.<init>(QueryExecutorImpl.java:131)
+		at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:210)
+		at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:49)
+		at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:195)
+		at org.postgresql.Driver.makeConnection(Driver.java:452)
+		at org.postgresql.Driver.connect(Driver.java:254)
+		at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:682)
+		at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:230)
+		at org.jdbi.v3.core.Jdbi.lambda$create$2(Jdbi.java:152)
+		at org.jdbi.v3.core.Jdbi.open(Jdbi.java:319)
+		at com.bermecar.dao.Database.connect(Database.java:20)
+		at com.bermecar.servlet.UserServlet.doPost(UserServlet.java:33)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:210)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:179)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1786)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1570)
+10-Jun-2024 11:05:01.625 SEVERE [http-nio-8082-exec-27] org.postgresql.Driver.connect Connection error: 
+	org.postgresql.util.PSQLException: FATAL: database "Bermecar" does not exist
+		at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2433)
+		at org.postgresql.core.v3.QueryExecutorImpl.readStartupMessages(QueryExecutorImpl.java:2566)
+		at org.postgresql.core.v3.QueryExecutorImpl.<init>(QueryExecutorImpl.java:131)
+		at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:210)
+		at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:49)
+		at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:195)
+		at org.postgresql.Driver.makeConnection(Driver.java:452)
+		at org.postgresql.Driver.connect(Driver.java:254)
+		at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:682)
+		at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:230)
+		at org.jdbi.v3.core.Jdbi.lambda$create$2(Jdbi.java:152)
+		at org.jdbi.v3.core.Jdbi.open(Jdbi.java:319)
+		at com.bermecar.dao.Database.connect(Database.java:20)
+		at com.bermecar.servlet.UserServlet.doPost(UserServlet.java:33)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:210)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:179)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1786)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1570)
+10-Jun-2024 11:05:04.313 WARNING [http-nio-8082-exec-30] org.postgresql.core.v3.ConnectionFactoryImpl.log SQLException occurred while connecting to localhost:5432
+	org.postgresql.util.PSQLException: FATAL: database "Bermecar" does not exist
+		at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2433)
+		at org.postgresql.core.v3.QueryExecutorImpl.readStartupMessages(QueryExecutorImpl.java:2566)
+		at org.postgresql.core.v3.QueryExecutorImpl.<init>(QueryExecutorImpl.java:131)
+		at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:210)
+		at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:49)
+		at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:195)
+		at org.postgresql.Driver.makeConnection(Driver.java:452)
+		at org.postgresql.Driver.connect(Driver.java:254)
+		at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:682)
+		at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:230)
+		at org.jdbi.v3.core.Jdbi.lambda$create$2(Jdbi.java:152)
+		at org.jdbi.v3.core.Jdbi.open(Jdbi.java:319)
+		at com.bermecar.dao.Database.connect(Database.java:20)
+		at com.bermecar.servlet.UserServlet.doPost(UserServlet.java:33)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:210)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:179)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1786)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1570)
+10-Jun-2024 11:05:04.315 SEVERE [http-nio-8082-exec-30] org.postgresql.Driver.connect Connection error: 
+	org.postgresql.util.PSQLException: FATAL: database "Bermecar" does not exist
+		at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2433)
+		at org.postgresql.core.v3.QueryExecutorImpl.readStartupMessages(QueryExecutorImpl.java:2566)
+		at org.postgresql.core.v3.QueryExecutorImpl.<init>(QueryExecutorImpl.java:131)
+		at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:210)
+		at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:49)
+		at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:195)
+		at org.postgresql.Driver.makeConnection(Driver.java:452)
+		at org.postgresql.Driver.connect(Driver.java:254)
+		at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:682)
+		at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:230)
+		at org.jdbi.v3.core.Jdbi.lambda$create$2(Jdbi.java:152)
+		at org.jdbi.v3.core.Jdbi.open(Jdbi.java:319)
+		at com.bermecar.dao.Database.connect(Database.java:20)
+		at com.bermecar.servlet.UserServlet.doPost(UserServlet.java:33)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:210)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:179)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:154)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1786)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1570)
+10-Jun-2024 11:07:08.600 INFO [http-nio-8082-exec-31] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/bermecars]
+10-Jun-2024 11:07:08.634 WARNING [http-nio-8082-exec-31] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [bermecars] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+10-Jun-2024 11:07:08.682 INFO [http-nio-8082-exec-31] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87/webapps/bermecars.war]
+10-Jun-2024 11:07:09.438 INFO [http-nio-8082-exec-31] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-Jun-2024 11:07:09.442 INFO [http-nio-8082-exec-31] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87/webapps/bermecars.war] has finished in [759] ms
+10-Jun-2024 11:11:34.710 INFO [http-nio-8082-exec-41] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/bermecars]
+10-Jun-2024 11:11:34.752 WARNING [http-nio-8082-exec-41] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [bermecars] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+10-Jun-2024 11:11:34.806 INFO [http-nio-8082-exec-41] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87/webapps/bermecars.war]
+10-Jun-2024 11:11:36.376 INFO [http-nio-8082-exec-41] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-Jun-2024 11:11:36.380 INFO [http-nio-8082-exec-41] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87/webapps/bermecars.war] has finished in [1,574] ms
+10-Jun-2024 11:26:19.253 INFO [http-nio-8082-exec-50] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/bermecars]
+10-Jun-2024 11:26:19.276 WARNING [http-nio-8082-exec-50] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [bermecars] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+10-Jun-2024 11:26:19.322 INFO [http-nio-8082-exec-50] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87/webapps/bermecars.war]
+10-Jun-2024 11:26:20.344 INFO [http-nio-8082-exec-50] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-Jun-2024 11:26:20.356 INFO [http-nio-8082-exec-50] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87/webapps/bermecars.war] has finished in [1,025] ms
+10-Jun-2024 11:27:37.675 INFO [http-nio-8082-exec-66] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/bermecars]
+10-Jun-2024 11:27:37.694 WARNING [http-nio-8082-exec-66] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [bermecars] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+10-Jun-2024 11:27:37.734 INFO [http-nio-8082-exec-66] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87/webapps/bermecars.war]
+10-Jun-2024 11:27:38.583 INFO [http-nio-8082-exec-66] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-Jun-2024 11:27:38.585 INFO [http-nio-8082-exec-66] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87/webapps/bermecars.war] has finished in [851] ms
+10-Jun-2024 11:34:18.575 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.87
+10-Jun-2024 11:34:18.588 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 11 2024 10:12:34 UTC
+10-Jun-2024 11:34:18.591 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.87.0
+10-Jun-2024 11:34:18.591 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+10-Jun-2024 11:34:18.591 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            12.7.5
+10-Jun-2024 11:34:18.591 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+10-Jun-2024 11:34:18.592 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home
+10-Jun-2024 11:34:18.592 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           22+36-2370
+10-Jun-2024 11:34:18.592 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+10-Jun-2024 11:34:18.592 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87
+10-Jun-2024 11:34:18.595 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87
+10-Jun-2024 11:34:18.651 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+10-Jun-2024 11:34:18.662 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+10-Jun-2024 11:34:18.670 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+10-Jun-2024 11:34:18.670 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+10-Jun-2024 11:34:18.671 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+10-Jun-2024 11:34:18.672 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87/conf/logging.properties
+10-Jun-2024 11:34:18.673 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+10-Jun-2024 11:34:18.674 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+10-Jun-2024 11:34:18.702 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+10-Jun-2024 11:34:18.704 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+10-Jun-2024 11:34:18.708 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+10-Jun-2024 11:34:18.709 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87
+10-Jun-2024 11:34:18.711 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87
+10-Jun-2024 11:34:18.712 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87/temp
+10-Jun-2024 11:34:18.741 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/jaimebermejo/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+10-Jun-2024 11:34:19.640 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8082"]
+10-Jun-2024 11:34:19.674 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector["http-nio-8082"]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1011)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:554)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:1046)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:686)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:709)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:302)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:472)
+	Caused by: java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:565)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:344)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:301)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:268)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:223)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1334)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1347)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:654)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:75)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1009)
+		... 11 more
+10-Jun-2024 11:34:19.676 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1473] milliseconds
+10-Jun-2024 11:34:19.751 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+10-Jun-2024 11:34:19.752 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.87]
+10-Jun-2024 11:34:19.782 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87/webapps/bermecars.war]
+10-Jun-2024 11:34:21.627 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-Jun-2024 11:34:21.673 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87/webapps/bermecars.war] has finished in [1,889] ms
+10-Jun-2024 11:34:21.674 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87/webapps/docs]
+10-Jun-2024 11:34:21.727 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87/webapps/docs] has finished in [52] ms
+10-Jun-2024 11:34:21.727 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87/webapps/manager]
+10-Jun-2024 11:34:21.820 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87/webapps/manager] has finished in [93] ms
+10-Jun-2024 11:34:21.821 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87/webapps/examples]
+10-Jun-2024 11:34:22.387 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87/webapps/examples] has finished in [566] ms
+10-Jun-2024 11:34:22.389 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87/webapps/ROOT]
+10-Jun-2024 11:34:22.432 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87/webapps/ROOT] has finished in [42] ms
+10-Jun-2024 11:34:22.432 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87/webapps/host-manager]
+10-Jun-2024 11:34:22.489 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87/webapps/host-manager] has finished in [56] ms
+10-Jun-2024 11:34:22.489 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87/webapps/bermecar-pictures]
+10-Jun-2024 11:34:22.531 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87/webapps/bermecar-pictures] has finished in [42] ms
+10-Jun-2024 11:34:22.593 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2914] milliseconds
+10-Jun-2024 11:34:22.611 SEVERE [main] org.apache.catalina.core.StandardServer.await Failed to create server shutdown socket on address [localhost] and port [8005] (base port [8005] and offset [0])
+	java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:565)
+		at java.base/sun.nio.ch.Net.bind(Net.java:554)
+		at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:636)
+		at java.base/java.net.ServerSocket.bind(ServerSocket.java:390)
+		at java.base/java.net.ServerSocket.<init>(ServerSocket.java:277)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:581)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:825)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:773)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+10-Jun-2024 11:34:22.613 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8082"]
+10-Jun-2024 11:34:22.613 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+10-Jun-2024 11:34:22.678 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8082"]
+10-Jun-2024 11:34:22.861 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8082"]
+10-Jun-2024 11:34:31.052 INFO [http-nio-8082-exec-70] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/bermecars]
+10-Jun-2024 11:34:31.069 WARNING [http-nio-8082-exec-70] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [bermecars] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+10-Jun-2024 11:34:31.114 INFO [http-nio-8082-exec-70] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87/webapps/bermecars.war]
+10-Jun-2024 11:34:32.320 INFO [http-nio-8082-exec-70] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-Jun-2024 11:34:32.323 INFO [http-nio-8082-exec-70] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87/webapps/bermecars.war] has finished in [1,209] ms
+10-Jun-2024 11:40:16.415 INFO [http-nio-8082-exec-80] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/bermecars]
+10-Jun-2024 11:40:16.430 WARNING [http-nio-8082-exec-80] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [bermecars] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+10-Jun-2024 11:40:16.480 INFO [http-nio-8082-exec-80] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87/webapps/bermecars.war]
+10-Jun-2024 11:40:17.516 INFO [http-nio-8082-exec-80] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-Jun-2024 11:40:17.520 INFO [http-nio-8082-exec-80] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87/webapps/bermecars.war] has finished in [1,040] ms
+10-Jun-2024 11:42:27.886 INFO [http-nio-8082-exec-92] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/bermecars]
+10-Jun-2024 11:42:27.895 WARNING [http-nio-8082-exec-92] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [bermecars] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+10-Jun-2024 11:42:27.932 INFO [http-nio-8082-exec-92] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87/webapps/bermecars.war]
+10-Jun-2024 11:42:28.592 INFO [http-nio-8082-exec-92] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-Jun-2024 11:42:28.595 INFO [http-nio-8082-exec-92] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87/webapps/bermecars.war] has finished in [663] ms
+10-Jun-2024 11:53:49.437 INFO [http-nio-8082-exec-104] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/bermecars]
+10-Jun-2024 11:53:49.454 WARNING [http-nio-8082-exec-104] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [bermecars] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+10-Jun-2024 11:53:49.511 INFO [http-nio-8082-exec-104] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87/webapps/bermecars.war]
+10-Jun-2024 11:53:50.395 INFO [http-nio-8082-exec-104] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-Jun-2024 11:53:50.399 INFO [http-nio-8082-exec-104] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87/webapps/bermecars.war] has finished in [886] ms
+10-Jun-2024 12:41:26.618 INFO [http-nio-8082-exec-109] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/bermecars]
+10-Jun-2024 12:41:26.647 WARNING [http-nio-8082-exec-109] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [bermecars] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+10-Jun-2024 12:41:26.704 INFO [http-nio-8082-exec-109] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87/webapps/bermecars.war]
+10-Jun-2024 12:41:27.704 INFO [http-nio-8082-exec-109] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-Jun-2024 12:41:27.711 INFO [http-nio-8082-exec-109] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87/webapps/bermecars.war] has finished in [1,005] ms
+10-Jun-2024 12:43:16.706 INFO [http-nio-8082-exec-126] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/bermecars]
+10-Jun-2024 12:43:16.728 WARNING [http-nio-8082-exec-126] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [bermecars] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+10-Jun-2024 12:43:16.762 INFO [http-nio-8082-exec-126] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87/webapps/bermecars.war]
+10-Jun-2024 12:43:17.483 INFO [http-nio-8082-exec-126] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-Jun-2024 12:43:17.485 INFO [http-nio-8082-exec-126] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87/webapps/bermecars.war] has finished in [723] ms
+10-Jun-2024 12:50:16.833 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.87
+10-Jun-2024 12:50:16.841 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 11 2024 10:12:34 UTC
+10-Jun-2024 12:50:16.842 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.87.0
+10-Jun-2024 12:50:16.842 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+10-Jun-2024 12:50:16.842 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            12.7.5
+10-Jun-2024 12:50:16.842 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+10-Jun-2024 12:50:16.843 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home
+10-Jun-2024 12:50:16.843 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           22+36-2370
+10-Jun-2024 12:50:16.843 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+10-Jun-2024 12:50:16.843 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87
+10-Jun-2024 12:50:16.843 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87
+10-Jun-2024 12:50:16.862 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+10-Jun-2024 12:50:16.862 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+10-Jun-2024 12:50:16.863 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+10-Jun-2024 12:50:16.863 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+10-Jun-2024 12:50:16.863 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+10-Jun-2024 12:50:16.863 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87/conf/logging.properties
+10-Jun-2024 12:50:16.864 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+10-Jun-2024 12:50:16.864 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+10-Jun-2024 12:50:16.864 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+10-Jun-2024 12:50:16.864 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+10-Jun-2024 12:50:16.864 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+10-Jun-2024 12:50:16.865 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87
+10-Jun-2024 12:50:16.865 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87
+10-Jun-2024 12:50:16.865 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87/temp
+10-Jun-2024 12:50:16.886 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/jaimebermejo/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+10-Jun-2024 12:50:18.448 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8082"]
+10-Jun-2024 12:50:18.500 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector["http-nio-8082"]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1011)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:554)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:1046)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:686)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:709)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:302)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:472)
+	Caused by: java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:565)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:344)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:301)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:268)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:223)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1334)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1347)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:654)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:75)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1009)
+		... 11 more
+10-Jun-2024 12:50:18.501 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [2613] milliseconds
+10-Jun-2024 12:50:18.696 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+10-Jun-2024 12:50:18.696 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.87]
+10-Jun-2024 12:50:18.792 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87/webapps/bermecars.war]
+10-Jun-2024 12:50:21.324 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-Jun-2024 12:50:21.387 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87/webapps/bermecars.war] has finished in [2,595] ms
+10-Jun-2024 12:50:21.388 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87/webapps/docs]
+10-Jun-2024 12:50:21.445 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87/webapps/docs] has finished in [57] ms
+10-Jun-2024 12:50:21.446 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87/webapps/manager]
+10-Jun-2024 12:50:21.593 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87/webapps/manager] has finished in [147] ms
+10-Jun-2024 12:50:21.595 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87/webapps/examples]
+10-Jun-2024 12:50:22.496 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87/webapps/examples] has finished in [900] ms
+10-Jun-2024 12:50:22.497 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87/webapps/ROOT]
+10-Jun-2024 12:50:22.550 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87/webapps/ROOT] has finished in [52] ms
+10-Jun-2024 12:50:22.552 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87/webapps/host-manager]
+10-Jun-2024 12:50:22.655 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87/webapps/host-manager] has finished in [102] ms
+10-Jun-2024 12:50:22.656 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87/webapps/bermecar-pictures]
+10-Jun-2024 12:50:22.751 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87/webapps/bermecar-pictures] has finished in [93] ms
+10-Jun-2024 12:50:22.761 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [4256] milliseconds
+10-Jun-2024 12:50:22.776 SEVERE [main] org.apache.catalina.core.StandardServer.await Failed to create server shutdown socket on address [localhost] and port [8005] (base port [8005] and offset [0])
+	java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:565)
+		at java.base/sun.nio.ch.Net.bind(Net.java:554)
+		at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:636)
+		at java.base/java.net.ServerSocket.bind(ServerSocket.java:390)
+		at java.base/java.net.ServerSocket.<init>(ServerSocket.java:277)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:581)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:825)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:773)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+10-Jun-2024 12:50:22.777 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8082"]
+10-Jun-2024 12:50:22.778 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+10-Jun-2024 12:50:22.943 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8082"]
+10-Jun-2024 12:50:22.950 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8082"]
+10-Jun-2024 12:50:35.260 INFO [http-nio-8082-exec-131] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/bermecars]
+10-Jun-2024 12:50:35.293 WARNING [http-nio-8082-exec-131] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [bermecars] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+10-Jun-2024 12:50:35.363 INFO [http-nio-8082-exec-131] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87/webapps/bermecars.war]
+10-Jun-2024 12:50:38.487 INFO [http-nio-8082-exec-131] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-Jun-2024 12:50:38.491 INFO [http-nio-8082-exec-131] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87/webapps/bermecars.war] has finished in [3,128] ms
+10-Jun-2024 13:28:55.885 INFO [http-nio-8082-exec-142] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/bermecars]
+10-Jun-2024 13:28:55.912 WARNING [http-nio-8082-exec-142] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [bermecars] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+10-Jun-2024 13:28:55.970 INFO [http-nio-8082-exec-142] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87/webapps/bermecars.war]
+10-Jun-2024 13:28:56.753 INFO [http-nio-8082-exec-142] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-Jun-2024 13:28:56.765 INFO [http-nio-8082-exec-142] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87/webapps/bermecars.war] has finished in [790] ms
+10-Jun-2024 13:32:30.367 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.87
+10-Jun-2024 13:32:30.377 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 11 2024 10:12:34 UTC
+10-Jun-2024 13:32:30.378 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.87.0
+10-Jun-2024 13:32:30.378 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+10-Jun-2024 13:32:30.378 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            12.7.5
+10-Jun-2024 13:32:30.379 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+10-Jun-2024 13:32:30.379 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home
+10-Jun-2024 13:32:30.379 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           22+36-2370
+10-Jun-2024 13:32:30.380 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+10-Jun-2024 13:32:30.380 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87
+10-Jun-2024 13:32:30.380 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87
+10-Jun-2024 13:32:30.405 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+10-Jun-2024 13:32:30.406 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+10-Jun-2024 13:32:30.406 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+10-Jun-2024 13:32:30.406 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+10-Jun-2024 13:32:30.407 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+10-Jun-2024 13:32:30.407 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87/conf/logging.properties
+10-Jun-2024 13:32:30.407 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+10-Jun-2024 13:32:30.407 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+10-Jun-2024 13:32:30.407 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+10-Jun-2024 13:32:30.408 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+10-Jun-2024 13:32:30.408 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+10-Jun-2024 13:32:30.408 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87
+10-Jun-2024 13:32:30.408 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87
+10-Jun-2024 13:32:30.408 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87/temp
+10-Jun-2024 13:32:30.432 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/jaimebermejo/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+10-Jun-2024 13:32:31.660 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8082"]
+10-Jun-2024 13:32:31.694 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector["http-nio-8082"]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1011)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:554)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:1046)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:686)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:709)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:302)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:472)
+	Caused by: java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:565)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:344)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:301)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:268)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:223)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1334)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1347)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:654)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:75)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1009)
+		... 11 more
+10-Jun-2024 13:32:31.698 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1964] milliseconds
+10-Jun-2024 13:32:31.772 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+10-Jun-2024 13:32:31.772 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.87]
+10-Jun-2024 13:32:31.813 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87/webapps/bermecars.war]
+10-Jun-2024 13:32:34.954 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-Jun-2024 13:32:35.010 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87/webapps/bermecars.war] has finished in [3,196] ms
+10-Jun-2024 13:32:35.011 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87/webapps/docs]
+10-Jun-2024 13:32:35.059 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87/webapps/docs] has finished in [44] ms
+10-Jun-2024 13:32:35.060 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87/webapps/manager]
+10-Jun-2024 13:32:35.138 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87/webapps/manager] has finished in [79] ms
+10-Jun-2024 13:32:35.139 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87/webapps/examples]
+10-Jun-2024 13:32:35.690 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87/webapps/examples] has finished in [550] ms
+10-Jun-2024 13:32:35.691 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87/webapps/ROOT]
+10-Jun-2024 13:32:35.744 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87/webapps/ROOT] has finished in [53] ms
+10-Jun-2024 13:32:35.746 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87/webapps/host-manager]
+10-Jun-2024 13:32:35.806 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87/webapps/host-manager] has finished in [59] ms
+10-Jun-2024 13:32:35.806 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87/webapps/bermecar-pictures]
+10-Jun-2024 13:32:35.855 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87/webapps/bermecar-pictures] has finished in [41] ms
+10-Jun-2024 13:32:35.882 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [4181] milliseconds
+10-Jun-2024 13:32:35.896 SEVERE [main] org.apache.catalina.core.StandardServer.await Failed to create server shutdown socket on address [localhost] and port [8005] (base port [8005] and offset [0])
+	java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:565)
+		at java.base/sun.nio.ch.Net.bind(Net.java:554)
+		at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:636)
+		at java.base/java.net.ServerSocket.bind(ServerSocket.java:390)
+		at java.base/java.net.ServerSocket.<init>(ServerSocket.java:277)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:581)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:825)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:773)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+10-Jun-2024 13:32:35.897 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8082"]
+10-Jun-2024 13:32:35.899 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+10-Jun-2024 13:32:35.955 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8082"]
+10-Jun-2024 13:32:35.961 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8082"]
+10-Jun-2024 13:32:42.268 INFO [http-nio-8082-exec-148] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/bermecars]
+10-Jun-2024 13:32:42.272 WARNING [http-nio-8082-exec-148] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [bermecars] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+10-Jun-2024 13:32:42.302 INFO [http-nio-8082-exec-148] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87/webapps/bermecars.war]
+10-Jun-2024 13:32:43.217 INFO [http-nio-8082-exec-148] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-Jun-2024 13:32:43.219 INFO [http-nio-8082-exec-148] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87/webapps/bermecars.war] has finished in [918] ms
+10-Jun-2024 14:11:49.462 INFO [http-nio-8082-exec-161] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/bermecars]
+10-Jun-2024 14:11:49.496 WARNING [http-nio-8082-exec-161] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [bermecars] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+10-Jun-2024 14:11:49.557 INFO [http-nio-8082-exec-161] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87/webapps/bermecars.war]
+10-Jun-2024 14:11:51.261 INFO [http-nio-8082-exec-161] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-Jun-2024 14:11:51.266 INFO [http-nio-8082-exec-161] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87/webapps/bermecars.war] has finished in [1,708] ms
+10-Jun-2024 14:13:59.085 INFO [http-nio-8082-exec-170] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/bermecars]
+10-Jun-2024 14:13:59.107 WARNING [http-nio-8082-exec-170] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [bermecars] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+10-Jun-2024 14:13:59.282 INFO [http-nio-8082-exec-170] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87/webapps/bermecars.war]
+10-Jun-2024 14:14:05.443 INFO [http-nio-8082-exec-170] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-Jun-2024 14:14:05.448 INFO [http-nio-8082-exec-170] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87/webapps/bermecars.war] has finished in [6,165] ms

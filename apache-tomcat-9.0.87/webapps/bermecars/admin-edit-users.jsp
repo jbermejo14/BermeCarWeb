@@ -22,7 +22,7 @@
             $.ajax({
                 type: "POST",
                 enctype: "multipart/form-data",
-                url: "edit-user",
+                url: "admin-edit-user",
                 data: data,
                 processData: false,
                 contentType: false,
