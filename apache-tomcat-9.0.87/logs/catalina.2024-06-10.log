@@ -970,3 +970,104 @@
 10-Jun-2024 14:13:59.282 INFO [http-nio-8082-exec-170] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87/webapps/bermecars.war]
 10-Jun-2024 14:14:05.443 INFO [http-nio-8082-exec-170] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
 10-Jun-2024 14:14:05.448 INFO [http-nio-8082-exec-170] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87/webapps/bermecars.war] has finished in [6,165] ms
+10-Jun-2024 14:19:47.013 INFO [http-nio-8082-exec-183] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/bermecars]
+10-Jun-2024 14:19:47.109 WARNING [http-nio-8082-exec-183] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [bermecars] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+10-Jun-2024 14:19:47.226 INFO [http-nio-8082-exec-183] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87/webapps/bermecars.war]
+10-Jun-2024 14:19:50.785 INFO [http-nio-8082-exec-183] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-Jun-2024 14:19:50.793 INFO [http-nio-8082-exec-183] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87/webapps/bermecars.war] has finished in [3,567] ms
+10-Jun-2024 16:09:54.625 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.87
+10-Jun-2024 16:09:54.632 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 11 2024 10:12:34 UTC
+10-Jun-2024 16:09:54.633 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.87.0
+10-Jun-2024 16:09:54.633 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+10-Jun-2024 16:09:54.633 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            12.7.5
+10-Jun-2024 16:09:54.633 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+10-Jun-2024 16:09:54.633 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home
+10-Jun-2024 16:09:54.634 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           22+36-2370
+10-Jun-2024 16:09:54.634 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+10-Jun-2024 16:09:54.634 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87
+10-Jun-2024 16:09:54.634 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87
+10-Jun-2024 16:09:54.649 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+10-Jun-2024 16:09:54.649 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+10-Jun-2024 16:09:54.650 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+10-Jun-2024 16:09:54.650 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+10-Jun-2024 16:09:54.650 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+10-Jun-2024 16:09:54.650 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87/conf/logging.properties
+10-Jun-2024 16:09:54.650 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+10-Jun-2024 16:09:54.650 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+10-Jun-2024 16:09:54.651 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+10-Jun-2024 16:09:54.651 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+10-Jun-2024 16:09:54.651 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+10-Jun-2024 16:09:54.651 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87
+10-Jun-2024 16:09:54.651 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87
+10-Jun-2024 16:09:54.651 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87/temp
+10-Jun-2024 16:09:54.675 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/jaimebermejo/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+10-Jun-2024 16:09:56.254 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8082"]
+10-Jun-2024 16:09:56.314 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector["http-nio-8082"]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1011)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:554)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:1046)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:686)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:709)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:302)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:472)
+	Caused by: java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:565)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:344)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:301)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:268)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:223)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1334)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1347)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:654)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:75)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1009)
+		... 11 more
+10-Jun-2024 16:09:56.318 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [2093] milliseconds
+10-Jun-2024 16:09:56.441 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+10-Jun-2024 16:09:56.442 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.87]
+10-Jun-2024 16:09:56.535 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87/webapps/bermecars.war]
+10-Jun-2024 16:09:58.692 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-Jun-2024 16:09:58.738 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87/webapps/bermecars.war] has finished in [2,202] ms
+10-Jun-2024 16:09:58.739 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87/webapps/docs]
+10-Jun-2024 16:09:58.778 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87/webapps/docs] has finished in [38] ms
+10-Jun-2024 16:09:58.778 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87/webapps/manager]
+10-Jun-2024 16:09:58.833 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87/webapps/manager] has finished in [55] ms
+10-Jun-2024 16:09:58.833 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87/webapps/examples]
+10-Jun-2024 16:09:59.618 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87/webapps/examples] has finished in [785] ms
+10-Jun-2024 16:09:59.627 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87/webapps/ROOT]
+10-Jun-2024 16:09:59.681 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87/webapps/ROOT] has finished in [54] ms
+10-Jun-2024 16:09:59.682 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87/webapps/host-manager]
+10-Jun-2024 16:09:59.743 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87/webapps/host-manager] has finished in [60] ms
+10-Jun-2024 16:09:59.743 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87/webapps/bermecar-pictures]
+10-Jun-2024 16:09:59.772 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87/webapps/bermecar-pictures] has finished in [28] ms
+10-Jun-2024 16:09:59.780 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [3452] milliseconds
+10-Jun-2024 16:09:59.788 SEVERE [main] org.apache.catalina.core.StandardServer.await Failed to create server shutdown socket on address [localhost] and port [8005] (base port [8005] and offset [0])
+	java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:565)
+		at java.base/sun.nio.ch.Net.bind(Net.java:554)
+		at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:636)
+		at java.base/java.net.ServerSocket.bind(ServerSocket.java:390)
+		at java.base/java.net.ServerSocket.<init>(ServerSocket.java:277)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:581)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:825)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:773)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+10-Jun-2024 16:09:59.789 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8082"]
+10-Jun-2024 16:09:59.789 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+10-Jun-2024 16:09:59.835 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8082"]
+10-Jun-2024 16:09:59.836 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8082"]
+10-Jun-2024 16:10:09.347 INFO [http-nio-8082-exec-185] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/bermecars]
+10-Jun-2024 16:10:09.390 INFO [http-nio-8082-exec-185] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87/webapps/bermecars.war]
+10-Jun-2024 16:10:10.205 INFO [http-nio-8082-exec-185] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-Jun-2024 16:10:10.210 INFO [http-nio-8082-exec-185] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/jaimebermejo/IdeaProjects/BermeCarWeb/apache-tomcat-9.0.87/webapps/bermecars.war] has finished in [819] ms
